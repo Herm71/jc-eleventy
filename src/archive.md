@@ -1,10 +1,9 @@
 ---
-title: "Blog"
-layout: "layouts/home.njk"
-permalink: /posts/
+layout: layouts/base.njk
 eleventyNavigation:
-	key: Blog
-	order: 2
+  key: Posts
+  order: 3
+permalink: /posts/
 ---
 
 ## All Posts

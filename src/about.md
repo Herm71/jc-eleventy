@@ -1,8 +1,8 @@
 ---
-layout: "layouts/home.njk"
+layout: layouts/base.njk
 eleventyNavigation:
-	key: About
-	order: 2
+  key: About
+  order: 2
 ---
 
 # About me
