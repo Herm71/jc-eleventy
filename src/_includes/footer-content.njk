@@ -1,5 +1,5 @@
 <ul>
 {% for item in links %}
-	<li><a href="{{item.url}}" class="">{{ item.site }}</li>
+	<li><a href="{{item.url | url }}" class="">{{ item.site }}</a></li>
 {% endfor %}
 </ul>

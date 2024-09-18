@@ -23,11 +23,17 @@
     </header>
 
     <main {% if templateClass %} class="{{ templateClass }}"{% endif %}>
-
-      {{ content | safe }}
+			<article>
+    	  {{ content | safe }}
+			</article>
+			<aside>Hello World</aside>
     </main>
 
-    <footer>{% include "footer-content.njk" %}</footer>
+    <footer>
+			<div class="footer-left">Footer Left {% include "footer-content.njk" %}</div>
+			<div class="footer-center">Footer Center</div>
+			<div class="footer-right">Footer Right</div>
+		</footer>
 
     <!-- Current page: {{ page.url | url }} -->
   </body>

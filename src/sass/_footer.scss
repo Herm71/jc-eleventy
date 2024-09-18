@@ -1,0 +1,15 @@
+footer {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content:space-between;
+	padding: 1rem;
+	.footer-left {
+		order:1;
+	}
+	.footer-center {
+		order:2;
+	}
+	.footer-right {
+		order:3;
+	}
+}

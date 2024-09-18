@@ -1,10 +1,15 @@
 ---
-layout: layouts/base.njk
+layout: layouts/post.njk
 title: "My first post"
-tags: "post"
+date: 2018-04-15
 ---
 
-First post content
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta pharetra eros. In hac habitasse platea dictumst. Vivamus eu tincidunt felis. Phasellus ultricies quis nisl vel viverra. Praesent pharetra, libero eu lacinia pellentesque, ante nulla imperdiet nisl, id ultricies nisl lacus at nisi. Fusce et dignissim erat. Nunc scelerisque fringilla ipsum at luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras ligula quam, sagittis a sollicitudin quis, aliquam ac lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In vitae tortor interdum, pellentesque nulla in, euismod eros. Aliquam cursus turpis at nisl hendrerit luctus. Morbi consectetur tortor et tristique sollicitudin. Pellentesque rhoncus lacus nec arcu laoreet tempor. Proin quis suscipit arcu. Aliquam aliquam ex magna.
 
-"layout": "layouts/home.njk",
-  "tags": "post"
+Cras vehicula in nibh ut dignissim. Phasellus tincidunt ligula et vestibulum convallis. Suspendisse malesuada nunc id posuere rhoncus. Aenean sed sollicitudin dui. Nunc ultricies tortor eget tortor facilisis posuere. Mauris id feugiat nibh. Curabitur nec porttitor sem. Pellentesque sollicitudin odio ut enim varius fringilla. Nulla facilisi.
+
+Aenean placerat nec tortor sed ultrices. In imperdiet urna mi, at commodo dolor tincidunt at. Duis fringilla felis vel tempus imperdiet. Donec euismod congue sem. Donec sed lacus diam. In a purus rhoncus, pellentesque diam ac, suscipit ante. Phasellus placerat nibh orci, vel viverra nibh aliquet et. Etiam luctus, tortor quis mollis convallis, elit mauris imperdiet tortor, vel rutrum sapien ligula eu est. In est nisl, placerat eu bibendum quis, ultricies quis sem. Donec ornare sem sit amet mauris convallis, eget posuere mauris malesuada. Donec lobortis nunc sed ipsum convallis, quis scelerisque dui dapibus. Fusce ac tempus ligula. Vestibulum eleifend sit amet enim eu vulputate. Integer rhoncus augue sapien, at ullamcorper odio finibus ut. Duis volutpat augue diam, eu interdum nunc finibus nec.
+
+Praesent tincidunt placerat neque, at commodo urna rutrum nec. Integer suscipit lorem eu lacus semper suscipit. Ut placerat dignissim enim, eu semper eros elementum et. Etiam dictum elementum fermentum. Cras id euismod urna. Ut et nunc non neque vulputate semper. Praesent sit amet sapien a metus mollis aliquet non in sapien. Duis quis vulputate leo. Mauris feugiat, tortor lacinia egestas efficitur, libero ex volutpat nisl, vitae cursus velit massa in dui. Aliquam ex elit, aliquet id eros quis, finibus mattis est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla in sem lectus. Etiam vulputate eros vel rutrum dignissim. Quisque sagittis ac metus at accumsan. Praesent pulvinar neque odio, a posuere quam condimentum feugiat.
+
+Donec venenatis posuere sapien vitae placerat. Duis vulputate tempor nisi, vitae dignissim dui sagittis vitae. Sed eu feugiat sapien, id bibendum dolor. Pellentesque mattis condimentum lacus sed lacinia. Vestibulum pulvinar fringilla aliquet. Fusce sodales tellus arcu, vitae pharetra dolor viverra ut. Sed viverra vulputate eros, et lobortis risus molestie id. Quisque tincidunt ligula non facilisis aliquet. Aenean quis diam in sapien viverra faucibus. Donec dictum at libero nec placerat.

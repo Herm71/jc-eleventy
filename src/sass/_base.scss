@@ -12,8 +12,11 @@
     box-sizing: border-box;
   }
 	body {
-		max-width:40em;
-		height: 100vh;
+		max-width:50em;
+		display: flex;
+		min-height: 100vh;
+		flex-direction:column;
+	
 	}
   html,
   body {
@@ -42,11 +45,23 @@
     color: var(--navy);
   }
   main {
+		flex:1;
+		display:flex;
     padding: 1rem;
   }
   main :first-child {
     margin-top: 0;
   }
+	main > article {
+		flex:1;
+		order:1;
+	}
+	main > aside {
+		flex-grow: 0.5;
+		order:2;
+	
+	}
+
   header {
     border-bottom: 1px dashed var(--lightgray);
   }
