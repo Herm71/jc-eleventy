@@ -15,5 +15,16 @@ footer {
 	.footer-bottom {
 		flex:3;
 		flex-basis:100%;
+		display:flex;
+		align-content:center;
+		flex-flow: row wrap;
+		.social {
+			flex:2;
+			flex-basis:100%;
+		}
+		.copyright {
+			flex:1;
+			flex-basis:100%;
+		}
 	}
 }

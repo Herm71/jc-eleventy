@@ -1,0 +1,5 @@
+<ul class="links-social">
+{% for item in links %}
+	<li><a href="{{item.url | url }}" title="{{item.site}}">{{item.site}}</a></li>
+{% endfor %}
+</ul>

@@ -1,0 +1,14 @@
+.links-social {
+	display:flex;
+	flex-flow: row wrap;
+	align-items:center;
+	justify-content:space-between;
+	list-style-type:none;
+	gap:1.2rem;
+	li {
+		display:inline-block;
+		margin:0;
+		padding:0
+	}
+
+}

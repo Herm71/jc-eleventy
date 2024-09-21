@@ -8,11 +8,12 @@ eleventyNavigation:
 
 ## Education
 
-[The Evergreen State College](https://www.evergreen.edu/), Olympia, WA, Master of Environmental Studies, 1997
+[The Evergreen State College](https://www.evergreen.edu/), Olympia, WA, [Master of Environmental Studies](assets/images/evergreen-diploma.jpg), 1997
 
-[University of California, Santa Cruz](https://ucsc.edu/), Santa Cruz, CA, Bachelor of Arts, Environmental Studies, 1993
+[University of California, Santa Cruz](https://ucsc.edu/), Santa Cruz, CA, [Bachelor of Arts, Environmental Studies](assets/images/ucsc-diploma.jpg), 1993
 
 ---
+<a id="web-development"></a>
 
 ## Web Development
 
@@ -20,17 +21,21 @@ eleventyNavigation:
 
 ### 2017-Present
 
-University Advancement, Communications & Marketing, [University of California, Santa Cruz](https://ucsc.edu/)
+[University Advancement](https://advancement.ucsc.edu/about/the-team/communications-and-marketing/#digital-strategies), Communications & Marketing, [University of California, Santa Cruz](https://ucsc.edu/)
 
 - Manage and maintain the University’s primary web presence
 - Develop additional websites that further the University’s communications & marketing goals
 - Public speaking and instruction on web technologies
 - Project management
 - Sample portfolio:
-    - [UCSC Communications & Marketing](https://communications.ucsc.edu/)
-    - [UCSC Science](https://science.ucsc.edu/)
-    - [UCSC Giving](https://giving.ucsc.edu/)
-    - [UCSC Events Calendar](https://calendar.ucsc.edu/)
+    - [UCSC Communications & Marketing](https://communications.ucsc.edu/) (_WordPress_)
+    - [UCSC Science](https://science.ucsc.edu/) (_WordPress_)
+    - [UC Santa Cruz WordPress template](https://github.com/ucsc/ucsc-2022/commits/main/?author=Herm71) (_WordPress | Github_)
+    - [UC Santa Cruz Custom Functionality Plugin](https://github.com/ucsc/ucsc-custom-functionality/commits/main/?author=Herm71) (_WordPress | Github_)
+    - [UC Santa Cruz News Functionality Plugin](https://github.com/ucsc/ucsc-news-functionality/commits/main/?author=Herm71) (_WordPress | Github_)
+    - [UCSC Giving](https://giving.ucsc.edu/) (_Jekyll_)
+    - [Inquiry&commat;UCSC](https://inquiry.ucsc.edu/) (_Jekyll_)
+    - [UCSC Events Calendar](https://calendar.ucsc.edu/) (_Localist/Concept3D_)
 
 ### Contract Web Developer
 
@@ -58,6 +63,7 @@ Blackbird Consulting, Oakland, CA
     - [Inland Valley Insurance Agency](https://larrytalkstech.com/)
 
 ---
+<a id="urban-planning"></a>
 
 ## Urban & Environmental Planning
 

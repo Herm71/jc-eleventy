@@ -3,12 +3,14 @@ const { DateTime } = require("luxon");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
+const svgContents = require("eleventy-plugin-svg-contents");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
   eleventyConfig.addPassthroughCopy("./src/css");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   // eleventyConfig.addPlugin(pluginRss);
+	eleventyConfig.addPlugin(svgContents);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {
@@ -16,9 +18,9 @@ module.exports = function (eleventyConfig) {
       "dd LLL yyyy"
     );
   });
-	// Images
+	// SVGs
   eleventyConfig.addNunjucksAsyncShortcode("svgIcon", async (filename) => {
-    const metadata = await Image(`./src/_includes/assets/svg/${filename}`, {
+    const metadata = await Image(`./src/_includes/assets/images/${filename}`, {
       formats: ["svg"],
       dryRun: true,
     });

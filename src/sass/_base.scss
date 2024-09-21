@@ -7,7 +7,7 @@
     --navy: #17050F;
     --blue: #082840;
     --white: #fff;
-		--swiss-coffee: #EDEAE0
+		--off-white: #FAF9F6
   }
   * {
     box-sizing: border-box;
@@ -24,7 +24,7 @@
     margin: 0 auto;
     font-family: system-ui, sans-serif;
     color: var(--darkgray);
-    background-color: var(--swiss-coffee);
+    background-color: var(--off-white);
   }
   p:last-child {
     margin-bottom: 0;
