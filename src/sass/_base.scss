@@ -7,16 +7,16 @@
     --navy: #17050F;
     --blue: #082840;
     --white: #fff;
+		--swiss-coffee: #EDEAE0
   }
   * {
     box-sizing: border-box;
   }
 	body {
-		max-width:50em;
+		max-width:40em;
 		display: flex;
 		min-height: 100vh;
 		flex-direction:column;
-	
 	}
   html,
   body {
@@ -24,7 +24,7 @@
     margin: 0 auto;
     font-family: system-ui, sans-serif;
     color: var(--darkgray);
-    background-color: var(--white);
+    background-color: var(--swiss-coffee);
   }
   p:last-child {
     margin-bottom: 0;
@@ -55,11 +55,6 @@
 	main > article {
 		flex:1;
 		order:1;
-	}
-	main > aside {
-		flex-grow: 0.5;
-		order:2;
-	
 	}
 
   header {

@@ -4,12 +4,16 @@ footer {
 	justify-content:space-between;
 	padding: 1rem;
 	.footer-left {
-		order:1;
+		
 	}
 	.footer-center {
-		order:2;
+		
 	}
 	.footer-right {
-		order:3;
+		
+	}
+	.footer-bottom {
+		flex:3;
+		flex-basis:100%;
 	}
 }

@@ -9,17 +9,20 @@
     "build:sass": "sass src/sass:src/css",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:sass --parallel build:*"
+    "build": "npm-run-all build:sass --parallel build:*",
+    "release": "standard-version"
   },
   "author": "Jason <jchafin@ucsc.edu>",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^4.0.2",
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "luxon": "^3.5.0",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.78.0"
+    "sass": "^1.78.0",
+    "standard-version": "^9.5.0"
   }
 }

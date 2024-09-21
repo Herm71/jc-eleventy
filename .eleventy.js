@@ -2,18 +2,27 @@ const { DateTime } = require("luxon");
 // const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const Image = require("@11ty/eleventy-img");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
   eleventyConfig.addPassthroughCopy("./src/css");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-	// eleventyConfig.addPlugin(pluginRss);
+  // eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
 
-	eleventyConfig.addFilter("readableDate", (dateObj) => {
+  eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
       "dd LLL yyyy"
     );
+  });
+	// Images
+  eleventyConfig.addNunjucksAsyncShortcode("svgIcon", async (filename) => {
+    const metadata = await Image(`./src/_includes/assets/svg/${filename}`, {
+      formats: ["svg"],
+      dryRun: true,
+    });
+    return metadata.svg[0].buffer.toString();
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
