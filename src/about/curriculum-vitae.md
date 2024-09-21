@@ -1,8 +1,7 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-  key: CV
-  order: 1
+	parent: About
 ---
 
 # Curriculum Vitae
