@@ -7,11 +7,17 @@ eleventyNavigation:
 ---
 <h2>{{ title }}</h2>
 
-{% include "assets/images/github.svg"%}
 
 
+{%image "./src/_includes/assets/images/ucsc-diploma.jpg", "alt text deaux", "(min-width: 30em) 50vw, 100vw"%}
 
-
-<span>{{ '/src/_includes/assets/images/github.svg' | svgContents | safe }}</span>
+{%image "./src/_includes/assets/images/evergreen-diploma.jpg", "alt text deaux", "(min-width: 30em) 50vw, 100vw"%}
 
 {%svgIcon "linkedin.svg" %}
+
+{# {% include "assets/icons/github.svg"%} #}
+
+
+
+
+{# <span>{{ '/src/_includes/assets/icons/github.svg' | svgContents | safe }}</span> #}

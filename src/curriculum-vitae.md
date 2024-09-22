@@ -1,16 +1,17 @@
 ---
 layout: layouts/base.njk
 eleventyNavigation:
-	parent: About
+	key: Bio
+	order: 2
 ---
 
 # Curriculum Vitae
 
 ## Education
 
-[The Evergreen State College](https://www.evergreen.edu/), Olympia, WA, [Master of Environmental Studies](assets/images/evergreen-diploma.jpg), 1997
+[The Evergreen State College](https://www.evergreen.edu/), Olympia, WA, [Master of Environmental Studies](/diplomas/#evergreen), 1997
 
-[University of California, Santa Cruz](https://ucsc.edu/), Santa Cruz, CA, [Bachelor of Arts, Environmental Studies](assets/images/ucsc-diploma.jpg), 1993
+[University of California, Santa Cruz](https://ucsc.edu/), Santa Cruz, CA, [Bachelor of Arts, Environmental Studies](/diplomas/#ucsc), 1993
 
 ---
 <a id="web-development"></a>

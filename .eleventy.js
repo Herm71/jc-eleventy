@@ -1,29 +1,49 @@
 const { DateTime } = require("luxon");
-// const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
 const svgContents = require("eleventy-plugin-svg-contents");
 
+async function imageShortcode(src, alt, sizes) {
+	
+	let metadata = await Image(src, {
+    widths: [300, 600],
+    formats: ["avif", "jpeg"],
+		outputDir: "./public/img/"
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+  return Image.generateHTML(metadata, imageAttributes);
+}
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
   eleventyConfig.addPassthroughCopy("./src/css");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  // eleventyConfig.addPlugin(pluginRss);
-	eleventyConfig.addPlugin(svgContents);
+  eleventyConfig.addPlugin(svgContents);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
-
+	eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+	eleventyConfig.addLiquidShortcode("image", imageShortcode);
+	eleventyConfig.addJavaScriptFunction("image", imageShortcode);
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
       "dd LLL yyyy"
     );
   });
-	// SVGs
+  // SVGs
   eleventyConfig.addNunjucksAsyncShortcode("svgIcon", async (filename) => {
-    const metadata = await Image(`./src/_includes/assets/images/${filename}`, {
-      formats: ["svg"],
-      dryRun: true,
-    });
+    const metadata = await Image(
+      `./src/_includes/assets/icons/${filename}`,
+      {
+        formats: ["svg"],
+        dryRun: true,
+      }
+    );
     return metadata.svg[0].buffer.toString();
   });
 
@@ -73,6 +93,7 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: "src",
       output: "public",
+      includes: "_includes",
     },
   };
 };

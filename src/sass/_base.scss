@@ -1,3 +1,4 @@
+/* Theme Colors */
 :root {
     --red: #C5004A;
     --darkred: #7F0036;
@@ -9,6 +10,8 @@
     --white: #fff;
 		--off-white: #FAF9F6
   }
+
+/* Global */
   * {
     box-sizing: border-box;
   }
@@ -29,6 +32,13 @@
   p:last-child {
     margin-bottom: 0;
   }
+	p {
+	line-height: 1.5;
+	}
+	
+	li {
+		line-height: 1.5;
+	}
   p,
   .tmpl-post li,
   img {
@@ -58,13 +68,14 @@
 	}
 
   header {
-    border-bottom: 1px dashed var(--lightgray);
+    border-bottom: 1px dashed var(--gray);
   }
   header:after {
     content: "";
     display: table;
     clear: both;
   }
+
   table {
     margin: 1em 0;
   }
