@@ -5,13 +5,11 @@ subtitle: "Becoming a web developer the hard way"
 eleventyNavigation:
 	key: Bio
 	order: 2
-arbitrary: fuck
-	word: fuck
 ---
 
 ## {{title}}
 
-{{arbitrary.word}}
+{{eleventyNavigation.key}}
 
 ### {{subtitle}}
 
