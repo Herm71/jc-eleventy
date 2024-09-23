@@ -1,11 +1,13 @@
 [
 	{
 		"site": "LinkedIn",
-		"url": "https://www.linkedin.com/in/jasonchafin/"
+		"url": "https://www.linkedin.com/in/jasonchafin/",
+		"icon": "linkedin.svg"
 	},
 	{
 		"site": "GitHub",
-		"url": "https://github.com/Herm71"
+		"url": "https://github.com/Herm71",
+		"icon": "github.svg"
 	},
 	{
 		"site": "Brain Droppings",

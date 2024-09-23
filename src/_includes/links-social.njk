@@ -1,5 +1,10 @@
-<ul class="links-social">
+{# <ul class="links-social">
 {% for item in links %}
-	<li><a href="{{item.url | url }}" title="{{item.site}}">{{item.site}}</a></li>
-{% endfor %}
+	<li>{% include "assets/icons/{{item.icon}}"%}<a href="{{item.url | url }}" title="{{item.site}}">{{item.site}}</a></li>
+{% endfor %} #}
+{# </ul> #}
+<ul class="links-social">
+	<li><a href="https://www.linkedin.com/in/jasonchafin/" title="LinkedIn">{% svgIcon "linkedin.svg"%}</a></li>
+	<li><a href="https://github.com/Herm71" title="GitHub">{% svgIcon "github.svg"%}</a></li>
+	<li><a href="https://github.com/Herm71" title="Digital Gardedn">{% svgIcon "flower.svg"%}</a></li>
 </ul>

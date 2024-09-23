@@ -12,6 +12,5 @@ I am a professional web developer in [Santa Cruz, CA](https://www.cityofsantacr
 
 ### More about me
 
-- For more information about my skill set, see my [CV](/about/curriculum-vitae).
-
-- For more information about Me, see my [Bio](/about/bio).
+- My [bio](/about/bio).
+- My [resume](/about/curriculum-vitae).

@@ -4,9 +4,8 @@ eleventyNavigation:
   key: Scratchpad
   order: 3
 ---
-<h2>{{ title }}</h2>
+<h2>{{ eleventyNavigation.key }}</h2>
+<ul class="links-social">
+	<li><span>{% include "assets/icons/linkedin.svg"%}</span><a href="https://www.linkedin.com/in/jasonchafin/" title="LinkedIn">LinkedIn</a></li>
+</ul>
 
-{% include "assets/icons/github.svg"%}
-
-
-{%svgIcon "linkedin.svg" %}
