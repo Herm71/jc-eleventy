@@ -20,7 +20,7 @@ module.exports = function (eleventyConfig) {
   });
 	// SVGs
   eleventyConfig.addNunjucksAsyncShortcode("svgIcon", async (filename) => {
-    const metadata = await Image(`./src/_includes/assets/images/${filename}`, {
+    const metadata = await Image(`./src/_includes/assets/icons/${filename}`, {
       formats: ["svg"],
       dryRun: true,
     });
