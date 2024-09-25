@@ -4,7 +4,9 @@ eleventyNavigation:
   key: Typography
   order: 4
 ---
-# Heading One {{ eleventyNavigation.key }}
+## {{ eleventyNavigation.key }}
+
+# Heading One
 
 ## Heading Two
 
