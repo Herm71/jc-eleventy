@@ -7,7 +7,7 @@ const svgContents = require("eleventy-plugin-svg-contents");
 
 async function imageShortcode(src, alt, sizes) {
   let metadata = await Image(src, {
-    widths: [300, 600],
+    widths: [150, 300, 600],
     formats: ["avif", "jpeg"],
     outputDir: "./public/img/",
   });
@@ -24,6 +24,7 @@ async function imageShortcode(src, alt, sizes) {
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
   eleventyConfig.addPassthroughCopy("./src/css");
+	eleventyConfig.addPassthroughCopy({"./src/_includes/assets/favicons": "/favicons"});
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   // eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(svgContents);
