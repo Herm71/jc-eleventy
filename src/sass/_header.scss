@@ -9,7 +9,7 @@
 	}
 	.home {
 			padding: 0 1rem;
-			margin: 1rem 0; /* 16px /16 */ 
+			margin: 1rem 0 0;
 			font-family: "Roboto", sans-serif;
 		}
 	.home :link:not(:hover) {
@@ -19,7 +19,7 @@
 	.nav {
 		padding: 0;
 		list-style: none;
-		margin: 1em 0 1em auto;
+		margin: 1rem 0 0 auto;
 		flex-grow: 100%;
 		text-align:right;
 	}

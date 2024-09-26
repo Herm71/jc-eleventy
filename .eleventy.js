@@ -25,6 +25,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
   eleventyConfig.addPassthroughCopy("./src/css");
 	eleventyConfig.addPassthroughCopy({"./src/_includes/assets/favicons": "/favicons"});
+	eleventyConfig.addPassthroughCopy({
+    "./src/_includes/assets/hidden": "/",
+  });
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   // eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(svgContents);

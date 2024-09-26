@@ -1,10 +1,8 @@
 ---
 layout: layouts/base.njk
-eleventyNavigation:
-  key: Typography
-  order: 4
+title: Site Typography
 ---
-## {{ eleventyNavigation.key }}
+## {{ title }}
 
 # Heading One
 

@@ -1,12 +1,12 @@
 {
 	"title": "Jason Chafin",
 	"url": "https://jasonchafin.com/",
-	"description": "I am writing about my experiences as a naval navel-gazer.",
+	"description": "Jason Chafin's digital musings.",
 	"feed": {
-		"subtitle": "I am writing about my experiences as a naval navel-gazer.",
+		"subtitle": "Jason Chafin's digital musings.",
 		"filename": "feed.xml",
 		"path": "/feed/feed.xml",
-		"id": "https://example.com/"
+		"id": "https://jasonchafin.com/"
 	},
 	"jsonfeed": {
 		"path": "/feed/feed.json",
@@ -14,7 +14,7 @@
 	},
 	"author": {
 		"name": "Jason Chafin",
-		"email": "youremailaddress@example.com",
-		"url": "https://example.com/about-me/"
+		"email": "jasonchafin@gmail.com.com",
+		"url": "https://jasonchafin.com/about/"
 	}
 }
