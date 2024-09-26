@@ -5,11 +5,10 @@ description: "Jason Chafin's skills and experience"
 image: "evergreen-diploma.jpg"
 ogContent: article
 eleventyNavigation:
-	parent: About
-	key: "Curriculum Vitae"
+  key: Curriculum Vitae
+  parent: About
+  order: 4
 ---
-
-## {{title}}
 
 ### Education
 
@@ -54,12 +53,12 @@ Blackbird Consulting, Oakland, CA
 - Web development
 - Email marketing and communication
 - Web hosting services
-- Sample client list:
-    - [Ruth Chafin Interior Design](https://ruthchafininteriordesign.com/)
-    - [Casa Luna](https://casalunayelapa.com/)
-    - [Essay Intensive](https://www.essayintensive.com/)
-    - [Larry Talks Tech](https://larrytalkstech.com/)
-    - [Inland Valley Insurance Agency](https://larrytalkstech.com/)
+- Sample client sites:
+    - [Casa Luna](https://casalunayelapa.com/) (_WordPress_)
+    - [Essay Intensive](https://www.essayintensive.com/) (_WordPress_)
+    - [Larry Talks Tech](https://larrytalkstech.com/) (_WordPress_)
+    - [Ruth Chafin Interior Design](https://ruthchafininteriordesign.com/) (_WordPress_)
+    - [Eddie Imazu](https://en.wikipedia.org/wiki/Eddie_Imazu) (_Wikipedia_)
 
 ---
 <a id="urban-planning"></a>

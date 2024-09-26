@@ -3,14 +3,10 @@ layout: layouts/base.njk
 title: "Jason's Bio"
 subtitle: "Becoming a web developer the hard way"
 eleventyNavigation:
-	parent: About
+  key: Bio
+  parent: About
+  order: 1
 ---
-
-## {{title}}
-
-{{eleventyNavigation.key}}
-
-### {{subtitle}}
 
 I was raised in Southern California's [Inland Empire](https://en.wikipedia.org/wiki/Inland_Empire) city of [San Bernardino](https://www.sbcity.org/). After graduating from [San Gorgonio High School](https://sangorgonio.sbcusd.com/) in 1989, I moved north to attend college at the [University of California, Santa Cruz](https://ucsc.edu) where I earned a Bachelor's Degree in [Environmental Studies](https://envs.ucsc.edu/) in 1993.
 

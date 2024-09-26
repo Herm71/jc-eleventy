@@ -17,7 +17,14 @@
     </header>
 
     <main {% if templateClass %} class="{{ templateClass }}"{% endif %}>
-			<article>
+		{# {% include "breadcrumbs.njk" %} #}
+		<article>
+				{# {%if not title = "Home"%} #}
+				<div class="article-header">
+				{% if title %}<h2 class="article-title">{{title}}</h2>{%endif%}
+				{% if subtitle %}<h3 class="post-subtitle">{{subtitle}}</h2>{%endif%}
+				</div>
+				{# {%endif%} #}
     	  {{ content | safe }}
 			</article>
     </main>
