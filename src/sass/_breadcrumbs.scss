@@ -1,0 +1,22 @@
+.breadcrumb {
+	.breadcrumbs {
+		display:inline-flex;
+		flex-direction: row;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		.crumb { 
+    	font-size: var(--fontSize-small);
+			color: var(--darkgray);
+    	letter-spacing: .03em;
+    	line-height: 1.1;
+    	text-transform: none;
+			&::after {
+				content: "/";
+				font-size: var(--fontSize-small);
+				font-weight: 600;
+				padding: 0 .48em;
+			}
+		}
+	}
+}
