@@ -1,9 +1,8 @@
 ---
 layout: layouts/base.njk
 title: Site Typography
+robots: noindex
 ---
-## {{ title }}
-
 # Heading One
 
 ## Heading Two

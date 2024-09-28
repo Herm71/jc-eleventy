@@ -4,7 +4,7 @@ title: "On Building with Eleventy"
 description: "Exploring Static Site Generators"
 date: 2024-09-25
 author: "Jason"
-tags: [eleventy, web development, "beginner'&apos;' mind"]
+tags: [eleventy, web development, "draft"]
 ---
 
 I've been building websites since 2011. Not as long as some people but long enough. [WordPress](https://wordpress.org) has largely been my bread and butter for most of this time. [It still is](https://github.com/ucsc/ucsc-2022/commits/main/?author=Herm71). But in my current role as a [web developer for UC Santa Cruz](https://campusdirectory.ucsc.edu/cd_detail?uid=jchafin), I've had many opportunities to develop using _other_ content creation systems, such as [Static Site Generators (SSGs)](https://jamstack.org/generators/).
