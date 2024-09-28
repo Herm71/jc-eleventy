@@ -1,9 +1,9 @@
 {
 	"title": "Jason Chafin",
 	"url": "https://jasonchafin.com/",
-	"description": "Jason Chafin's digital musings.",
+	"description": "Digital paper.",
 	"feed": {
-		"subtitle": "Jason Chafin's digital musings.",
+		"subtitle": "Digital paper.",
 		"filename": "feed.xml",
 		"path": "/feed/feed.xml",
 		"id": "https://jasonchafin.com/"
