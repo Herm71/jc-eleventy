@@ -4,7 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ metadata.description }}">
+		{% if robots == "noindex" %}
+			<meta name="robots" content="noindex, nofollow" />
+		{% else %}
 		<meta name="robots" content="index, follow" />
+		{% endif %}
+		
 		<meta property="og:site_name" content="{{ metadata.title }}">
 		<meta property="og:title" content="{{ title  | escape }}"/>
   	<meta property="og:url" content="https://jasonchafin.com{{ page.url | escape }}" />
