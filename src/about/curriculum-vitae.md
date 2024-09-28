@@ -7,7 +7,6 @@ ogContent: article
 eleventyNavigation:
   key: Curriculum Vitae
   parent: About
-  order: 4
 ---
 
 ### Education

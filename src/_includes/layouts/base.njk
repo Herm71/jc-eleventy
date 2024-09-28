@@ -3,22 +3,12 @@
   {% include "head.njk"%}
   <body>
 	{% include "body-gtm.njk"%}
-    <header>
-				<div class="header-wrap">
-      	<h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-	
-      	{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      	<ul class="nav">
-      	{%- for entry in collections.all | eleventyNavigation %}
-      	  <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-      	{%- endfor %}
-      	</ul>
-			</div>
-    </header>
+	{% include "header.njk"%}
 
     <main {% if templateClass %} class="{{ templateClass }}"{% endif %}>
-		{# {% include "breadcrumbs.njk" %} #}
+		
 		<article>
+				{% include "breadcrumbs.njk" %}
 				{# {%if not title = "Home"%} #}
 				<div class="article-header">
 				{% if title %}<h2 class="article-title">{{title}}</h2>{%endif%}
@@ -28,10 +18,8 @@
     	  {{ content | safe }}
 			</article>
     </main>
+	{% include "footer.njk"%}
 
-    <footer>
-		{% include "footer-bottom.njk"%}
-		</footer>
 
     <!-- Current page: {{ page.url | url }} -->
   </body>
