@@ -29,6 +29,7 @@ module.exports = function (eleventyConfig) {
     "./src/_includes/assets/hidden": "/",
   });
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
   // eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(svgContents);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
