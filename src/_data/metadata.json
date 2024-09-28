@@ -10,11 +10,11 @@
 	},
 	"jsonfeed": {
 		"path": "/feed/feed.json",
-		"url": "https://example.com/feed/feed.json"
+		"url": "https://jasonchafin.com/feed/feed.json"
 	},
 	"author": {
 		"name": "Jason Chafin",
-		"email": "jasonchafin@gmail.com.com",
+		"email": "jasonchafin@gmail.com",
 		"url": "https://jasonchafin.com/about/"
 	}
 }

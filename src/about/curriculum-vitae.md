@@ -31,7 +31,7 @@ eleventyNavigation:
 - Sample portfolio:
     - [UCSC Communications & Marketing](https://communications.ucsc.edu/) (_WordPress_)
     - [UCSC Science](https://science.ucsc.edu/) (_WordPress_)
-    - [UC Santa Cruz WordPress template](https://github.com/ucsc/ucsc-2022/commits/main/?author=Herm71) (_WordPress | Github_)
+    - [UC Santa Cruz WordPress Theme](https://github.com/ucsc/ucsc-2022/commits/main/?author=Herm71) (_WordPress | Github_)
     - [UC Santa Cruz Custom Functionality Plugin](https://github.com/ucsc/ucsc-custom-functionality/commits/main/?author=Herm71) (_WordPress | Github_)
     - [UC Santa Cruz News Functionality Plugin](https://github.com/ucsc/ucsc-news-functionality/commits/main/?author=Herm71) (_WordPress | Github_)
     - [UCSC Giving](https://giving.ucsc.edu/) (_Jekyll_)

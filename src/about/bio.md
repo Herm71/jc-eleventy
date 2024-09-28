@@ -17,7 +17,7 @@ In 2003, I was hired by [Lamphier-Gregory](https://lamphier-gregory.com/), an en
 
 I was laid off by Lamphier-Gregory in 2010 as a result of [The Great Recession](https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath). While searching for work "in my field," I began learning the basics of web development by tinkering with [WordPress](https://wordpress.org/). I'd always had an aptitude for things technical and I was already a hobbyist at building computers and other bits of hardware; so moving into web development was a logical next step.
 
-Initially, I was self taught. But I eventually found that there were many [unknown unknowns](https://en.wikipedia.org/wiki/There_are_unknown_unknowns) in web development that I couldn't answer myself -- I didn't even know the right questions to ask!
+Initially, I was self taught. But I eventually found that there were many [unknown unknowns](https://en.wikipedia.org/wiki/There_are_unknown_unknowns) in web development that I couldn't answer myself -- I didn't even know [the right questions to ask](https://www.amazon.com/Asking-Right-Questions-11th-Browne/dp/0321907957)!
 
 I learned many of those right questions, and the answers to them, by attending weekly [Meetups](https://www.meetup.com/) at a great local Oakland resource called [Tech Liminal](https://techliminal.com/). In 2011, knowing just enough about WordPress to be dangerous, I officially took my first steps along the path of my ***second career*** and became a "[web developer](../curriculum-vitae/#web-development)."
 

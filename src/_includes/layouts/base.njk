@@ -17,7 +17,7 @@
 				</div>
 				{% else %}
 				<div class="article-header">
-				{% if title %}<h2 class="article-title">{{title}}</h2>{%endif%}
+				<h3 class="article-title">{{metadata.description}}</h3>
 				</div>
 				{%endif%}
     	  {{ content | safe }}
