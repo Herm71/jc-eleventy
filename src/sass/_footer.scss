@@ -3,7 +3,7 @@ footer {
 	flex-flow: row wrap;
 	justify-content:space-between;
 	padding: 1rem;
-	border-top: 1px dashed var(--gray);
+	
 	.footer-left {
 		
 	}
@@ -14,6 +14,7 @@ footer {
 		
 	}
 	.footer-bottom {
+		border-top: 1px dashed var(--gray);
 		flex-basis:100%;
 		display:flex;
 		align-content:center;
@@ -26,6 +27,9 @@ footer {
 			justify-content:center;
 			flex-basis:100%;
 			text-align:center;
+			p {
+				font-size: var(--fontSize-small);
+			}
 		}
 	}
 }

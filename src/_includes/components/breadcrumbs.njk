@@ -1,0 +1,12 @@
+
+<nav class="breadcrumb" aria-labelledby="breadcrumb">
+  <span class="" id="breadcrumb"></span>
+{% if pageHome !== "true" %}<ul class="breadcrumbs"><li class="crumb"><a href="/">Home</a></li>{% endif %}
+{% if pageHome !== "true" and '/posts' not in page.url %}</ul>{% endif %}
+
+{% if '/posts/' in page.url and pagePosts != "true" %}<li class="crumb"> <a href="/posts">Posts</a></li></ul>{% endif %}
+
+{% if eleventyNavigation and eleventyNavigation.parent %}
+  {{ collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.parent, {includeSelf: true}) | eleventyNavigationToHtml({ listClass: 'breadcrumbs', listItemClass:'crumb', activeListItemClass: 'breadcrumb-active' }) | safe }}
+{% endif %}	
+</nav>

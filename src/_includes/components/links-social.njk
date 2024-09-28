@@ -1,0 +1,11 @@
+{# <ul class="links-social">
+{% for item in links %}
+	<li>{% include "components/assets/icons/{{item.icon}}"%}<a href="{{item.url | url }}" title="{{item.site}}">{{item.site}}</a></li>
+{% endfor %} #}
+{# </ul> I'm  on #Mastodon! Come follow me at #}
+<ul class="links-social">
+	<li><a href="https://www.linkedin.com/in/jasonchafin/" title="LinkedIn">{% svgIcon "linkedin.svg"%}</a></li>
+	<li><a href="https://github.com/Herm71" title="GitHub">{% svgIcon "github.svg"%}</a></li>
+	<li><a href="https://mastodon.social/@Herm71" title="@Herm71@mastodon.social">{% svgIcon "mastodon.svg"%}</a></li>
+	<li><a href="https://herm-garden.netlify.app/" title="Digital Garden">{% svgIcon "flower.svg"%}</a></li>
+</ul>

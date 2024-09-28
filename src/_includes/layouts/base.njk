@@ -1,42 +1,30 @@
 <!doctype html>
 <html lang="en">
-  <head>
-		{# {% include "head-gtm.njk"%} #}
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title or metadata.title }}</title>
-    <meta name="description" content="{{ description or metadata.description }}">
-    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
-    <!--<link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">-->
-    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
-    <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-		{% include "head-favicon.njk"%}
-	</head>
+  {% include "components/head.njk"%}
   <body>
-	{# {% include "body-gtm.njk"%} #}
-    <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <ul class="nav">
-      {%- for entry in collections.all | eleventyNavigation %}
-        <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
-      {%- endfor %}
-      </ul>
-    </header>
+	{% include "components/body-gtm.njk"%}
+	{% include "components/header.njk"%}
 
     <main {% if templateClass %} class="{{ templateClass }}"{% endif %}>
-			<article>
+	
+		<article>
+				{% if pageHome !== "true" %}
+				{% include "components/breadcrumbs.njk" %}
+				
+				<div class="article-header">
+				{% if title %}<h2 class="article-title">{{title}}</h2>{%endif%}
+				{% if subtitle %}<h3 class="post-subtitle">{{subtitle}}</h2>{%endif%}
+				</div>
+				{% else %}
+				<div class="article-header">
+				<h3 class="article-title">{{metadata.description}}</h3>
+				</div>
+				{%endif%}
     	  {{ content | safe }}
 			</article>
     </main>
+	{% include "components/footer.njk"%}
 
-    <footer>
-		{% include "footer-bottom.njk"%}
-		</footer>
 
     <!-- Current page: {{ page.url | url }} -->
   </body>

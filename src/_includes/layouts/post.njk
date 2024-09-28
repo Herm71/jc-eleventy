@@ -2,10 +2,21 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<h1>{{ title }}</h1>
-
+<div class="article-meta">
+	<p class="article-author"><strong>Posted:</strong>
+		<time class="article-date" datetime="{{ date | htmlDateString }}">{{date | readableDate }}</time>
+	</p>
+<div class="article-tags">
+	<p> <strong>Tagged:</strong> {% for tag in tags %}
+	      {%- if collections.tagList.indexOf(tag) != -1 -%}
+	      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+	      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+	      {%- endif -%}
+	    {% endfor %}
+	</p>
+</div>
+</div>
 {{ content | safe }}
-
 <hr>
 <ul>
   {%- set nextPost = collections.post | getNextCollectionItem(page) %}
