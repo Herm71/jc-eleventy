@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
-  {% include "head.njk"%}
+  {% include "components/head.njk"%}
   <body>
-	{% include "body-gtm.njk"%}
-	{% include "header.njk"%}
+	{% include "components/body-gtm.njk"%}
+	{% include "components/header.njk"%}
 
     <main {% if templateClass %} class="{{ templateClass }}"{% endif %}>
 		
 		<article>
-				{% include "breadcrumbs.njk" %}
+				{% include "components/breadcrumbs.njk" %}
 				{# {%if not title = "Home"%} #}
 				<div class="article-header">
 				{% if title %}<h2 class="article-title">{{title}}</h2>{%endif%}
@@ -18,7 +18,7 @@
     	  {{ content | safe }}
 			</article>
     </main>
-	{% include "footer.njk"%}
+	{% include "components/footer.njk"%}
 
 
     <!-- Current page: {{ page.url | url }} -->
