@@ -6,4 +6,4 @@ eleventyNavigation:
   parent: Curriculum Vitae
 ---
 
-{%image "./src/_includes/assets/images/ucsc-diploma.jpg", "Bachelor of Arts Diploma, UC Santa Cruz", "(min-width: 30em) 50vw, 100vw"%}
+{%image "./src/assets/images/ucsc-diploma.jpg", "Bachelor of Arts Diploma, UC Santa Cruz", "(min-width: 30em) 50vw, 100vw"%}

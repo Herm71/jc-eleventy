@@ -24,9 +24,9 @@ async function imageShortcode(src, alt, sizes) {
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass/");
   eleventyConfig.addPassthroughCopy("./src/css");
-	eleventyConfig.addPassthroughCopy({"./src/_includes/assets/favicons": "/favicons"});
+	eleventyConfig.addPassthroughCopy({"./src/assets/favicons": "/favicons"});
 	eleventyConfig.addPassthroughCopy({
-    "./src/_includes/assets/hidden": "/",
+    "./src/assets/hidden": "/",
   });
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
@@ -44,7 +44,7 @@ module.exports = function (eleventyConfig) {
   });
 	// SVGs
   eleventyConfig.addNunjucksAsyncShortcode("svgIcon", async (filename) => {
-    const metadata = await Image(`./src/_includes/assets/icons/${filename}`, {
+    const metadata = await Image(`./src/assets/icons/${filename}`, {
       formats: ["svg"],
       dryRun: true,
     });
