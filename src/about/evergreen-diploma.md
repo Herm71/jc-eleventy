@@ -6,4 +6,4 @@ eleventyNavigation:
   parent: Curriculum Vitae
 ---
 
-{%image "./src/assets/images/evergreen-diploma.jpg", "MES Diploma, The Evergreen State College", "(min-width: 400px) 50vw, 100vw"%}
+<figure>{%image "./src/assets/images/evergreen-diploma.jpg", "MES Diploma, The Evergreen State College", "", "(min-width: 130em) 50vw, 100vw"%}</figure>
