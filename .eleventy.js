@@ -16,11 +16,12 @@ module.exports = function (eleventyConfig) {
   // https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 	// Styles
   eleventyConfig.addWatchTarget("./src/sass/");
-  // Watch content images for the image pipeline.
+  // Images for the image pipeline.
   eleventyConfig.addWatchTarget(".src/**/*.{svg,webp,png,jpeg}");
 
   // Custom Plugins
   eleventyConfig.addPlugin(require("./config/eleventy.config.images.js"));
+	eleventyConfig.addPlugin(require("./config/eleventy.config.drafts.js"));
 
   // Official Plugins
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);

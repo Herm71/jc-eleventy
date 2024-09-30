@@ -28,3 +28,34 @@ Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputat
 In elit felis, commodo a libero a, faucibus facilisis dui. Fusce facilisis magna enim, ut mollis massa consectetur at. Proin pellentesque consequat sagittis. Mauris mollis suscipit arcu at commodo. Cras in gravida augue. Sed commodo, lacus ac bibendum ullamcorper, leo felis ullamcorper tellus, eget consectetur turpis lacus ut sapien. Suspendisse at bibendum nulla. Proin commodo gravida massa vel vehicula. Mauris quis placerat diam, id volutpat ante. Nulla augue lectus, eleifend eu mattis quis, mattis eu lacus. Praesent vulputate orci ut elementum sollicitudin. In hac habitasse platea dictumst. Quisque aliquam, felis fringilla pellentesque vulputate, turpis odio molestie erat, finibus pharetra risus sem sit amet lectus. Pellentesque aliquet augue ut risus venenatis rutrum.
 
 Sed et tincidunt nunc. Proin feugiat mattis sem, nec ultrices mauris. Phasellus vitae dapibus dolor. Etiam lobortis, erat nec elementum dapibus, arcu lacus ultrices lectus, vitae finibus nunc odio et nulla. Donec tempor, ante at hendrerit pharetra, lectus nisl rhoncus erat, eu sodales neque purus sed enim. Praesent semper, diam non convallis egestas, augue nunc accumsan massa, sit amet dignissim massa lorem sit amet turpis. Integer tempor hendrerit lacus tincidunt semper. Nam gravida feugiat tellus at semper. Quisque eget pulvinar lacus,
+
+## Code
+
+### Styled (with Syntax)
+
+Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+
+```js
+// this is a command
+function myCommand() {
+ let counter = 0;
+ counter++;
+}
+
+// Test with a line break above this line.
+console.log('Test');
+```
+
+### Unstyled
+
+Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+
+```
+// this is a command
+function myCommand() {
+ let counter = 0;
+ counter++;
+}
+
+// Test with a line break above this line.
+con
