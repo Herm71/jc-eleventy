@@ -2,9 +2,6 @@
 layout: layouts/base.njk
 title: Site Typography
 robots: noindex
-eleventyNavigation:
-  key: Typography
-  order: 5
 ---
 # Heading One
 
