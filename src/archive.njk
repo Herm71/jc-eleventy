@@ -1,14 +1,12 @@
 ---
 layout: layouts/base.njk
+title: Posts
 permalink: /posts/
 eleventyNavigation:
   key: Posts
   order: 2
 pagePosts: "true"
 ---
-
-<h2>{{eleventyNavigation.key}}</h2>
-
 {% set postslist = collections.posts %}
 {% include "components/postslist.njk" %}
 
