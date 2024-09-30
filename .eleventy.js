@@ -2,20 +2,26 @@ const { DateTime } = require("luxon");
 // const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+// const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 module.exports = function (eleventyConfig) {
-	// add Image config
-	eleventyConfig.addPlugin(require("./config/eleventy.config.images.js"));
-	eleventyConfig.addWatchTarget("./src/sass/");
+  // Watch folderrs
+
+  eleventyConfig.addWatchTarget("./src/sass/");
   eleventyConfig.addPassthroughCopy("./src/css");
-	eleventyConfig.addPassthroughCopy({"./src/assets/favicons": "/favicons"});
-	eleventyConfig.addPassthroughCopy({
+  eleventyConfig.addPassthroughCopy({ "./src/assets/favicons": "/favicons" });
+  eleventyConfig.addPassthroughCopy({
     "./src/assets/hidden": "/",
   });
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  // Custom Plugins
+  eleventyConfig.addPlugin(require("./config/eleventy.config.images.js"));
 
+  // Official Plugins
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
   // eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
+
+  // Filters
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
       "dd LLL yyyy"
@@ -25,7 +31,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
-
+  // Filter to retrieve a random blog post
+  eleventyConfig.addFilter("randomPost", (arr) => {
+    arr.sort(() => {
+      return 0.5 - Math.random();
+    });
+    return arr.slice(0, 1);
+  });
+  // Add Tag Collection
   eleventyConfig.addCollection("tagList", function (collection) {
     let tagSet = new Set();
     collection.getAll().forEach(function (item) {
@@ -53,14 +66,6 @@ module.exports = function (eleventyConfig) {
 
     // returning an array in addCollection works in Eleventy 0.5.3
     return [...tagSet];
-  });
-
-  // Filter to retrieve a random blog post
-  eleventyConfig.addFilter("randomPost", (arr) => {
-    arr.sort(() => {
-      return 0.5 - Math.random();
-    });
-    return arr.slice(0, 1);
   });
 
   return {
