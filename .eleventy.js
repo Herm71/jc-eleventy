@@ -5,14 +5,14 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 // const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 module.exports = function (eleventyConfig) {
-  // Watch folderrs
-
-  eleventyConfig.addWatchTarget("./src/sass/");
+  // Passthrough Copy folders
   eleventyConfig.addPassthroughCopy("./src/css");
   eleventyConfig.addPassthroughCopy({ "./src/assets/favicons": "/favicons" });
   eleventyConfig.addPassthroughCopy({
     "./src/assets/hidden": "/",
   });
+	// Watch Folders
+  eleventyConfig.addWatchTarget("./src/sass/");
   // Custom Plugins
   eleventyConfig.addPlugin(require("./config/eleventy.config.images.js"));
 
