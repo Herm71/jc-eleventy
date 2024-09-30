@@ -49,7 +49,12 @@ module.exports = function (eleventyConfig) {
     });
     return arr.slice(0, 1);
   });
-  // Add Tag Collection
+  // Shortcodes
+	eleventyConfig.addShortcode("currentBuildDate", () => {
+    return new Date().toISOString();
+  });
+
+	// Add Tag Collection
   eleventyConfig.addCollection("tagList", function (collection) {
     let tagSet = new Set();
     collection.getAll().forEach(function (item) {
