@@ -7,9 +7,12 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 module.exports = function (eleventyConfig) {
   // Passthrough Copy folders
   eleventyConfig.addPassthroughCopy("./src/css");
-  eleventyConfig.addPassthroughCopy({ "./src/assets/favicons": "/favicons" });
+  // eleventyConfig.addPassthroughCopy({ "./src/assets/favicons": "/favicons" });
   eleventyConfig.addPassthroughCopy({
     "./src/assets/hidden": "/",
+		 "./src/assets/favicons": "/favicons",
+    "./node_modules/prismjs/themes/prism-okaidia.css":
+      "/css/prism.css",
   });
   // Watch Folders
   // Run Eleventy when these files change:

@@ -58,4 +58,5 @@ function myCommand() {
 }
 
 // Test with a line break above this line.
-con
+console.log('Test');
+```
