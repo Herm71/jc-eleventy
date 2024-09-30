@@ -2,7 +2,7 @@ const { DateTime } = require("luxon");
 // const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-// const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 module.exports = function (eleventyConfig) {
   // Passthrough Copy folders
@@ -11,12 +11,19 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "./src/assets/hidden": "/",
   });
-	// Watch Folders
+  // Watch Folders
+  // Run Eleventy when these files change:
+  // https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
+	// Styles
   eleventyConfig.addWatchTarget("./src/sass/");
+  // Watch content images for the image pipeline.
+  eleventyConfig.addWatchTarget(".src/**/*.{svg,webp,png,jpeg}");
+
   // Custom Plugins
   eleventyConfig.addPlugin(require("./config/eleventy.config.images.js"));
 
   // Official Plugins
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   // eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
@@ -69,6 +76,10 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
+    // Control which files Eleventy will process
+    // e.g.: *.md, *.njk, *.html, *.liquid
+    templateFormats: ["md", "njk", "html", "liquid"],
+
     dir: {
       input: "src",
       output: "public",
