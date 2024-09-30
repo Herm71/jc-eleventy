@@ -4,9 +4,10 @@
   <body>
 	{% include "components/body-gtm.njk"%}
 	{% include "components/header.njk"%}
+	<a href="#skip" class="visually-hidden">Skip to main content</a>
 
     <main {% if templateClass %} class="{{ templateClass }}"{% endif %}>
-	
+		
 		<article>
 				{% if pageHome !== "true" %}
 				{% include "components/breadcrumbs.njk" %}
