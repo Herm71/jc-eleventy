@@ -2,7 +2,8 @@
 layout: layouts/base.njk
 title: Scratchpad MD
 robots: noindex
+statement: "Very important statement"
 
 ---
 
-For testing stuff.
+{{ layout }}.

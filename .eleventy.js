@@ -3,28 +3,27 @@ const { DateTime } = require("luxon");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-
+// import filters from "./config/filters.js"
 module.exports = function (eleventyConfig) {
   // Passthrough Copy folders
   eleventyConfig.addPassthroughCopy("./src/css");
   // eleventyConfig.addPassthroughCopy({ "./src/assets/favicons": "/favicons" });
   eleventyConfig.addPassthroughCopy({
     "./src/assets/hidden": "/",
-		 "./src/assets/favicons": "/favicons",
-    "./node_modules/prismjs/themes/prism-okaidia.css":
-      "/css/prism.css",
+    "./src/assets/favicons": "/favicons",
+    "./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism.css",
   });
   // Watch Folders
   // Run Eleventy when these files change:
   // https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
-	// Styles
+  // Styles
   eleventyConfig.addWatchTarget("./src/sass/");
   // Images for the image pipeline.
   eleventyConfig.addWatchTarget(".src/**/*.{svg,webp,png,jpeg}");
 
   // Custom Plugins
   eleventyConfig.addPlugin(require("./config/eleventy.config.images.js"));
-	eleventyConfig.addPlugin(require("./config/eleventy.config.drafts.js"));
+  eleventyConfig.addPlugin(require("./config/eleventy.config.drafts.js"));
 
   // Official Plugins
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
@@ -42,6 +41,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
+eleventyConfig.addFilter("findById", function (array, id) {
+  return array.find((i) => i.id === id);
+});
+	eleventyConfig.addFilter("decorate", function(text){
+		return "***"+text+"***";
+	});
   // Filter to retrieve a random blog post
   eleventyConfig.addFilter("randomPost", (arr) => {
     arr.sort(() => {
@@ -49,25 +54,25 @@ module.exports = function (eleventyConfig) {
     });
     return arr.slice(0, 1);
   });
-	// Filter to limit radom items
-	eleventyConfig.addFilter("randomLimit", (arr, limit, currPage) => {
-  	// Filters out current page
-  	const pageArr = arr.filter((page) => page.url !== currPage);
-	
-  	// Randomizes remaining items
-  	pageArr.sort(() => {
-  	  return 0.5 - Math.random();
-  	});
-	
-  	// Returns array items up to limit
-  	return pageArr.slice(0, limit);
-	});
+  // Filter to limit radom items
+  eleventyConfig.addFilter("randomLimit", (arr, limit, currPage) => {
+    // Filters out current page
+    const pageArr = arr.filter((page) => page.url !== currPage);
+
+    // Randomizes remaining items
+    pageArr.sort(() => {
+      return 0.5 - Math.random();
+    });
+
+    // Returns array items up to limit
+    return pageArr.slice(0, limit);
+  });
   // Shortcodes
-	eleventyConfig.addShortcode("currentBuildDate", () => {
+  eleventyConfig.addShortcode("currentBuildDate", () => {
     return new Date().toISOString();
   });
 
-	// Add Tag Collection
+  // Add Tag Collection
   eleventyConfig.addCollection("tagList", function (collection) {
     let tagSet = new Set();
     collection.getAll().forEach(function (item) {

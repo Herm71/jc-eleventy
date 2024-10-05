@@ -13,5 +13,5 @@
   a[href].direct-link:focus:visited,
   :hover > a[href].direct-link,
   :hover > a[href].direct-link:visited {
-    color: #aaa;
+    color: var(--color-primary-offset);
   }

@@ -1,0 +1,33 @@
+[
+	{
+		"id": "default",
+		"name": "Classic",
+		"colors": {
+			"primary": "#eff0f3",
+			"secondary": "#8A193F",
+			"tertiary": "#ff8e3c",
+			"text": "#2a2a2a",
+			"headlineText": "#0d0d0d",
+			"buttonText": "#0d0d0d",
+			"button": "#ff8e3c",
+			"highlight": "#ff8e3c",
+			"border": "#8A193F",
+			"primaryOffset": "#ff1447",
+			"textOffset": "#818a91"
+		}
+	},
+	{
+		"id": "dark",
+		"name": "Dark",
+		"colors": {
+			"primary": "#ff5277",
+			"secondary": "#43a9a3",
+			"text": "#ffffff",
+			"border": "#2d2d2d",
+			"background": "#0e141b",
+			"primaryOffset": "#ff2957",
+			"textOffset": "#818a91",
+			"backgroundOffset": "#252526"
+		}
+	}
+]
