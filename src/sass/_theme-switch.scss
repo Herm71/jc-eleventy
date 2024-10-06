@@ -20,16 +20,17 @@
 
 :root:not(.light) .theme-icon .fa-moon {
   display: inline-block;
-  color: white;
-	&::before {
+	&::after {
 		content: "dark";
+		color: var(--color-primary);
 	}
 }
 
 :root.light .theme-icon .fa-sun {
   display: inline-block;
-	&::before {
+	&::after {
 		content: "light";
+		color: var(--color-primary);
 	}
 }
 
