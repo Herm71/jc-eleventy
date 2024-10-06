@@ -13,5 +13,11 @@
   }
   a[href].post-tag,
   a[href].post-tag:visited {
-    color: var(--color-bg);
+    color: var(--color-primary);
   }
+
+  a[href].post-tag:hover {
+		background-color: var(--color-primary);
+		border: 1px solid var(--color-secondary);
+		color: var(--color-text)
+}
