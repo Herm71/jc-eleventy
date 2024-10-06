@@ -6,4 +6,4 @@ statement: "Very important statement"
 
 ---
 
-{{ layout }}.
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Herm71/jc-eleventy/node.js.yml?logo=github)
