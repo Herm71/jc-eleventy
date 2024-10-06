@@ -1,0 +1,21 @@
+:root:not(.light) {
+		--color-primary: #0f0e17;
+    --color-primary-offset: #ff1447;
+    --color-secondary: #f25f4c;
+    --color-tertiary: #e53170;
+    --color-text: #a7a9be;
+    --color-text-offset: #818a91;
+    --color-header-text: #fffffe;
+    --color-button-text: #0d0d0d;
+    }
+
+:root.light {
+	--color-primary: #eff0f3;
+	--color-primary-offset: #ff1447;
+	--color-secondary: #8A193F;
+	--color-tertiary: #ff8e3c;
+	--color-text: #2a2a2a;
+	--color-text-offset: #818a91;
+	--color-header-text: #0d0d0d;
+	--color-button-text: #0d0d0d;
+}

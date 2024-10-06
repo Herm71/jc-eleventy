@@ -21,6 +21,7 @@ h1,h2,h3,h4,h5,h6  {
   font-weight: normal;
 	line-height: 1.2;
 	margin-bottom:0.5rem;
+	color: var(--color-header-text);
 }
 
 h1 {
@@ -75,18 +76,9 @@ p img.right {
   margin: 1.5em 0 1.5em 1.5em;
 }
 
-a:focus,
-a:hover {
-  color: var(--black);
-}
-a {
-  color: var(--link);
-  text-decoration: underline;
-}
-
 blockquote {
   margin: 1.5em;
-  color: var(--lightgray);
+  color: var(--color-text-offset);
   font-style: italic;
 }
 strong {
@@ -106,14 +98,14 @@ sub {
 
 abbr,
 acronym {
-  border-bottom: 1px dotted var(--lightgray);
+  border-bottom: 1px dotted var(--color-secondary);
 }
 address {
   margin: 0 0 1.5em;
   font-style: italic;
 }
 del {
-  color: var(--lightgray);
+  color: var(--color-secondary);
 }
 
 pre {
@@ -175,7 +167,7 @@ th {
   font-weight: bold;
 }
 thead th {
-  background: #c3d9ff;
+  background: var(--color-bg-offset);
 }
 th,
 td,
@@ -183,19 +175,21 @@ caption {
   padding: 4px 10px 4px 5px;
 }
 tr.even td {
-  background: #e5ecf9;
+  background: var(--color-bg-offset);
 }
 tfoot {
   font-style: italic;
 }
 caption {
-  background: #eee;
+  background: var(--color-bg-offset);
 }
 
 
 /* Misc classes
 -------------------------------------------------------------- */
-
+hr {
+	border-top:  1px solid var(--color-secondary);
+}
 .small {
   font-size: 0.8em;
   margin-bottom: 1.875em;
@@ -225,4 +219,29 @@ caption {
 .removed {
   background: var(--red);
   color: var(--white);
+}
+
+
+.themepicker__swatch {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #ffffff;
+
+    &--primary {
+        background-color: var(--color-primary);
+    }
+    &--secondary {
+        background-color: var(--color-secondary);
+    }
+    &--border {
+        background-color: var(--color-secondary);
+    }
+    &--textoffset {
+        background-color: var(--color-text-offset);
+    }
+    &--text {
+        background-color: var(--color-text);
+    }
 }

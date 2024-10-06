@@ -1,115 +1,76 @@
-:root {
-		/* Colors */
-    --red: #C5004A;
-		--link: #009;
-    --darkred: #7F0036;
-    --lightgray: #e0e0e0;
-    --gray: #C0C0C0;
-		--lightgray: #666;
-    --darkgray: #333;
-    --navy: #17050F;
-    --blue: #082840;
-		--yellow: #FF0;
-		--green: #060;
-    --white: #fff;
-		--offwhite: #FAF9F6;
-		--black: #000;
-		/* Layouts */
-		--contentSize: 60rem;
-		--wideSize: 72rem;
-		/* Font Families */
-		--fontFamily-sans-serif: "Roboto", Arial, Helvetica, sans-serif;
-		/*--fontFamily-serif: ;*/
-		/* Font Sizes */
-		--fontSize-small: 0.9rem;
-		--fontSize-base: 1.25rem;
-		--fontSize-medium: 1.55rem;
-		--fontSize-large: 1.85rem;
-		--fontSize-x-large: 2.5rem;
-		--fontSize-xx-large: 3.27rem;
-  }
-  * {
-    box-sizing: border-box;
-  }
-	html {
-		font-size:16px;
-	}
-	body {
-		
-		display: flex;
-		min-height: 100vh;
-		flex-direction:column;
-		color: var(--black);
-	}
-  html,
-  body {
-    padding: 0;
-    margin: 0 auto;
-    font-family: var(--fontFamily-sans-serif);
-		// font-size: var(--fontFamily-base);
-    color: var(--darkgray);
-    background-color: var(--white);
-  }
-	/* https://www.a11yproject.com/posts/how-to-hide-content/ */
-	.visually-hidden {
-		clip: rect(0 0 0 0);
-		clip-path: inset(50%);
-		height: 1px;
-		overflow: hidden;
-		position: absolute;
-		white-space: nowrap;
-		width: 1px;
-	}
-	.header-wrap, .footer-bottom {
-	 	max-width: var(--contentSize);
-		margin: 0 auto;}
-	article {
-		margin: 0 auto;
-		max-width: var(--contentSize);
-	}
+html {
+	font-size:16px;
+	background-color: var(--color-primary);
+}
+body {
 	
-  p:last-child {
-    margin-bottom: 0;
-  }
-  p,
-  .tmpl-post li,
-  img {
-    // max-width: 37.5em; /* 600px /16 */
-  }
-  p,
-  .tmpl-post li {
-    line-height: 1.45;
-  }
-  a[href] {
-    color: var(--blue);
-  }
-  a[href]:visited {
-    color: var(--navy);
-  }
-  main {
-		flex:1;
-		display:flex;
-    padding: 1rem;
-		
-  }
-  main :first-child {
-    margin-top: 0;
-  }
-	main > article {
-		flex:1;
-		order:1;
-		padding: 0 1em;
-	}
+	display: flex;
+	min-height: 100vh;
+	flex-direction:column;
+}
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--fontFamily-sans-serif);
+	// font-size: var(--fontFamily-base);
+	color: var(--color-text);
+}
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+.header-wrap, .footer-bottom {
+	max-width: var(--contentSize);
+	margin: 0 auto;}
+article {
+	margin: 0 auto;
+	max-width: var(--contentSize);
+}
 
-  header:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  table {
-    margin: 1em 0;
-  }
-  table td,
-  table th {
-    padding-right: 1em;
-  }
+p:last-child {
+	margin-bottom: 0;
+}
+p,
+.tmpl-post li,
+img {
+	// max-width: 37.5em; /* 600px /16 */
+}
+p,
+.tmpl-post li {
+	line-height: 1.45;
+}
+
+main {
+	flex:1;
+	display:flex;
+	padding: 1rem;
+	
+}
+main :first-child {
+	margin-top: 0;
+}
+main > article {
+	flex:1;
+	order:1;
+	padding: 0 1em;
+}
+
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}

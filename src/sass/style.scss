@@ -1,4 +1,8 @@
+@use "root";
+@use "themes";
 @use "base";
+@use "theme-switch";
+@use "links";
 @use "typography";
 @use "code";
 @use "header";
@@ -12,5 +16,4 @@
 @use "markdown";
 @use "footer";
 @use "links-social";
-// @use "prism";
 
