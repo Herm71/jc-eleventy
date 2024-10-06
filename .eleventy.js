@@ -7,7 +7,7 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 module.exports = function (eleventyConfig) {
   // Passthrough Copy folders
   eleventyConfig.addPassthroughCopy("./src/css");
-  // eleventyConfig.addPassthroughCopy({ "./src/assets/favicons": "/favicons" });
+	eleventyConfig.addPassthroughCopy("./src/js");
   eleventyConfig.addPassthroughCopy({
     "./src/assets/hidden": "/",
     "./src/assets/favicons": "/favicons",
