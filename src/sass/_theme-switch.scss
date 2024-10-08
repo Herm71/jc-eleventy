@@ -22,7 +22,7 @@
   display: inline-block;
 	&::after {
 		content: "dark";
-		color: var(--color-primary);
+		color:var(--color-bg-offset);
 	}
 }
 
@@ -30,7 +30,7 @@
   display: inline-block;
 	&::after {
 		content: "light";
-		color: var(--color-primary);
+		color:var(--color-bg-offset);
 	}
 }
 
@@ -42,4 +42,79 @@
   height: 1px;
   width: 1px;
   overflow: hidden;
+}
+
+.current-theme {
+	p {
+	margin-left: 0.5rem;
+	font-weight: 700;
+	}
+	border: 1px solid var(--color-bg-inverse);
+	.hues-wrap {
+		margin: 0 auto;
+		padding: 0;
+		display: flex;
+		flex-flow: row wrap;
+		li {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: flex-start;
+			width:50%;
+			align-items:center;
+			margin-bottom: 1rem;
+			padding: 1rem 0;
+			.theme-descriptor {
+				order: 1;
+				width: 100%;
+				font-weight:700;
+				margin-left: 0.5rem;
+			}
+			.theme-swatch {
+				order: 2;
+				width: 2rem;
+				height: 2rem;
+				border: 1px solid var(--color-bg-inverse);
+				border-radius: 50%;
+				margin: 0 0.5rem;
+				
+			}
+			.theme-variable {
+				order: 3;
+			}
+			.background {
+				background-color: var(--color-bg);
+			}
+			.background-offset {
+				background-color: var(--color-bg-offset);
+			}
+			.background-inverse {
+				background-color: var(--color-bg-inverse);
+			}
+			.color-primary {
+				background-color: var(--color-primary);
+			}
+			.color-primary-offset {
+				background-color: var(--color-primary-offset);
+			}
+			.color-secondary {
+				background-color: var(--color-secondary);
+			}
+			.color-text {
+				background-color: var(--color-text);
+			}
+			.color-text-offset {
+				background-color: var(--color-text-offset);
+			}
+			.color-headline {
+				background-color: var(--color-headline);
+			}
+			.color-button-text {
+				background-color: var(--color-button-text);
+			}
+			.color-border {
+				background-color: var(--color-bg-inverse);
+			}
+		}	
+		
+	}
 }

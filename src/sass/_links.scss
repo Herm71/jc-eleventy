@@ -1,11 +1,11 @@
 a:focus,
 a:hover {
-  color: var(--color-primary);
-	background: var(--color-secondary);
+  color: var(--color-bg);
+	background: var(--color-primary);
 	text-decoration: none;
 }
 a {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   text-decoration: underline;
 }
 

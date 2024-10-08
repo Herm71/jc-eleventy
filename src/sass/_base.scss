@@ -1,6 +1,6 @@
 html {
 	font-size:16px;
-	background-color: var(--color-primary);
+	background-color: var(--color-bg);
 }
 body {
 	
@@ -29,10 +29,7 @@ body {
 .header-wrap, .footer-bottom {
 	max-width: var(--contentSize);
 	margin: 0 auto;}
-article {
-	margin: 0 auto;
-	max-width: var(--contentSize);
-}
+
 
 p:last-child {
 	margin-bottom: 0;
