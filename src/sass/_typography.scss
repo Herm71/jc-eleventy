@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6  {
   font-weight: normal;
 	line-height: 1.2;
 	margin-bottom:0.5rem;
-	color: var(--color-header-text);
+	color: var(--color-headline);
 }
 
 h1 {
@@ -98,14 +98,14 @@ sub {
 
 abbr,
 acronym {
-  border-bottom: 1px dotted var(--color-secondary);
+  border-bottom: 1px dotted var(--color-primary);
 }
 address {
   margin: 0 0 1.5em;
   font-style: italic;
 }
 del {
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 pre {
@@ -167,7 +167,7 @@ th {
   font-weight: bold;
 }
 thead th {
-  background: var(--color-bg-offset);
+  background: var(--color-primary-offset);
 }
 th,
 td,
@@ -175,20 +175,20 @@ caption {
   padding: 4px 10px 4px 5px;
 }
 tr.even td {
-  background: var(--color-bg-offset);
+  background: var(--color-primary-offset);
 }
 tfoot {
   font-style: italic;
 }
 caption {
-  background: var(--color-bg-offset);
+  background: var(--color-primary-offset);
 }
 
 
 /* Misc classes
 -------------------------------------------------------------- */
 hr {
-	border-top:  1px solid var(--color-secondary);
+	border-top:  1px solid var(--color-primary);
 }
 .small {
   font-size: 0.8em;
@@ -230,13 +230,13 @@ hr {
     box-shadow: 0 0 0 2px #ffffff;
 
     &--primary {
-        background-color: var(--color-primary);
+        background-color: var(--color-bg);
     }
     &--secondary {
-        background-color: var(--color-secondary);
+        background-color: var(--color-primary);
     }
     &--border {
-        background-color: var(--color-secondary);
+        background-color: var(--color-primary);
     }
     &--textoffset {
         background-color: var(--color-text-offset);
