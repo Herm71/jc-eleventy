@@ -4,6 +4,7 @@ title: UCSC Diploma
 eleventyNavigation:
   key: UCSC Diploma
   parent: Curriculum Vitae
+bodytag: page
 ---
 
 <figure>

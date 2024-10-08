@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   {% include "components/head.njk"%}
-  <body>
+  <body {% if bodytag %} class= {{bodytag}} {%endif %}>
 	{% include "components/body-gtm.njk"%}
 	{% include "components/header.njk"%}
 	<a href="#skip" class="visually-hidden">Skip to main content</a>
@@ -14,7 +14,7 @@
 				
 				<div class="article-header">
 				{% if title %}<h1 class="article-title">{{title}}</h1>{%endif%}
-				{% if subtitle %}<h2 class="post-subtitle">{{subtitle}}</h2>{%endif%}
+				{% if subtitle %}<p class="article-subtitle">{{subtitle}}</p>{%endif%}
 				</div>
 				{% else %}
 				<div class="article-header">
