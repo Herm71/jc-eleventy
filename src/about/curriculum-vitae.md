@@ -7,9 +7,10 @@ ogContent: article
 eleventyNavigation:
   key: Curriculum Vitae
   parent: About
+bodytag: page
 ---
 
-### Education
+## Education
 
 [The Evergreen State College](https://www.evergreen.edu/), Olympia, WA, [Master of Environmental Studies](/about/evergreen-diploma/), 1997
 
@@ -18,9 +19,9 @@ eleventyNavigation:
 ---
 <a id="web-development"></a>
 
-### Web Development
+## Web Development
 
-#### [Senior Web Developer](https://campusdirectory.ucsc.edu/cd_detail?uid=jchafin) | _2017-Present_
+### [Senior Web Developer](https://campusdirectory.ucsc.edu/cd_detail?uid=jchafin) | _2017-Present_
 
 [University Advancement](https://advancement.ucsc.edu/about/the-team/communications-and-marketing/#digital-strategies), Communications & Marketing, [University of California, Santa Cruz](https://ucsc.edu/)
 
@@ -38,14 +39,14 @@ eleventyNavigation:
     - [Inquiry&commat;UCSC](https://inquiry.ucsc.edu/) (_Jekyll_)
     - [UCSC Events Calendar](https://calendar.ucsc.edu/) (_Localist/Concept3D_)
 
-#### Contract Web Developer | _2012-2016_
+### Contract Web Developer | _2012-2016_
 
 [HyperArts](https://www.hyperarts.com/), Oakland, CA
 
 - Custom WordPress websites
 - Custom email marketing templates
 
-#### Founder/President | _2011-Present_
+### Founder/President | _2011-Present_
 
 Blackbird Consulting, Oakland, CA
 
@@ -62,9 +63,9 @@ Blackbird Consulting, Oakland, CA
 ---
 <a id="urban-planning"></a>
 
-### Urban & Environmental Planning
+## Urban & Environmental Planning
 
-#### Senior Planner/Project Manager | _2003-2010_
+### Senior Planner/Project Manager | _2003-2010_
 
 [Lamphier-Gregory](https://lamphier-gregory.com/), Oakland, CA
 
@@ -72,7 +73,7 @@ Blackbird Consulting, Oakland, CA
 - Public speaking
 - Project management
 
-#### Associate Planner | _1999-2002_
+### Associate Planner | _1999-2002_
 
 [Pacific Municipal Consultants](https://pitchbook.com/profiles/company/108326-44#overview), Monterey, CA
 
@@ -81,11 +82,11 @@ Blackbird Consulting, Oakland, CA
 
 ---
 
-### Professional Skills
+## Professional Skills
 
 14+ years experience as a web developer and over a decade experience in urban and environmental planning.
 
-#### Tech
+### Tech
 
 - Code: PHP, HTML, CSS, JavaScript, Python, BASH
 - Frameworks and Content Management Systems
@@ -110,7 +111,7 @@ Blackbird Consulting, Oakland, CA
 - Markdown syntax
 - Google Analytics/Google Tag Manager integration and reporting
 
-#### Development Tools and Workflow
+### Development Tools and Workflow
 
 - Workflow: from local development to staging to production environments
 - Local environment: Lando/NPM/WP-ENV
@@ -118,17 +119,17 @@ Blackbird Consulting, Oakland, CA
 - [Composer](https://getcomposer.org/) PHP dependency management
 - [NPM](https://www.npmjs.com/) NodeJS Package Manager
 
-#### Project Management
+### Project Management
 
 - Proposal writing, budget preparation and scheduling for projects ranging $50,000 to $250,000
 - Ability to manage multiple projects with multiple dependencies and stakeholders
 
-#### Verbal Communication
+### Verbal Communication
 
 - Public speaking and presentations to public groups
 - Ability to communicate complex technical information to a general audience
 
-#### Technical Writing and Policy Analysis
+### Technical Writing and Policy Analysis
 
 - Principal author of over twenty (20) Environmental Review documents pursuant to the [California Environmental Quality Act](https://opr.ca.gov/ceqa/) and [National Environmental Policy Act](https://ceq.doe.gov/)
 - Principal planner for broad range of urban and rural planning projects: General Plan updates and amendments, zoning and building codes updates

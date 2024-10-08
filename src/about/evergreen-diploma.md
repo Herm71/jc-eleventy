@@ -4,6 +4,7 @@ title: Evergreen Diploma
 eleventyNavigation:
   key: Evergreen Diploma
   parent: Curriculum Vitae
+bodytag: page
 ---
 
 <figure>

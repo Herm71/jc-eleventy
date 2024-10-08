@@ -22,6 +22,7 @@ h1,h2,h3,h4,h5,h6  {
 	line-height: 1.2;
 	margin-bottom:0.5rem;
 	color: var(--color-headline);
+	font-family: var(--fontFamily-serif);
 }
 
 h1 {
@@ -29,6 +30,7 @@ h1 {
 	font-size: var(--fontSize-xx-large);
   line-height: 1.15;
   margin-bottom: 0.5rem;
+
 }
 h2 {
   font-size: var(--fontSize-x-large);

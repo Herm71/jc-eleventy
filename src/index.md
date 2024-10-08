@@ -4,6 +4,7 @@ description: "Welcome"
 layout: "layouts/home.njk"
 templateEngineOverride: njk,md
 pageHome: "true"
+bodytag: page
 ---
 Hi. I'm Jason. This is my personal website. During business hours, [I develop websites for UC Santa Cruz](https://campusdirectory.ucsc.edu/cd_detail?uid=jchafin).
 
