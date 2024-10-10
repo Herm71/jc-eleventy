@@ -6,11 +6,12 @@
 	{% include "components/header.njk"%}
 	<a href="#skip" class="visually-hidden">Skip to main content</a>
 
-    <main {% if templateClass %} class="{{ templateClass }}"{% endif %}>
-		
+	<main {% if templateClass %} class="{{ templateClass }}"{% endif %}>
+						{% include "components/breadcrumbs.njk" %}
 		<article>
+				
 				{% if pageHome !== "true" %}
-				{% include "components/breadcrumbs.njk" %}
+
 				
 				<div class="article-header">
 				{% if title %}<h1 class="article-title">{{title}}</h1>{%endif%}

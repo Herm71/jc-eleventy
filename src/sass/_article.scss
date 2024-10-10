@@ -1,10 +1,11 @@
+.breadcrumb{
+	padding-top: var(--spacingUnit);
+}
 article {
-	margin: 0 auto;
-	max-width: var(--contentSize);
 
 	.article-header {
-		padding-top: 1rem;
-		margin-bottom: 1rem;
+		padding-top: var(--spacingUnit);
+		margin-bottom: var(--spacingUnit);
 		.article-title {
 			margin-bottom: 0;
 			padding-bottom: 0.25rem;

@@ -1,20 +1,31 @@
 html {
-	font-size:16px;
+	font-size:20px;
 	background-color: var(--color-bg);
+	box-sizing: border-box;
 }
+
+@media (max-width: 900px) {
+  html { font-size: 16px; }
+}
+
+@media (max-width: 400px) {
+  html { font-size: 14px; }
+}
+
 body {
 	
 	display: flex;
 	min-height: 100vh;
 	flex-direction:column;
-}
-html,
-body {
+	// align-items:center;
+	
 	padding: 0;
 	margin: 0 auto;
 	font-family: var(--fontFamily-sans-serif);
 	// font-size: var(--fontFamily-base);
 	color: var(--color-text);
+	font-weight:400;
+	line-height:1.6;
 }
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 .visually-hidden {
@@ -26,10 +37,12 @@ body {
 	white-space: nowrap;
 	width: 1px;
 }
-.header-wrap, .footer-bottom {
-	max-width: var(--contentSize);
-	margin: 0 auto;}
 
+.header-wrap, .breadcrumb, article, .footer-bottom  {
+	margin: 0 auto;
+	padding: 0 calc(var(--spacingUnit) * 2);
+	max-width: var(--contentSize);
+}
 
 p:last-child {
 	margin-bottom: 0;
@@ -39,24 +52,22 @@ p,
 img {
 	// max-width: 37.5em; /* 600px /16 */
 }
-p,
+
 .tmpl-post li {
 	line-height: 1.45;
 }
 
 main {
-	flex:1;
-	display:flex;
-	padding: 1rem;
+	// flex:1;
+	// display:flex;
+	// flex-direction:column;
+	// padding: 1rem;
+	width:100%;
+	margin:0 auto;
 	
 }
 main :first-child {
 	margin-top: 0;
-}
-main > article {
-	flex:1;
-	order:1;
-	padding: 0 1em;
 }
 
 header:after {
