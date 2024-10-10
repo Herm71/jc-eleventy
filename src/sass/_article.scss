@@ -1,8 +1,7 @@
-
+.breadcrumb{
+	padding-top: var(--spacingUnit);
+}
 article {
-	margin: 0 auto;
-	padding: 0 calc(var(--spacingUnit) * 2);
-	max-width: var(--contentSize);
 
 	.article-header {
 		padding-top: var(--spacingUnit);

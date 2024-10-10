@@ -9,7 +9,7 @@ html {
 }
 
 @media (max-width: 400px) {
-  html { font-size: 12px; }
+  html { font-size: 14px; }
 }
 
 body {
@@ -37,10 +37,12 @@ body {
 	white-space: nowrap;
 	width: 1px;
 }
-.header-wrap, .footer-bottom {
-	max-width: var(--contentSize);
-	margin: 0 auto;}
 
+.header-wrap, .breadcrumb, article, .footer-bottom  {
+	margin: 0 auto;
+	padding: 0 calc(var(--spacingUnit) * 2);
+	max-width: var(--contentSize);
+}
 
 p:last-child {
 	margin-bottom: 0;
