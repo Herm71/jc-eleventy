@@ -1,12 +1,12 @@
 
 article {
 	margin: 0 auto;
-	padding: 0 1em;
+	padding: 0 calc(var(--spacingUnit) * 2);
 	max-width: var(--contentSize);
 
 	.article-header {
-		padding-top: 1rem;
-		margin-bottom: 1rem;
+		padding-top: var(--spacingUnit);
+		margin-bottom: var(--spacingUnit);
 		.article-title {
 			margin-bottom: 0;
 			padding-bottom: 0.25rem;

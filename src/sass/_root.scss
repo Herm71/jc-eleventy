@@ -21,12 +21,13 @@
 		--fontFamily-sans-serif: "Roboto", Arial, Helvetica, sans-serif;
 		--fontFamily-serif: "Cardo", Georgia, Times, serif;
 		/* Font Sizes */
-		--fontSize-small: 0.9rem;
-		--fontSize-base: 1.25rem;
-		--fontSize-medium: 1.55rem;
-		--fontSize-large: 1.85rem;
-		--fontSize-x-large: 2.5rem;
-		--fontSize-xx-large: 3.27rem;
+		--fontSize-small: 0.8rem;
+		--fontSize-base: 1rem; /* 20px large screen*/
+		--fontSize-medium: 1.5rem;
+		--fontSize-large: 1.75rem;
+		--fontSize-x-large: 2rem;
+		--fontSize-xx-large: 3rem;
+		--spacingUnit: 1rem;
   }
   *, ::after, ::before {
     box-sizing: inherit;
