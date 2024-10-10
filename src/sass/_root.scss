@@ -28,6 +28,6 @@
 		--fontSize-x-large: 2.5rem;
 		--fontSize-xx-large: 3.27rem;
   }
-  * {
-    box-sizing: border-box;
+  *, ::after, ::before {
+    box-sizing: inherit;
   }
