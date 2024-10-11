@@ -1,6 +1,6 @@
 let darkModeState = false;
 
-const button = document.querySelector(".test-btn");
+const button = document.querySelector(".theme-switch-btn");
 
 // MediaQueryList object
 const useDark = window.matchMedia("(prefers-color-scheme: dark)");

@@ -4,7 +4,7 @@
 
   // src/assets/scripts/theme-switch.js
   var darkModeState = false;
-  var button = document.querySelector(".test-btn");
+  var button = document.querySelector(".theme-switch-btn");
   var useDark = window.matchMedia("(prefers-color-scheme: dark)");
   function toggleDarkMode(state) {
     document.documentElement.classList.toggle("dark-mode", state);

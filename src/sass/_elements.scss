@@ -1,10 +1,15 @@
 
-button
- {
+button {
 	background-color: var(--color-primary);
   border: none;
   color: var(--color-bg);
-	padding: var(--spacingUnit);
-	margin: var(--spacingUnit);
+	padding: calc(var(--spacingUnit) / 1);
+	margin: calc(var(--spacingUnit) / 1);
 	font-size: var(--fontSize-base);
+	&:hover {
+	background-color: var(--color-bg);
+	color: var(--color-primary);
+	border: 1px solid var(--color-primary);
+	
+	}
 }
