@@ -1,0 +1,34 @@
+[
+	{
+		"id": "default",
+		"name": "Light Theme",
+		"colors": {
+			"background": "#fff",
+			"backgroundOffset": "#eff0f3",
+			"backgroundInverse": "#0d0d0d",
+			"primary": "#8A193F",
+			"primaryOffset": "#ff1447",
+			"secondary": "#ff8e3c",
+			"text": "#2a2a2a",
+			"textOffset": "#818a91",
+			"headline": "#0d0d0d",
+			"buttonText": "#0d0d0d"
+		}
+	},
+	{
+		"id": "dark",
+		"name": "Dark Theme",
+		"colors": {
+			"background": "#0f0e17",
+			"backgroundOffset": "#0f0e17",
+			"backgroundInverse": "#fffffe",
+			"primary": "#f25f4c",
+			"primaryOffset": "#ff1447",
+			"secondary": "#e53170",
+			"text": "#a7a9be",
+			"textOffset": "#818a91",
+			"headline": "#fffffe",
+			"buttonText": "#fffffe"
+		}
+	}
+]
