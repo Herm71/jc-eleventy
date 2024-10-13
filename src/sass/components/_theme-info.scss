@@ -34,15 +34,20 @@
 		margin: 0 auto;
 		padding: 0;
 		display: flex;
-		flex-flow: row wrap;
+		flex-flow: column wrap;
+		@media screen and (min-width: 768px){
+			flex-flow: row wrap;
+		}
 		li {
 			display: flex;
 			flex-flow: row wrap;
 			justify-content: flex-start;
-			width:50%;
+			width:100%;
 			align-items:center;
-			margin-bottom: calc( var(--spacingUnit) / 1 );
 			padding: calc( var(--spacingUnit) / 1 ) 0;
+			@media screen and (min-width: 768px){
+				width:50%;
+			}
 			.theme-descriptor {
 				order: 1;
 				width: 100%;

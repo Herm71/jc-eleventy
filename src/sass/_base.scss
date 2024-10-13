@@ -1,15 +1,15 @@
 html {
-	font-size:20px;
+	font-size:14px;
 	background-color: var(--color-bg);
 	box-sizing: border-box;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 480px) {
   html { font-size: 16px; }
 }
 
-@media (max-width: 400px) {
-  html { font-size: 14px; }
+@media (min-width: 1280px) {
+  html { font-size: 20px; }
 }
 
 body {
@@ -41,8 +41,13 @@ body {
 .header-wrap, .breadcrumb, article, .footer-bottom  {
 	margin: 0 auto;
 	padding: 0 calc(var(--spacingUnit) * 2);
-	max-width: var(--contentSize);
+	max-width: 100%;
+
+	@media screen and (min-width: 768px){
+		max-width: var(--contentSize);
+	}
 }
+
 
 p:last-child {
 	margin-bottom: 0;
