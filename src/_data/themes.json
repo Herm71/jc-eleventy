@@ -4,7 +4,7 @@
 		"name": "Light Theme",
 		"colors": {
 			"background": "#fef6e4",
-			"backgroundOffset": "#fef6e4",
+			"backgroundOffset": "#f3d2c1",
 			"primary": "#f582ae",
 			"secondary": "#8bd3dd",
 			"tertiary": "#f3d2c1",
@@ -13,7 +13,7 @@
 			"textOffset": "#818a91",
 			"headline": "#001858",
 			"buttonText": "#001858",
-			"buttonBackground": "#f582ae",
+			"buttonBackground": "#8bd3dd",
 			"stroke": "#001858"
 		}
 	},
@@ -30,7 +30,7 @@
 			"text": "#a7a9be",
 			"textOffset": "#818a91",
 			"headline": "#fffffe",
-			"buttonText": "#fffffe",
+			"buttonText": "black",
 			"buttonBackground": "#ff8906",
 			"stroke": "black"
 		}

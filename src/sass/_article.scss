@@ -1,10 +1,7 @@
-.breadcrumb{
-	padding-top: var(--spacingUnit);
-}
 article {
-
+	padding-top: calc(var(--spacingUnit) * 1 );
+	padding-bottom: calc(var(--spacingUnit) * 1 );
 	.article-header {
-		padding-top: var(--spacingUnit);
 		margin-bottom: var(--spacingUnit);
 		.article-title {
 			margin-bottom: 0;
