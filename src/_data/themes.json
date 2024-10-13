@@ -3,20 +3,18 @@
 		"id": "default",
 		"name": "Light Theme",
 		"colors": {
-			"background": "#fff",
-			"backgroundOffset": "#eff0f3",
-			"backgroundInverse": "#0d0d0d",
-			"primary": "#8A193F",
-			"primaryOffset": "#ff1447",
-			"secondary": "#ff8e3c",
-			"tertiary": "#e53170",
-			"highlight": "#e53170",
-			"text": "#2a2a2a",
+			"background": "#fef6e4",
+			"backgroundOffset": "#fef6e4",
+			"primary": "#f582ae",
+			"secondary": "#8bd3dd",
+			"tertiary": "#f3d2c1",
+			"highlight": "#fef6e4",
+			"text": "#172c66",
 			"textOffset": "#818a91",
-			"headline": "#0d0d0d",
-			"buttonText": "#0d0d0d",
-			"buttonBackground": "#fff",
-			"stroke": "#fff"
+			"headline": "#001858",
+			"buttonText": "#001858",
+			"buttonBackground": "#f582ae",
+			"stroke": "#001858"
 		}
 	},
 	{
@@ -25,9 +23,7 @@
 		"colors": {
 			"background": "#0f0e17",
 			"backgroundOffset": "#0f0e17",
-			"backgroundInverse": "#fffffe",
 			"primary": "#b8c1ec",
-			"primaryOffset": "#a7a9be",
 			"secondary": "#f25f4c",
 			"tertiary": "#e53170",
 			"highlight": "#e53170",
