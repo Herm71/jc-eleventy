@@ -1,0 +1,117 @@
+.theme-switch-btn {
+	font-size: var(--fontSize-base);
+	padding: calc(var(--spacingUnit) / 4);
+	margin: calc(var(--spacingUnit) / 4);
+	color: var(--color-primary);
+	background: var(--color-bg-offset);
+	border: 1px solid var(--color-primary);
+	&:hover {
+		background: var(--color-primary);
+		color: var(--color-bg);
+		border: 1px solid var(--color-primary);
+	}
+}
+
+.theme-switch-btn {
+ &::before{
+		content: "Light";
+	}
+}
+
+.dark-mode .theme-switch-btn {
+ &::before{
+		content: "Dark";
+	}
+}
+
+.current-theme {
+	padding: 1rem;
+	p {
+	margin-left: 0.5rem;
+	font-weight: 700;
+	}
+	border: 1px solid var(--color-border);
+	.hues-wrap {
+		margin: 0 auto;
+		padding: 0;
+		display: flex;
+		flex-flow: column wrap;
+		@media screen and (min-width: 768px){
+			flex-flow: row wrap;
+		}
+		li {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: flex-start;
+			width:100%;
+			align-items:center;
+			padding: calc( var(--spacingUnit) / 1 ) 0;
+			@media screen and (min-width: 768px){
+				width:50%;
+			}
+			.theme-descriptor {
+				order: 1;
+				width: 100%;
+				font-weight:700;
+				margin-bottom: calc( var(--spacingUnit) / 2 );
+
+			}
+			.theme-swatch {
+				order: 2;
+				width: calc( var(--spacingUnit) * 2 );
+				height: calc( var(--spacingUnit) * 2 );
+				border: 1px solid var(--color-border);
+				border-radius: 50%;
+
+				
+			}
+			.theme-variable {
+				order: 3;
+				margin-left: calc( var(--spacingUnit) / 2 );
+			}
+			.background {
+				background-color: var(--color-bg);
+			}
+			.background-offset {
+				background-color: var(--color-bg-offset);
+			}
+			.background-inverse {
+				background-color: var(--color-bg-inverse);
+			}
+			.color-primary {
+				background-color: var(--color-primary);
+			}
+			.color-primary-offset {
+				background-color: var(--color-primary-offset);
+			}
+			.color-secondary {
+				background-color: var(--color-secondary);
+			}
+			.color-tertiary {
+				background-color: var(--color-tertiary);
+			}
+			.color-highlight {
+				background-color: var(--color-highlight);
+			}
+			.color-text {
+				background-color: var(--color-text);
+			}
+			.color-text-offset {
+				background-color: var(--color-text-offset);
+			}
+			.color-headline {
+				background-color: var(--color-headline);
+			}
+			.color-button-text {
+				background-color: var(--color-button-text);
+			}
+			.color-button-bg {
+				background-color: var(--color-button-bg);
+			}
+			.color-border {
+				background-color: var(--color-border);
+			}
+		}	
+		
+	}
+}

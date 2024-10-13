@@ -3,24 +3,20 @@
   console.log("loaded properly");
 
   // src/assets/scripts/theme-switch.js
-  function isLight() {
-    return localStorage.getItem("light-mode");
+  var darkModeState = false;
+  var button = document.querySelector(".theme-switch-btn");
+  var useDark = window.matchMedia("(prefers-color-scheme: dark)");
+  function toggleDarkMode(state) {
+    document.documentElement.classList.toggle("dark-mode", state);
   }
-  function toggleRootClass() {
-    document.querySelector(":root").classList.toggle("light");
+  function setDarkModeLocalStorage(state) {
+    localStorage.setItem("dark-mode", state);
   }
-  function toggleLocalStorageItem() {
-    if (isLight()) {
-      localStorage.removeItem("light-mode");
-    } else {
-      localStorage.setItem("light-mode", "set");
-    }
-  }
-  if (isLight()) {
-    toggleRootClass();
-  }
-  document.querySelector(".theme-icon").addEventListener("click", () => {
-    toggleLocalStorageItem();
-    toggleRootClass();
+  toggleDarkMode(localStorage.getItem("dark-mode") == "true");
+  useDark.addListener((evt) => toggleDarkMode(evt.matches));
+  button.addEventListener("click", () => {
+    darkModeState = !darkModeState;
+    toggleDarkMode(darkModeState);
+    setDarkModeLocalStorage(darkModeState);
   });
 })();

@@ -1,24 +1,31 @@
-function isLight() {
-  return localStorage.getItem("light-mode");
+let darkModeState = false;
+
+const button = document.querySelector(".theme-switch-btn");
+
+// MediaQueryList object
+const useDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+// toggles "dark-mode" class
+function toggleDarkMode(state) {
+  document.documentElement.classList.toggle("dark-mode", state);
+}
+// Sets localStorage state
+function setDarkModeLocalStorage(state) {
+  localStorage.setItem("dark-mode", state);
 }
 
-function toggleRootClass() {
-  document.querySelector(":root").classList.toggle("light");
-}
+// Initial setting
+toggleDarkMode(localStorage.getItem("dark-mode") == "true");
 
-function toggleLocalStorageItem() {
-  if (isLight()) {
-    localStorage.removeItem("light-mode");
-  } else {
-    localStorage.setItem("light-mode", "set");
-  }
-}
+// Listen for changes in the OS settings.
+// Note: the arrow function shorthand works only in modern browsers,
+// for older browsers define the function using the function keyword.
+useDark.addListener((evt) => toggleDarkMode(evt.matches));
 
-if (isLight()) {
-  toggleRootClass();
-}
+// Toggles the "dark-mode" class on click and sets localStorage state
+button.addEventListener("click", () => {
+  darkModeState = !darkModeState;
 
-document.querySelector(".theme-icon").addEventListener("click", () => {
-  toggleLocalStorageItem();
-  toggleRootClass();
+  toggleDarkMode(darkModeState);
+  setDarkModeLocalStorage(darkModeState);
 });

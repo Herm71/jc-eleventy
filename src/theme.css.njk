@@ -1,0 +1,56 @@
+---
+permalink: '/css/theme.css'
+excludeFromSitemap: true
+---
+/*
+  this macro will transform the colors in the JSON data
+  into custom properties to use in CSS.
+*/
+{% macro colorscheme(colors) %}
+    --color-bg: {{ colors.background }};
+    --color-bg-offset: {{ colors.backgroundOffset }};
+    --color-primary: {{ colors.primary }};
+    --color-secondary: {{ colors.secondary }};
+    --color-tertiary: {{ colors.tertiary }};
+    --color-highlight: {{ colors.highlight }};
+    --color-text: {{ colors.text }};
+    --color-text-offset: {{ colors.textOffset }};
+    --color-headline: {{ colors.headline }};
+    --color-button-text: {{ colors.buttonText }};
+    --color-button-bg: {{ colors.buttonBackground }};
+    --color-border: {{ colors.stroke }};
+{% endmacro %}
+
+/* 
+  get the "default" light and dark color schemes
+  to use if no other theme was selected
+*/
+{%- set default = themes|findById('default') -%}
+{%- set dark = themes|findById('dark') -%}
+
+/*
+  the basic setup will just use the light scheme
+*/
+:root {
+	{{ colorscheme(default.colors) }}
+}
+/*
+  if the user has a system preference for dark schemes,
+  we'll use the dark theme as default instead
+*/
+
+.dark-mode {
+	{{ colorscheme(dark.colors) }}
+}
+
+
+/*
+  finally, each theme is selectable through a 
+  data-attribute on the document. E.g:
+  <html data-theme="bowser">
+*/
+{% for theme in themes %}
+[data-theme='{{ theme.id }}'] {
+    {{ colorscheme(theme.colors) }}
+}
+{% endfor %}
