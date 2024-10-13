@@ -1,8 +1,8 @@
 
 button {
-	background-color: var(--color-primary);
-  border: 1px solid var(--color-primary);
-  color: var(--color-bg);
+	background-color: var(--color-button-bg);
+  border: 1px solid var(--color-button-bg);
+  color: var(--color-button-text);
 	padding: calc(var(--spacingUnit) / 1.5);
 	font-size: var(--fontSize-base);
 	&:hover {

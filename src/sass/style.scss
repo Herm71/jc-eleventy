@@ -1,19 +1,30 @@
+// Utilities
+//===============================
+@use "utilities/mixins";
+
+// Base
+//===============================
 @use "root";
 @use "base";
-@use "elements";
-@use "theme-info";
-@use "links";
-@use "typography";
-@use "code";
 @use "header";
-@use "nav";
-@use "breadcrumbs";
 @use "article";
-@use "images";
-@use "postlist";
-@use "tags";
-@use "warning";
-@use "markdown";
 @use "footer";
-@use "links-social";
 
+// Elements
+//===============================
+@use "elements/elements";
+@use "elements/code";
+@use "elements/links";
+@use "elements/typography";
+@use "elements/images";
+
+// Components
+//===============================
+@use "components/nav";
+@use "components/breadcrumbs";
+@use "components/warning";
+@use "components/links-social";
+@use "components/markdown";
+@use "components/postlist";
+@use "components/theme-info";
+@use "components/tags";

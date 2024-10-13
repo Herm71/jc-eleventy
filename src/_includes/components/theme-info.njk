@@ -44,6 +44,20 @@
 			<div class="theme-variable"><code>var(--color-secondary)</code></div>
 		</li>
 		<li>
+			<div class="theme-descriptor">Tertiary:
+			</div>
+			<div class="theme-swatch color-tertiary">
+			</div>
+			<div class="theme-variable"><code>var(--color-tertiary)</code></div>
+		</li>
+		<li>
+			<div class="theme-descriptor">Highlight:
+			</div>
+			<div class="theme-swatch color-highlight">
+			</div>
+			<div class="theme-variable"><code>var(--color-highlight)</code></div>
+		</li>
+		<li>
 			<div class="theme-descriptor">Text:
 			</div>
 			<div class="theme-swatch color-text">
@@ -67,23 +81,32 @@
 		<li>
 			<div class="theme-descriptor">Border:
 			</div>
-			<div class="theme-swatch background-inverse">
+			<div class="theme-swatch color-border">
 			</div>
-			<div class="theme-variable"><code>var(--color-bg-inverse)</code></div>
+			<div class="theme-variable"><code>var(--color-border)</code></div>
 		</li>
 		<li>
 			<div class="theme-descriptor">Button text:
 			</div>
-			<div class="theme-swatch color-text">
+			<div class="theme-swatch color-button-text">
 			</div>
-			<div class="theme-variable"><code>var(--color-text)</code></div>
+			<div class="theme-variable"><code>var(--color-button-text)</code></div>
 		</li>
 		<li>
 			<div class="theme-descriptor">Button background:
 			</div>
-			<div class="theme-swatch color-secondary">
+			<div class="theme-swatch color-button-bg">
 			</div>
-			<div class="theme-variable"><code>var(--color-secondary)</code></div>
+			<div class="theme-variable"><code>var(--color-button-bg)</code></div>
 		</li>
 	</ul>
 </div>
+<h3>Elements</h3>
+<button>button</button>
+<style>
+.div-with-border {
+		width: 100%;
+		border: 1px solid var(--color-border)
+	}
+</style>
+<div class="div-with-border">Div with a border<code>--color-border</code></div>

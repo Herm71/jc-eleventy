@@ -9,10 +9,14 @@
 			"primary": "#8A193F",
 			"primaryOffset": "#ff1447",
 			"secondary": "#ff8e3c",
+			"tertiary": "#e53170",
+			"highlight": "#e53170",
 			"text": "#2a2a2a",
 			"textOffset": "#818a91",
 			"headline": "#0d0d0d",
-			"buttonText": "#0d0d0d"
+			"buttonText": "#0d0d0d",
+			"buttonBackground": "#fff",
+			"stroke": "#fff"
 		}
 	},
 	{
@@ -22,13 +26,17 @@
 			"background": "#0f0e17",
 			"backgroundOffset": "#0f0e17",
 			"backgroundInverse": "#fffffe",
-			"primary": "#f25f4c",
-			"primaryOffset": "#ff1447",
-			"secondary": "#e53170",
+			"primary": "#b8c1ec",
+			"primaryOffset": "#a7a9be",
+			"secondary": "#f25f4c",
+			"tertiary": "#e53170",
+			"highlight": "#e53170",
 			"text": "#a7a9be",
 			"textOffset": "#818a91",
 			"headline": "#fffffe",
-			"buttonText": "#fffffe"
+			"buttonText": "#fffffe",
+			"buttonBackground": "#ff8906",
+			"stroke": "black"
 		}
 	}
 ]

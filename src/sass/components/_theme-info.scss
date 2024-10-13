@@ -29,7 +29,7 @@
 	margin-left: 0.5rem;
 	font-weight: 700;
 	}
-	border: 1px solid var(--color-bg-inverse);
+	border: 1px solid var(--color-border);
 	.hues-wrap {
 		margin: 0 auto;
 		padding: 0;
@@ -41,8 +41,8 @@
 			justify-content: flex-start;
 			width:50%;
 			align-items:center;
-			margin-bottom: 1rem;
-			padding: 1rem 0;
+			margin-bottom: calc( var(--spacingUnit) / 1 );
+			padding: calc( var(--spacingUnit) / 1 ) 0;
 			.theme-descriptor {
 				order: 1;
 				width: 100%;
@@ -52,9 +52,9 @@
 			}
 			.theme-swatch {
 				order: 2;
-				width: 2rem;
-				height: 2rem;
-				border: 1px solid var(--color-bg-inverse);
+				width: calc( var(--spacingUnit) * 2 );
+				height: calc( var(--spacingUnit) * 2 );
+				border: 1px solid var(--color-border);
 				border-radius: 50%;
 
 				
@@ -81,6 +81,12 @@
 			.color-secondary {
 				background-color: var(--color-secondary);
 			}
+			.color-tertiary {
+				background-color: var(--color-tertiary);
+			}
+			.color-highlight {
+				background-color: var(--color-highlight);
+			}
 			.color-text {
 				background-color: var(--color-text);
 			}
@@ -93,8 +99,11 @@
 			.color-button-text {
 				background-color: var(--color-button-text);
 			}
+			.color-button-bg {
+				background-color: var(--color-button-bg);
+			}
 			.color-border {
-				background-color: var(--color-bg-inverse);
+				background-color: var(--color-border);
 			}
 		}	
 		
