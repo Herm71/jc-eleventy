@@ -8,6 +8,8 @@
 		"path": "/feeds/feed.xml",
 		"id": "https://jasonchafin.com/"
 	},
+	"language": "en",
+	"locale": "en_US",
 	"jsonfeed": {
 		"path": "/feeds/feed.json",
 		"url": "https://jasonchafin.com/feeds/feed.json"
