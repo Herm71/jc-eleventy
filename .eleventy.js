@@ -7,7 +7,7 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 module.exports = function (eleventyConfig) {
   // Passthrough Copy folders
   eleventyConfig.addPassthroughCopy("./src/css");
-	eleventyConfig.addPassthroughCopy("./src/js");
+  eleventyConfig.addPassthroughCopy("./src/js");
   eleventyConfig.addPassthroughCopy({
     "./src/assets/hidden": "/",
     "./src/assets/favicons": "/favicons",
@@ -41,12 +41,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
-eleventyConfig.addFilter("findById", function (array, id) {
-  return array.find((i) => i.id === id);
-});
-	eleventyConfig.addFilter("decorate", function(text){
-		return "***"+text+"***";
-	});
+  eleventyConfig.addFilter("findById", function (array, id) {
+    return array.find((i) => i.id === id);
+  });
+  eleventyConfig.addFilter("decorate", function (text) {
+    return "***" + text + "***";
+  });
   // Filter to retrieve a random blog post
   eleventyConfig.addFilter("randomPost", (arr) => {
     arr.sort(() => {
