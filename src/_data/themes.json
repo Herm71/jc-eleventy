@@ -4,7 +4,7 @@
 		"name": "Light Theme",
 		"colors": {
 			"background": "#fef6e4",
-			"backgroundOffset": "#f3d2c1",
+			"backgroundOffset": "#fef6e4",
 			"primary": "#f582ae",
 			"secondary": "#8bd3dd",
 			"tertiary": "#f3d2c1",
