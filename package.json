@@ -9,11 +9,11 @@
     "build:scripts": "esbuild \"./src/assets/scripts/main.js\" --target=es2020 --bundle --outfile=\"./src/js/main.bundle.js\"",
     "watch:eleventy": "eleventy --serve",
     "build:sass": "sass src/sass:src/css",
+		"build:version": "gen-build-info src/_data",
     "build:eleventy": "eleventy",
-    "start": "npm-run-all build:sass build:scripts --parallel watch:*",
-    "build": "npm-run-all build:sass build:scripts --parallel build:*",
-		"release": "standard-version",
-		"version": "gen-build-info src/_data"
+		"start": "npm-run-all build:sass build:scripts build:version --parallel watch:*",
+		"build": "npm-run-all build:sass build:scripts build:version --parallel build:*",
+		"release": "standard-version"
   },
   "author": "Jason <jchafin@ucsc.edu>",
   "license": "ISC",
