@@ -1,15 +1,15 @@
 <head>
 		{% include "components/head-gtm.njk"%}
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if pageHome %}{{ metadata.title}} | {{ metadata.description }}{% else %}{{ metadata.title}} | {{ title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>{% if pageHome %}{{ metadata.title}} | {{ metadata.description }}{% else %}{{ metadata.title}} | {{ title }}{% endif %}</title>
     <meta name="description" content="{{ metadata.description }}">
 		{% if robots == "noindex" %}
 			<meta name="robots" content="noindex, nofollow" />
 		{% else %}
 		<meta name="robots" content="index, follow" />
 		{% endif %}
-		
+		{% include "components/csp.njk"%}   
 		<meta property="og:site_name" content="{{ metadata.title }}">
 		<meta property="og:title" content="{{ title  | escape }}"/>
   	<meta property="og:url" content="https://jasonchafin.com{{ page.url | escape }}" />
