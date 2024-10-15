@@ -6,31 +6,18 @@ header {
 	display:flex;
 	flex-direction:row;
 	align-items:center;
+	min-height:3.5rem;
+		
 	.home, .nav {
-	 font-size: var(--fontSize-medium); 
+		font-size: var(--fontSize-medium); 
 	}
 	.home {
-			margin: 0 0 0;
-			font-family: "Roboto", sans-serif;
+			margin: 0;
+			font-family: var(--fontFamily-sans-serif);
+
 		}
 	.home :link:not(:hover) {
 		text-decoration: none;
 	}
-	/* Nav */
-	.nav {
-		padding: 0;
-		list-style: none;
-		margin: 0 0 0 auto;
-		text-align:right;
-	}
-	.nav-item {
-		display: inline-block;
-		margin-right: calc( var(--spacingUnit) / 2 );
-	}
-	.nav-item a[href]:not(:hover) {
-		text-decoration: none;
-	}
-	.nav-item-active {
-		font-weight: 700;
-	}
+
 }
