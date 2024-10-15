@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.9](https://github.com/Herm71/jc-eleventy/compare/v1.0.8...v1.0.9) (2024-10-15)
+
+
+### Features
+
+* Implement default RSS, ATOM, JSON feeds ([#17](https://github.com/Herm71/jc-eleventy/issues/17)) ([a0077cc](https://github.com/Herm71/jc-eleventy/commit/a0077cc11ac1d96773cdebfedf1701b95d6baa1d)), closes [#8](https://github.com/Herm71/jc-eleventy/issues/8) [#8](https://github.com/Herm71/jc-eleventy/issues/8)
+
 ### [1.0.8](https://github.com/Herm71/jc-eleventy/compare/v1.0.7...v1.0.8) (2024-10-13)
 
 
