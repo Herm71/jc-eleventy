@@ -5,12 +5,14 @@
 	"feed": {
 		"subtitle": "Digital paper.",
 		"filename": "feed.xml",
-		"path": "/feed/feed.xml",
+		"path": "/feeds/feed.xml",
 		"id": "https://jasonchafin.com/"
 	},
+	"language": "en",
+	"locale": "en_US",
 	"jsonfeed": {
-		"path": "/feed/feed.json",
-		"url": "https://jasonchafin.com/feed/feed.json"
+		"path": "/feeds/feed.json",
+		"url": "https://jasonchafin.com/feeds/feed.json"
 	},
 	"author": {
 		"name": "Jason Chafin",

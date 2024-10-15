@@ -1,9 +1,9 @@
 const { DateTime } = require("luxon");
-// const pluginRss = require("@11ty/eleventy-plugin-rss");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-// import filters from "./config/filters.js"
+
 module.exports = function (eleventyConfig) {
   // Passthrough Copy folders
   eleventyConfig.addPassthroughCopy("./src/css");
@@ -28,7 +28,7 @@ module.exports = function (eleventyConfig) {
   // Official Plugins
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  // eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
 
   // Filters
