@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.10](https://github.com/Herm71/jc-eleventy/compare/v1.0.9...v1.0.10) (2024-10-15)
+
+
+### Features
+
+* add CSP, General Build Info, improve build scripts ([#19](https://github.com/Herm71/jc-eleventy/issues/19)) ([f0715f5](https://github.com/Herm71/jc-eleventy/commit/f0715f534a05b0a482412097b7201a6ed828669d)), closes [#18](https://github.com/Herm71/jc-eleventy/issues/18) [#18](https://github.com/Herm71/jc-eleventy/issues/18)
+
 ### [1.0.9](https://github.com/Herm71/jc-eleventy/compare/v1.0.8...v1.0.9) (2024-10-15)
 
 
