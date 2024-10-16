@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.12](https://github.com/Herm71/jc-eleventy/compare/v1.0.11...v1.0.12) (2024-10-16)
+
+
+### Bug Fixes
+
+* Content edits ([#21](https://github.com/Herm71/jc-eleventy/issues/21)) ([c03313e](https://github.com/Herm71/jc-eleventy/commit/c03313e697bd775e77e539918179395bfc077482))
+
 ### [1.0.11](https://github.com/Herm71/jc-eleventy/compare/v1.0.10...v1.0.11) (2024-10-15)
 
 
