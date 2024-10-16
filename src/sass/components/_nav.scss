@@ -11,6 +11,7 @@
 	}
 	.nav-item a[href]:not(:hover) {
 		text-decoration: none;
+		border-bottom:none;
 	}
 	.nav-item-active {
 		font-weight: 700;

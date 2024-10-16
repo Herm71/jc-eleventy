@@ -12,8 +12,8 @@
 			"text": "#172c66",
 			"textOffset": "#818a91",
 			"headline": "#001858",
-			"buttonText": "#001858",
-			"buttonBackground": "#8bd3dd",
+			"buttonText": "#f582ae",
+			"buttonBackground": "#001858",
 			"stroke": "#001858"
 		}
 	},
@@ -23,15 +23,15 @@
 		"colors": {
 			"background": "#0f0e17",
 			"backgroundOffset": "#0f0e17",
-			"primary": "#b8c1ec",
+			"primary": "#ff8906",
 			"secondary": "#f25f4c",
-			"tertiary": "#e53170",
+			"tertiary": "#b8c1ec",
 			"highlight": "#e53170",
-			"text": "#a7a9be",
+			"text": "#fffffe",
 			"textOffset": "#818a91",
 			"headline": "#fffffe",
-			"buttonText": "black",
-			"buttonBackground": "#ff8906",
+			"buttonText": "#ff8906",
+			"buttonBackground": "black",
 			"stroke": "black"
 		}
 	}

@@ -1,10 +1,11 @@
 
 button {
 	background-color: var(--color-button-bg);
-  border: 1px solid var(--color-button-bg);
+  border: 1px solid var(--color-button-text);
   color: var(--color-button-text);
 	padding: calc(var(--spacingUnit) / 1.5);
 	font-size: var(--fontSize-base);
+	cursor: pointer;
 	&:hover {
 	background-color: var(--color-button-text);
 	border: 1px solid var(--color-border);
