@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.13](https://github.com/Herm71/jc-eleventy/compare/v1.0.12...v1.0.13) (2024-10-16)
+
+
+### Features
+
+* Rework SVG generation, adjust tags ([#26](https://github.com/Herm71/jc-eleventy/issues/26)) ([ac90d7f](https://github.com/Herm71/jc-eleventy/commit/ac90d7f04fdc74826e2cccffdc92591610873fbb)), closes [#23](https://github.com/Herm71/jc-eleventy/issues/23) [#23](https://github.com/Herm71/jc-eleventy/issues/23)
+
 ### [1.0.12](https://github.com/Herm71/jc-eleventy/compare/v1.0.11...v1.0.12) (2024-10-16)
 
 
