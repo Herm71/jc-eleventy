@@ -8,16 +8,17 @@ header {
 	align-items:center;
 	min-height:3.5rem;
 		
-	.home, .nav {
+	.site-name, .nav {
 		font-size: var(--fontSize-medium); 
 	}
-	.home {
+	.site-name {
 			margin: 0;
 			font-family: var(--fontFamily-sans-serif);
 
 		}
-	.home :link:not(:hover) {
+	.site-name :link:not(:hover) {
 		text-decoration: none;
+		border-bottom:none;
 	}
 
 }
