@@ -43,7 +43,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
   eleventyConfig.addLiquidShortcode("image", imageShortcode);
   eleventyConfig.addJavaScriptFunction("image", imageShortcode);
-  // SVGs
+  // SVGs alternative
   eleventyConfig.addNunjucksAsyncShortcode("svgIcon", async (filename) => {
     const metadata = await Image(`./src/assets/icons/${filename}`, {
       formats: ["svg"],

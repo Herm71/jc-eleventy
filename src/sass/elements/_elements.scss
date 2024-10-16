@@ -16,3 +16,17 @@ button {
 hr {
 	border-top:  0.5px solid var(--color-border);
 }
+
+//SVGs
+.icon {
+	fill: var(--color-text);
+	&:hover {
+		fill:var(--color-primary);
+	}
+}
+.dark-mode .icon {
+	fill: var(--color-primary);
+	&:hover {
+		fill:var(--color-text);
+	}
+}
