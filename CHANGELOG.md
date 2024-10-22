@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.14](https://github.com/Herm71/jc-eleventy/compare/v1.0.13...v1.0.14) (2024-10-22)
+
+
+### Features
+
+* header mobile nav work ([#27](https://github.com/Herm71/jc-eleventy/issues/27)) ([2ad45a3](https://github.com/Herm71/jc-eleventy/commit/2ad45a379e507c27fbef3fbd0cada59c8ff369ef))
+
 ### [1.0.13](https://github.com/Herm71/jc-eleventy/compare/v1.0.12...v1.0.13) (2024-10-16)
 
 
