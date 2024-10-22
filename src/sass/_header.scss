@@ -4,9 +4,10 @@ header {
 }
 .header-wrap {
 	display:flex;
-	flex-direction:row;
+	flex-wrap:wrap;
 	align-items:center;
-	min-height:3.5rem;
+
+	margin:1rem auto;
 		
 	.site-name, .nav {
 		font-size: var(--fontSize-medium); 
@@ -14,11 +15,27 @@ header {
 	.site-name {
 			margin: 0;
 			font-family: var(--fontFamily-sans-serif);
+			order: 1;
+			justify-self: left;
 
 		}
 	.site-name :link:not(:hover) {
 		text-decoration: none;
 		border-bottom:none;
+	}
+	.nav-toggle {
+		border:none;
+		margin-left:1rem;
+		background:none;
+		order:3;
+		@media (min-width: 480px) {
+			display:none;
+		}
+		.icon {
+			height:1.5rem;
+			width: auto;
+			stroke: var(--color-text);
+		}
 	}
 
 }

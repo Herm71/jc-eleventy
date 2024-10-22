@@ -2,15 +2,21 @@
 	{
 		"site": "LinkedIn",
 		"url": "https://www.linkedin.com/in/jasonchafin/",
-		"icon": "linkedin.svg"
+		"icon": "linkedin"
 	},
 	{
 		"site": "GitHub",
 		"url": "https://github.com/Herm71",
-		"icon": "github.svg"
+		"icon": "github"
+	},
+	{
+		"site": "Mastodon",
+		"url": "https://mastodon.social/@Herm71",
+		"icon": "mastodon"
 	},
 	{
 		"site": "Brain Droppings",
-		"url": "https://herm-garden.netlify.app"
+		"url": "https://herm-garden.netlify.app",
+		"icon": "flower"
 	}
 ]

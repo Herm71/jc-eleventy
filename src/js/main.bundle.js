@@ -19,4 +19,9 @@
     toggleDarkMode(darkModeState);
     setDarkModeLocalStorage(darkModeState);
   });
+
+  // src/assets/scripts/toggle.js
+  document.querySelector(".nav-toggle").addEventListener("click", function() {
+    document.querySelector(".nav").classList.toggle("active");
+  });
 })();

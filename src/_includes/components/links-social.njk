@@ -1,11 +1,12 @@
-{# <ul class="links-social">
-{% for item in links %}
-	<li>{% include "components/assets/icons/{{item.icon}}"%}<a href="{{item.url | url }}" title="{{item.site}}">{{item.site}}</a></li>
-{% endfor %} #}
-{# </ul> I'm  on #Mastodon! Come follow me at #}
 <ul class="links-social">
 	<li><a href="https://www.linkedin.com/in/jasonchafin/" title="LinkedIn">{{ '/src/assets/icons/linkedin.svg' | svgContents("icon") | safe}}</a></li>
 	<li><a href="https://github.com/Herm71" title="GitHub">{{ '/src/assets/icons/github.svg' | svgContents("icon") | safe}}</a></li>
 	<li><a href="https://mastodon.social/@Herm71" title="@Herm71@mastodon.social">{{ '/src/assets/icons/mastodon.svg' | svgContents("icon") | safe}}</a></li>
 	<li><a href="https://herm-garden.netlify.app/" title="Digital Garden">{{ '/src/assets/icons/flower.svg' | svgContents("icon") | safe}}</a></li>
 </ul>
+
+{# <ul class="links-social">
+{% for item in links %}
+	<li><a href="{{item.url}}" title="{{item.site}}">{{ '/src/assets/icons/'{{icon}}'.svg' | svgContents("icon") | safe}}</a></li>
+{% endfor %} 
+ </ul> #}
