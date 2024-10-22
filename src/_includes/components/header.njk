@@ -14,6 +14,6 @@
       	  <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       	{%- endfor %}
       	</ul>
-				<a class="theme-switch-btn" aria-label="Theme Switch">{{ '/src/assets/icons/paintbrush.svg' | svgContents("icon") | safe}}</a>
+				<a class="theme-switch-btn" aria-label="Theme Switch" title="Switch theme">{{ '/src/assets/icons/paintbrush.svg' | svgContents("icon") | safe}}</a>
 			</div>
     </header>

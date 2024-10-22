@@ -3,7 +3,7 @@
 	// padding: calc(var(--spacingUnit) / 4);
 	margin-left:auto;
 	// background: var(--color-button-text);
-	color: var(--color-button-bg);
+	color: var(--color-button-text);
 	border: none;
 	order:2;
 	@media (min-width: 480px) {
@@ -11,8 +11,9 @@
 		margin-left: 0;
 	}
 	&:hover {
-		background: var(--color-button-bg);
+		background: none;
 		color: var(--color-button-text);
+		cursor: pointer;
 
 	}
 }
