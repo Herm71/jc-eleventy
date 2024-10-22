@@ -6,7 +6,7 @@
 					<p class="site-name"><a href="{{ '/' | url }}">{{ metadata.title }}</a></p>
 					{%endif%}
       	{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      	
+
 				<a href="#" class="nav-toggle">{{ '/src/assets/icons/menu.svg' | svgContents("icon") | safe}}</a>
 
 				<ul class="nav">
@@ -14,6 +14,6 @@
       	  <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       	{%- endfor %}
       	</ul>
-				{# <button class="theme-switch-btn" title="Current Theme" type="button" value="button" aria-label="Theme Switch"></button> #}
+				<a class="theme-switch-btn" aria-label="Theme Switch">{{ '/src/assets/icons/paintbrush.svg' | svgContents("icon") | safe}}</a>
 			</div>
     </header>

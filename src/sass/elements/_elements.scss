@@ -20,6 +20,9 @@ hr {
 //SVGs
 .icon {
 	fill: var(--color-text);
+	height: 1.5rem;
+	width:auto;
+	border:none;
 	&:hover {
 		fill:var(--color-primary);
 	}
