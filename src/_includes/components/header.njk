@@ -7,7 +7,7 @@
 					{%endif%}
       	{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 
-				<a href="#" class="nav-toggle">{{ '/src/assets/icons/menu.svg' | svgContents("icon") | safe}}</a>
+				<a aria-label="mobile navigaton toggle" href="#" class="nav-toggle">{{ '/src/assets/icons/menu.svg' | svgContents("icon") | safe}}</a>
 
 				<ul class="nav">
       	{%- for entry in collections.all | eleventyNavigation %}
