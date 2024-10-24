@@ -7,13 +7,13 @@
 					{%endif%}
       	{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 
-				<a href="#" class="nav-toggle">{{ '/src/assets/icons/menu.svg' | svgContents("icon") | safe}}</a>
+				<a aria-label="mobile navigaton toggle" href="#" class="nav-toggle">{{ '/src/assets/icons/menu.svg' | svgContents("icon") | safe}}</a>
 
 				<ul class="nav">
       	{%- for entry in collections.all | eleventyNavigation %}
       	  <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       	{%- endfor %}
       	</ul>
-				<a class="theme-switch-btn" aria-label="Theme Switch" title="Switch theme">{{ '/src/assets/icons/paintbrush.svg' | svgContents("icon") | safe}}</a>
+				<a class="theme-switch-btn" aria-label="Theme switch button" title="Switch theme">{{ '/src/assets/icons/paintbrush.svg' | svgContents("icon") | safe}}</a>
 			</div>
     </header>
