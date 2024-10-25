@@ -2,7 +2,7 @@ article {
 	padding-top: calc(var(--spacingUnit) * 1 );
 	padding-bottom: calc(var(--spacingUnit) * 1 );
 	.article-header {
-		margin-bottom: var(--spacingUnit);
+		margin-bottom: calc(var(--spacingUnit) * 0.5 );
 		.article-title {
 			margin-bottom: 0;
 			padding-bottom: 0.25rem;
@@ -12,23 +12,45 @@ article {
 		}
 		.article-subtitle {
 			text-align:center;
-			margin: 1rem 0 0;
+			margin: 0.5rem 0 0;
 			font-style:italic;
 		}
 	}
 	.article-meta, .article-tags {
 		color: var(--color-text-offset);
+
+	}
+	.article-meta {
+		padding: 0 0 0.25rem;
+		margin: 0 auto 1rem;
+		text-align:left;
+		border-bottom: 1px solid var(--color-border);
+
 		.article-date {
 			margin-bottom:0;
+			font-size: var(--fontSize-small);
 		}
-}
-	.article-meta {
-		padding: 0 0 1rem;
-		margin: 0 auto;
-		text-align:center;
-		
-		.article-tags {
-			background: transparent;
+	}
+	.article-tags {
+			padding-top: calc(var(--spacingUnit) * 0.5 );
+			padding-bottom: var(--spacingUnit);
+			border-top: 1px solid var(--color-border);
+	}
+	.article-next-previous {
+		display:flex;
+		justify-content:space-between;
+		color: var(--color-text-offset);
+		list-style:none;
+		margin:0;
+		padding:0;
+		li {
+			display:inline-block;
+		}
+		.article-next {
+			order:2;
+		}
+		.article-previous {
+			order:1;
 		}
 	}
 }

@@ -5,6 +5,7 @@
   }
   .postlist-item {
     counter-increment: start-from -1;
+		padding-bottom: 1rem;
   }
   .postlist-item:before {
     display: inline-block;
