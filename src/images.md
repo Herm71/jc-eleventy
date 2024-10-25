@@ -10,7 +10,7 @@ figCaption: "This is a caption"
 
 **class:** `.image-align-center`
 
-<figure> {%image "./src/assets/images/lucy-box.jpg", "Lucy in a box", "image-align-center", "(min-width: 30em) 50vw, 100vw"%}{%if figCaption %}<figcaption>{{figCaption}}</figcaption>{%endif %}</figure>
+{%image "./src/assets/images/lucy-box.jpg", "Lucy in a box", "image-align-center", "(min-width: 50rem) 50vw, 100vw"%}
 
 ### Aligned Left
 
