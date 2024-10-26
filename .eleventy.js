@@ -23,7 +23,22 @@ module.exports = function (eleventyConfig) {
 
   // Custom Plugins
   eleventyConfig.addPlugin(require("./config/eleventy.config.images.js"));
-  eleventyConfig.addPlugin(require("./config/eleventy.config.drafts.js"));
+  // eleventyConfig.addPlugin(require("./config/eleventy.config.drafts.js"));
+
+  // allow for non-indexed and included in collection drafts
+  eleventyConfig.addGlobalData(
+    "eleventyComputed.eleventyExcludeFromCollections",
+    function () {
+      return (data) => {
+        // Always exclude from non-watch/serve builds
+        if (data.draft) {
+          return true;
+        }
+
+        return data.eleventyExcludeFromCollections;
+      };
+    }
+  );
 
   // Official Plugins
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);

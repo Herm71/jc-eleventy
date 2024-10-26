@@ -6,6 +6,7 @@ date: 2024-09-25
 tags: [web development, javascript]
 author: Jason Chafin
 draft: true
+robots: noindex
 ---
 Looking back on my Github repos, I came across an interesting artifact of my web development journey, [JavaScript Split](https://github.com/Herm71/javascript-split).
 
