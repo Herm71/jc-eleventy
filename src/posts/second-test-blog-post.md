@@ -6,6 +6,7 @@ date: 2024-10-25
 tags: [test, web development]
 author: Jason Chafin
 draft: false
+robots: noindex
 ---
 ## Heading
 
