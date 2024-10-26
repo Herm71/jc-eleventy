@@ -8,13 +8,11 @@ author: Jason Chafin
 draft: true
 robots: noindex
 ---
-I've been building websites since 2011. Not as long as some people but long enough. [WordPress](https://wordpress.org) has largely been my bread and butter for most of this time. [It still is](https://github.com/ucsc/ucsc-2022/commits/main/?author=Herm71). But in my current role as a [web developer for UC Santa Cruz](https://campusdirectory.ucsc.edu/cd_detail?uid=jchafin), I've had a few opportunities to develop using _other_ frameworks, like React, Vue, and [Static Site Generators (SSGs)](https://jamstack.org/generators/).
+I'm intrigued by [Static Site Generators (SSGs)](https://jamstack.org/generators/). Plain text has become my favorite way to write anything -- meeting notes, to-do lists, goals and aspirations, whatever. Plain text is universally readable and very portable.
 
-I'm intrigued by **SSGs.** Plain text has become my favorite way to write anything -- meeting notes, to-do lists, goals and aspirations, whatever. Plain text is universally readable and very portable.
+My favorite _flavor_ of plain text is [Markdown](https://en.wikipedia.org/wiki/Markdown). Markdown can be used for many types of writing. It can be used in [Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) comments, it can be used in [Slack](https://slack.com/help/articles/202288908-Format-your-messages) (although, they call it `Markup`), it can even be used for creating [WordPress posts](https://wordpress.com/support/wordpress-editor/blocks/markdown-block/). I currently use [Obsidian](https://obsidian.md) as my primary note taking app, which is based on Markdown.
 
-My favorite _flavor_ of plain text is [Markdown](https://en.wikipedia.org/wiki/Markdown). Markdown can be used for many types of writing. It can be used in [Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) comments, it can be used in [Slack](https://slack.com/help/articles/202288908-Format-your-messages) (although, they call it `Markup`), it can even be used for creating [WordPress posts](https://wordpress.com/support/wordpress-editor/blocks/markdown-block/). I currently use [Obsidian](https://obsidian.md) as my primary note taking app, which is _entirely_ Markdown.
-
-As much as I love WordPress, a **SSG**'s ability to parse plain text such as Markdown makes it very easy to work into my existing workflow. SSG's such as [Jekyll](https://jekyllrb.com/) and [Eleventy (11ty)](https://www.11ty.dev/) can take your plain text files and turn them into `<html>`.
+I'm a WordPress developer from way back. As much as I love WordPress, a **SSG**'s ability to parse plain text such as Markdown makes it very easy to work into my existing workflow. SSG's such as [Jekyll](https://jekyllrb.com/) and [Eleventy (11ty)](https://www.11ty.dev/) can take your plain text files and turn them into `<html>`.
 
 This is how this website is built. I've developed [several](https://giving.ucsc.edu/) [sites](https://inquiry.ucsc.edu/) in Jekyll. But then I discovered **Eleventy (11ty)**, which is like Jekyll on steroids.
 
