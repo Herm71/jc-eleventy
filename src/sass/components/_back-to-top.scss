@@ -1,0 +1,19 @@
+.topbutton {
+  text-align: center;
+  // height: 50px;
+  // width: 50px;
+  position: fixed;
+  right: 15px;
+  bottom: 30px;
+  z-index: 99999;
+	padding: calc(var(--spacingUnit) / 4 );
+	&:hover {
+		background: var(--color-button-bg);
+		border: 1px solid var(--color-button-text);
+	}
+	.icon, .icon:visited {
+		fill: var(--color-button-text);
+		height: 2rem;
+	}
+}
+
