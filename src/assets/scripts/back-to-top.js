@@ -1,20 +1,24 @@
+// Show or hide the back-to-top button based on scroll position
+window.addEventListener("scroll", function () {
+  const height = window.scrollY;
+  const topBtn = document.getElementById("topBtn");
+
+  if (height > 100) {
+    topBtn.style.display = "block";
+    topBtn.style.opacity = 1; // For fade-in effect
+  } else {
+    topBtn.style.opacity = 0; // For fade-out effect
+    setTimeout(() => {
+      topBtn.style.display = "none";
+    }, 300); // Optional fade-out delay
+  }
+});
+
+// Scroll to top when the back-to-top button is clicked
 document.addEventListener("DOMContentLoaded", function () {
-  const offset = 100;
-  const speed = 250;
-  const duration = 500;
-  const topButton = document.querySelector(".topbutton");
+  const topBtn = document.getElementById("topBtn");
 
-  window.addEventListener("scroll", function () {
-    if (window.scrollY < offset) {
-      topButton.style.transition = `opacity ${duration}ms`;
-      topButton.style.opacity = 0;
-    } else {
-      topButton.style.transition = `opacity ${duration}ms`;
-      topButton.style.opacity = 1;
-    }
-  });
-
-  topButton.addEventListener("click", function (event) {
+  topBtn.addEventListener("click", function (event) {
     event.preventDefault();
     window.scrollTo({
       top: 0,

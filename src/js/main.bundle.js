@@ -26,21 +26,22 @@
   });
 
   // src/assets/scripts/back-to-top.js
+  window.addEventListener("scroll", function() {
+    const height = window.scrollY;
+    const topBtn = document.getElementById("topBtn");
+    if (height > 100) {
+      topBtn.style.display = "block";
+      topBtn.style.opacity = 1;
+    } else {
+      topBtn.style.opacity = 0;
+      setTimeout(() => {
+        topBtn.style.display = "none";
+      }, 300);
+    }
+  });
   document.addEventListener("DOMContentLoaded", function() {
-    const offset = 100;
-    const speed = 250;
-    const duration = 500;
-    const topButton = document.querySelector(".topbutton");
-    window.addEventListener("scroll", function() {
-      if (window.scrollY < offset) {
-        topButton.style.transition = `opacity ${duration}ms`;
-        topButton.style.opacity = 0;
-      } else {
-        topButton.style.transition = `opacity ${duration}ms`;
-        topButton.style.opacity = 1;
-      }
-    });
-    topButton.addEventListener("click", function(event) {
+    const topBtn = document.getElementById("topBtn");
+    topBtn.addEventListener("click", function(event) {
       event.preventDefault();
       window.scrollTo({
         top: 0,
