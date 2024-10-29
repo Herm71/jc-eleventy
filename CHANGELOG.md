@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.18](https://github.com/Herm71/jc-eleventy/compare/v1.0.17...v1.0.18) (2024-10-29)
+
+
+### Features
+
+* 🎉 Implement Back To Top functionality. ([#36](https://github.com/Herm71/jc-eleventy/issues/36)) ([ec366e0](https://github.com/Herm71/jc-eleventy/commit/ec366e03477f178bcf0670920487669372aa02c5)), closes [#35](https://github.com/Herm71/jc-eleventy/issues/35) [#35](https://github.com/Herm71/jc-eleventy/issues/35)
+
 ### [1.0.17](https://github.com/Herm71/jc-eleventy/compare/v1.0.16...v1.0.17) (2024-10-27)
 
 ### [1.0.16](https://github.com/Herm71/jc-eleventy/compare/v1.0.15...v1.0.16) (2024-10-26)
