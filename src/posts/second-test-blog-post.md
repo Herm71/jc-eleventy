@@ -5,7 +5,8 @@ subtitle: "This is the second test blog post"
 date: 2024-10-25
 tags: [test, web development]
 author: Jason Chafin
-draft: false
+draft: true
+robots: noindex
 ---
 ## Heading
 

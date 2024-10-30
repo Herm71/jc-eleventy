@@ -24,4 +24,29 @@
   document.querySelector(".nav-toggle").addEventListener("click", function() {
     document.querySelector(".nav").classList.toggle("active");
   });
+
+  // src/assets/scripts/back-to-top.js
+  window.addEventListener("scroll", function() {
+    const height = window.scrollY;
+    const topBtn = document.getElementById("topBtn");
+    if (height > 100) {
+      topBtn.style.display = "block";
+      topBtn.style.opacity = 1;
+    } else {
+      topBtn.style.opacity = 0;
+      setTimeout(() => {
+        topBtn.style.display = "none";
+      }, 300);
+    }
+  });
+  document.addEventListener("DOMContentLoaded", function() {
+    const topBtn = document.getElementById("topBtn");
+    topBtn.addEventListener("click", function(event) {
+      event.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  });
 })();

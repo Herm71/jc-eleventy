@@ -52,13 +52,14 @@ body {
 p:last-child {
 	margin-bottom: 0;
 }
-p,
-.tmpl-post li{
-	// max-width: 37.5em; /* 600px /16 */
+.tmpl-post li,
+img {
+	max-width: 37.5em; /* 600px /16 */
 }
 
 .tmpl-post li {
 	line-height: 1.45;
+	margin-top: 1rem;
 }
 
 main {

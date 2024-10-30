@@ -12,6 +12,7 @@
     	line-height: 1.1;
     	text-transform: none;
 			font-weight:700;
+			margin-top:0;
 			&::after {
 				content: "/";
 				font-size: var(--fontSize-small);
