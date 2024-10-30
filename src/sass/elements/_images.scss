@@ -1,16 +1,29 @@
-figure .image-align-center, .image-align-center {
+
+.image-align-center {
 	display: block;
 	margin: 0 auto;
 	text-align:center;
 }
 
-figure .image-align-left, .image-align-left {
-	float: left;
-	margin: 0 1em 1em 0;
-
+.image-align-left, .image-align-right {
+	@media (min-width: 480px) {
+  	width: 60%;
+	}
 }
 
-figure .image-align-right, .image-align-right {
+.image-align-left {
+	float: left;
+	margin: 0 1em 1em 0;
+	
+}
+
+.image-align-right {
 	float: right;
 	margin: 0 0 1em 1em;
+}
+
+img {
+	height: auto;
+	width: 100%;
+	
 }
