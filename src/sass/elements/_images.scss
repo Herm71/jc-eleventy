@@ -1,5 +1,11 @@
+figure {
+	margin: 0 auto;
+	figcaption {
+		text-align:center;
+	}
+}
 
-.image-align-center {
+.image-align-center, .image-align-left, .image-align-right {
 	display: block;
 	margin: 0 auto;
 	text-align:center;
@@ -12,14 +18,18 @@
 }
 
 .image-align-left {
-	float: left;
-	margin: 0 1em 1em 0;
+	@media (min-width: 480px) {
+  	float: left;
+		margin: 0 1em 1em 0;
+	}
 	
 }
 
 .image-align-right {
-	float: right;
-	margin: 0 0 1em 1em;
+	@media (min-width: 480px) {
+  	float: right;
+		margin: 0 0 1em 1em;
+	}
 }
 
 img {
