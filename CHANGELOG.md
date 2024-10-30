@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.19](https://github.com/Herm71/jc-eleventy/compare/v1.0.18...v1.0.19) (2024-10-30)
+
+
+### Features
+
+* Images ([#38](https://github.com/Herm71/jc-eleventy/issues/38)) ([8f9b7f1](https://github.com/Herm71/jc-eleventy/commit/8f9b7f11a6a544860c45d877b477ca17ffb1481f)), closes [#30](https://github.com/Herm71/jc-eleventy/issues/30) [#30](https://github.com/Herm71/jc-eleventy/issues/30) [#30](https://github.com/Herm71/jc-eleventy/issues/30)
+
 ### [1.0.18](https://github.com/Herm71/jc-eleventy/compare/v1.0.17...v1.0.18) (2024-10-29)
 
 
