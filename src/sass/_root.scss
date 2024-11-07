@@ -34,6 +34,10 @@
 		--fontSize-xx-large: 3rem;
 		--spacingUnit: 1rem;
   }
-  *, ::after, ::before {
-    box-sizing: inherit;
+* {
+  &,
+  &::before,
+  &::after {
+    box-sizing: border-box;
   }
+}

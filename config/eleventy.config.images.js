@@ -1,16 +1,16 @@
 const Image = require("@11ty/eleventy-img");
 const svgContents = require("eleventy-plugin-svg-contents");
 
-async function imageShortcode(src, alt, classes, sizes) {
+async function imageShortcode(src, alt, caption, classes, sizes) {
   let metadata = await Image(src, {
     widths: [640, 768, 1024],
-    formats: ["avif", "jpeg"],
+    formats: ["jpeg"],
     outputDir: "./public/img/",
   });
 
 	let lowsrc = metadata.jpeg[0];
 
-  return `<picture class="${classes}">
+  return `<figure class="${classes}"><picture>
     ${Object.values(metadata)
       .map((imageFormat) => {
         return `  <source type="${
@@ -27,7 +27,7 @@ async function imageShortcode(src, alt, classes, sizes) {
         alt="${alt}"
         loading="lazy"
         decoding="async">
-    </picture>`;
+    </picture><figcaption>${caption}</figcaption></figure>`;
 }
 
 module.exports = function (eleventyConfig) {
