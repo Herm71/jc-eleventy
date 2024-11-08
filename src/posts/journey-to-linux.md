@@ -12,29 +12,26 @@ draft: true
 
 {%image "./src/assets/images/Osborne-1-open.jpg", "Osborne 1 personal computer", "'Portable' Osborne 1","image-align-left", "(min-width: 30em) 50vw, 100vw"%}
 
-My dad was the general manager of my home town's [public transit system](https://omnitrans.org/). A few of its busses were used to shuttle "dignitaries," including an 11 year-old me, to and from the Us Festival grounds at [Glen Hellen Regional Park](https://parks.sbcounty.gov/park/glen-helen-regional-park/) in Devore, CA, the place I first learned to fish with my grandmother.
+{% sidebar "OmniTrans", "sidebar right"%}
+<p>My dad was the general manager of my home town's <a href="https://omnitrans.org/">public transit system</a>. A few of its busses were used to shuttle "dignitaries," including an 11 year-old me, to and from the Us Festival grounds at <a href="https://parks.sbcounty.gov/park/glen-helen-regional-park/">Glen Hellen Regional Park</a> in Devore, CA, the place I first learned to fish with my grandmother.</p>
+{% endsidebar %}
 
 This was the early days of consumer personal computers. The [IBM PC](https://en.wikipedia.org/wiki/IBM_Personal_Computer) had recently come out, so had the [Osborne](https://en.wikipedia.org/wiki/Osborne_1) (which was "portable"), the [Kaypro](https://en.wikipedia.org/wiki/Kaypro#Kaypro_computers), the [Commodore 64](https://en.wikipedia.org/wiki/Commodore_64) and the [TRS-80](https://en.wikipedia.org/wiki/TRS-80) . Computers were finally affordable to middle-class families and my dad was keen to get one.
 
 ## The Apple years
 
-I suppose it was inevitable, then, considering the era in which I grew up (and, despite not being from Silicon Valley, my proximity to Apple history),  that I became an "Apple kid." Because, while Dad considered all of the "PC" brands on the market at the time, he did just what Mr. Jobs and Mr. Wozniak hoped we would do. He reasoned that since the kids were learning on Apple computers at school, that's what we should have at home.
+Dad considered all of the "PC" brands on the market at the time, spent months doing the research. In the end he (and many other parents in California) did just what Mr. Jobs and Mr. Wozniak hoped we would do. He reasoned that since the kids were learning on Apple computers at school, that's what we should have at home.
 
 Our family's first computer was an [_Apple IIe_](https://en.wikipedia.org/wiki/Apple_IIe), followed in a few years by the [_Apple IIc_](https://en.wikipedia.org/wiki/Apple_IIc) (Apple's version of a "portable" computer -- the "c" stands for "compact") and finally, in my senior year of high school, the [_Apple IIgs_](https://en.wikipedia.org/wiki/Apple_IIGS) (the "_Woz_" signature model).
 
 Much of my junior and high school years were spent behind an Apple II-series computer. [Mavis Beacon](https://en.wikipedia.org/wiki/Mavis_Beacon_Teaches_Typing) taught me to type on the _IIe_. I learned [BASIC](https://en.wikipedia.org/wiki/Applesoft_BASIC) by typing programs from a big spiral-bound book. I was a fan of [Infocom's](https://en.wikipedia.org/wiki/Mavis_Beacon_Teaches_Typing) text based adventure games like the [Zork Trilogy](https://en.wikipedia.org/wiki/Zork) and [Hitchhiker's Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(computer_game)) (which also helped me develop my typing chops). The first "office suite" I ever used was [AppleWorks](https://en.wikipedia.org/wiki/AppleWorks), with which I wrote all of my high school papers. I brought the _IIe_ to college with me and used AppleWorks all through undergrad in the early 90s.
 
->[!note] Obsidian plugins discussed
->
->- [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
->- [Homepage](https://github.com/mirnovov/obsidian-homepage)
-
-I learned how to [notch a floppy disk to make it double-sided and writable](https://atariprojects.org/2019/06/28/make-floppy-disks-double-sided-5-10-mins/). I had a nerdy group of friends who called ourselves the _Infocommies_. We'd gather at each other's houses after school and trade games, often the latest Infocom title, by copying our notched floppies.
-
-### Apples of my childhood's eye
+{% sidebar "Infocommies", "sidebar"%}
+<p>I learned how to <a href="https://atariprojects.org/2019/06/28/make-floppy-disks-double-sided-5-10-mins/">notch a floppy disk to make it double-sided and writable</a>. I had a nerdy group of friends who called ourselves the <em>Infocommies</em>. We'd gather at each other's houses after school and trade games, often the latest Infocom title, by copying our notched floppies.</p>
+{% endsidebar %}
 
 <div class="gallery">
-
+<h3> Apples of my childhood's eye</h3>
 {%image "./src/assets/images/apple-iie.jpg", "The Apple IIe", "Apple IIe", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
 
 {%image "./src/assets/images/apple-iic.jpg", "Apple IIc with monitor", "Apple IIc", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
@@ -49,10 +46,8 @@ My first actual _Mac_ was a [Macintosh Color Classic](https://en.wikipedia.org/w
 
 I began my post-college professional life with the PowerBook G3. It was a great machine for its day. But my professional world was a Windows world; specifically, a Microsoft Office world. While I had MSOffice on my PowerBook, at the time there was definitely a lot lost in translation when a Mac user and a PC user passed a Word doc back and forth. My having a Mac started to become more of a liability than an asset in my professional life.
 
-### My Mac years
-
 <div class="gallery">
-
+<h3> My Mac years</h3>
 {%image "./src/assets/images/mac-color-classic-1994.jpg", "Mac Color Classic", "Mac Color Classic", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
 
 {%image "./src/assets/images/performa-476.jpg", "Mac LC 475/Quadra 605", "Mac LC 475/Quadra 605", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}

@@ -1,7 +1,10 @@
 ---
 layout: layouts/base.njk
 title: Site Typography
-robots: noindex
+eleventyNavigation:
+  key: Typography
+  parent: Demos
+tags: demo
 ---
 # Heading One
 

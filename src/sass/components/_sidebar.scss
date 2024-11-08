@@ -1,0 +1,34 @@
+aside {
+	margin-bottom: var( --spacingUnit );
+	&.sidebar {
+	width: 100%;
+  padding:1.5rem;
+  background: var(--color-bg-offset);
+  border: 2pt solid var(--color-secondary);
+  box-shadow: 5px 5px 5px #eee;
+		h3 {
+			margin: 0 0 0.6rem;
+		}
+		p {
+			margin: 0;
+		}
+		&.right, &.left {
+			@media (min-width: 480px) {
+  			width: 30%;
+			}
+		}
+		&.right {
+			@media (min-width: 480px) {
+  			float:right;
+				margin: 0 -10% 1rem 1rem;
+			}
+			
+		}
+		&.left {
+			@media (min-width: 480px) {
+  			float:left;
+				margin: 0 1rem 1rem -10%;
+			}
+		}
+	}
+}
