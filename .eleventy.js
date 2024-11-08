@@ -86,6 +86,22 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("currentBuildDate", () => {
     return new Date().toISOString();
   });
+  // Sidebar
+  // from: https://johnwargo.com/posts/2024/adding-sidebars-eleventy/
+  eleventyConfig.addPairedShortcode(
+    "sidebar",
+    function (content, title = "Sidebar Title", className = "sidebar") {
+      var paragraphs = content.split(/(?:\r?\n)+/);
+      var rc = `<aside class="${className}">`;
+      rc += `<h3>${title}</h3>`;
+      paragraphs.forEach((paragraph) => {
+        if (paragraph.trim() === "") return;
+        rc += `<p>${paragraph}</p>`;
+      });
+      rc += "</aside>";
+      return rc;
+    }
+  );
 
   // Add Tag Collection
   eleventyConfig.addCollection("tagList", function (collection) {

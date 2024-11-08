@@ -16,15 +16,27 @@ figure {
 	}
 }
 
-.image-align-center, .image-align-left, .image-align-right {
+.image-align-center, .image-align-left, .image-align-right, .image-align-wide {
 	display: block;
 	margin: 0 auto calc( var(--spacingUnit) * 2 );
 	text-align:center;
+	width: 100%;	
+}
+
+.image-align-wide {
+	box-sizing:border-box;
+	height:auto;
+	margin: 2em auto 2em calc((-100vw + 100%) * .5);
+	max-width:1440px;
+	width: 100vw;
+}
+
+.image-align-left, .image-align-right {
 	@media (min-width: 480px) {
   	width: 40%;
 	}
-}
 
+}
 .image-align-left {
 	@media (min-width: 480px) {
   	float: left;
@@ -48,7 +60,13 @@ figure {
 	flex-wrap: wrap;
 	align-items: center;
 	gap: calc(var(--spacingUnit) / 2 );
-	// gap: 10px;
+	border: 2pt solid var(--color-secondary);
+	padding: 1rem;
+	justify-content: space-between;
+
+	h3 {
+		flex-basis: 100%;
+	}
 
 	.gallery-item {
 		flex: 100%;
@@ -56,11 +74,9 @@ figure {
 		// align-self: flex-end;
 		@media screen and (min-width: 480px) {
 			flex:33%;
-			max-width:33%;
 		}
 		@media screen and (min-width: 800px) {
 			flex:25%;
-			max-width:25%;
 		}
 		img {
 			vertical-align:middle;
