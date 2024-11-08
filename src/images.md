@@ -12,7 +12,7 @@ figCaption: "This is a caption"
 
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis. Cras sagittis lorem a dolor blandit posuere. Aliquam nec pharetra tortor, nec pretium mi. Quisque mattis ligula vel libero ullamcorper interdum. Etiam tristique dictum mollis. Nulla semper elementum eros ut semper. Maecenas vehicula suscipit lacus, et cursus ex sodales sed. Integer aliquam luctus erat, nec hendrerit nulla maximus lobortis. Quisque suscipit porttitor posuere. Vestibulum non felis pharetra, dictum elit et, accumsan elit. In lorem eros, lobortis in semper non, tincidunt in leo. Nam dictum tincidunt porttitor.
 
-{%image "./src/assets/images/lucy-shelf.jpg", "Lucy on her shelf", "Lucy on her shelf", "image-align-wide"%}
+{%image "./src/assets/images/lucy-shelf.jpg", "Lucy on her shelf", "Lucy on her shelf", "image-align-wide", "(min-width: 1024px) 50vw, 100vw"%}
 
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis. Cras sagittis lorem a dolor blandit posuere. Aliquam nec pharetra tortor, nec pretium mi. Quisque mattis ligula vel libero ullamcorper interdum. Etiam tristique dictum mollis. Nulla semper elementum eros ut semper. Maecenas vehicula suscipit lacus, et cursus ex sodales sed. Integer aliquam luctus erat, nec hendrerit nulla maximus lobortis. Quisque suscipit porttitor posuere. Vestibulum non felis pharetra, dictum elit et, accumsan elit. In lorem eros, lobortis in semper non, tincidunt in leo. Nam dictum tincidunt porttitor.
 
