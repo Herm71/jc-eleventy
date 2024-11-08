@@ -1,8 +1,17 @@
 ---
 layout: layouts/base.njk
-title: Scratchpad MD
+title: Demos
 robots: noindex
 statement: "Very important statement"
-eleventyExcludeFromCollections: true
+eleventyNavigation:
+  key: Demos
+  order: 2
 
 ---
+
+A collection of demonstration pages. Mostly for personal use as I develop this site.
+<ul>
+{%- for demo in collections.demo -%}
+ <li><a href="{{ demo.url }}">{{ demo.data.title }}</a></li>
+{%- endfor -%}
+</ul>

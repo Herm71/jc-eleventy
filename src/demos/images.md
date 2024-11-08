@@ -1,8 +1,10 @@
 ---
 layout: layouts/base.njk
 title: Images
-robots: noindex
-figCaption: "This is a caption"
+eleventyNavigation:
+  key: Images
+  parent: Demos
+tags: demo
 ---
 
 
