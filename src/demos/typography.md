@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Site Typography
+title: Typography
 eleventyNavigation:
   key: Typography
   parent: Demos
