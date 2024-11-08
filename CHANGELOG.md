@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.20](https://github.com/Herm71/jc-eleventy/compare/v1.0.19...v1.0.20) (2024-11-08)
+
+
+### Features
+
+* 🎉 Add Sidebars, Wide images and Galleries ([#41](https://github.com/Herm71/jc-eleventy/issues/41)) ([e683bde](https://github.com/Herm71/jc-eleventy/commit/e683bde70506ef971008b9d777f441c3449eb361)), closes [#39](https://github.com/Herm71/jc-eleventy/issues/39) [#39](https://github.com/Herm71/jc-eleventy/issues/39) [#39](https://github.com/Herm71/jc-eleventy/issues/39) [#39](https://github.com/Herm71/jc-eleventy/issues/39) [#39](https://github.com/Herm71/jc-eleventy/issues/39)
+
+
+### Bug Fixes
+
+* Images adjustment, Gallery code, text edits ([#40](https://github.com/Herm71/jc-eleventy/issues/40)) ([a920038](https://github.com/Herm71/jc-eleventy/commit/a920038c64ca13e806b39efb4218486d00300986))
+
 ### [1.0.19](https://github.com/Herm71/jc-eleventy/compare/v1.0.18...v1.0.19) (2024-10-30)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "jc-eleventy",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Jason Chafin's Eleventy Project",
   "main": "index.js",
   "scripts": {
