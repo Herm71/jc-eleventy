@@ -27,8 +27,11 @@ figure {
 	box-sizing:border-box;
 	height:auto;
 	margin: 2em auto 2em calc((-100vw + 100%) * .5);
-
+	max-width:1440px;
 	width: 100vw;
+	@media (min-width: 1440px) {
+		margin: 2em auto 2em calc(50% - 720px);
+		width:1440px;}
 }
 
 .image-align-left, .image-align-right {
@@ -54,7 +57,6 @@ figure {
 
 /* Gallery layout */
 
-
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
@@ -62,6 +64,7 @@ figure {
 	gap: calc(var(--spacingUnit) / 2 );
 	border: 2pt solid var(--color-secondary);
 	padding: 1rem;
+	margin: 1rem 0;
 	justify-content: space-between;
 
 	h3 {
@@ -71,7 +74,6 @@ figure {
 	.gallery-item {
 		flex: 100%;
 		max-width:100%;
-		// align-self: flex-end;
 		@media screen and (min-width: 480px) {
 			flex:33%;
 		}
@@ -81,6 +83,12 @@ figure {
 		img {
 			vertical-align:middle;
 			width:100%;
+		}
+		&:last-child {
+			margin-bottom: 0;
+			@media screen and (min-width: 480px) {
+				margin-bottom:calc(var(--spacingUnit)*2);
+			}
 		}
 	}
 	
