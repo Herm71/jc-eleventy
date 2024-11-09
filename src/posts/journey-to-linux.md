@@ -24,10 +24,10 @@ Dad considered all of the "PC" brands on the market at the time, spent months do
 
 Our family's first computer was an [_Apple IIe_](https://en.wikipedia.org/wiki/Apple_IIe), followed in a few years by the [_Apple IIc_](https://en.wikipedia.org/wiki/Apple_IIc) (Apple's version of a "portable" computer -- the "c" stands for "compact") and finally, in my senior year of high school, the [_Apple IIgs_](https://en.wikipedia.org/wiki/Apple_IIGS) (the "_Woz_" signature model).
 
-Much of my junior and high school years were spent behind an Apple II-series computer. [Mavis Beacon](https://en.wikipedia.org/wiki/Mavis_Beacon_Teaches_Typing) taught me to type on the _IIe_. I learned [BASIC](https://en.wikipedia.org/wiki/Applesoft_BASIC) by typing programs from a big spiral-bound book. I was a fan of [Infocom's](https://en.wikipedia.org/wiki/Mavis_Beacon_Teaches_Typing) text based adventure games like the [Zork Trilogy](https://en.wikipedia.org/wiki/Zork) and [Hitchhiker's Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(computer_game)) (which also helped me develop my typing chops). The first "office suite" I ever used was [AppleWorks](https://en.wikipedia.org/wiki/AppleWorks), with which I wrote all of my high school papers. I brought the _IIe_ to college with me and used AppleWorks all through undergrad in the early 90s.
+Most of my primary and secondary school years were spent behind an Apple II-series computer. [Mavis Beacon](https://en.wikipedia.org/wiki/Mavis_Beacon_Teaches_Typing) taught me to type on the _IIe_ in junior high. I learned [BASIC](https://en.wikipedia.org/wiki/Applesoft_BASIC) by typing programs from a big spiral-bound book. In high school, I was a fan of [Infocom's](https://en.wikipedia.org/wiki/Mavis_Beacon_Teaches_Typing) text based adventure games like the [Zork Trilogy](https://en.wikipedia.org/wiki/Zork) and [Hitchhiker's Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(computer_game)) (which also helped me develop my typing chops). The first "office suite" I ever used was [AppleWorks](https://en.wikipedia.org/wiki/AppleWorks), with which I wrote all of my high school papers. I brought the _IIe_ to college with me and used AppleWorks all through undergrad in the early 90s.
 
 {% sidebar "Infocommies", "sidebar"%}
-<p>I learned how to <a href="https://atariprojects.org/2019/06/28/make-floppy-disks-double-sided-5-10-mins/">notch a floppy disk to make it double-sided and writable</a>. I had a nerdy group of friends who called ourselves the <em>Infocommies</em>. We'd gather at each other's houses after school and trade games, often the latest Infocom title, by copying our notched floppies.</p>
+<p>I learned how to <a href="https://atariprojects.org/2019/06/28/make-floppy-disks-double-sided-5-10-mins/">notch a floppy disk to make it double-sided and writable</a>. In high school I had a nerdy group of friends who called ourselves the <em>Infocommies</em>. We'd gather at each other's houses after school and trade games, often the latest Infocom title, by copying our notched floppies.</p>
 {% endsidebar %}
 
 <div class="gallery">
@@ -44,7 +44,7 @@ Much of my junior and high school years were spent behind an Apple II-series com
 
 My first actual _Mac_ was a [Macintosh Color Classic](https://en.wikipedia.org/wiki/Macintosh_Color_Classic), which I bought with college graduation money. I played a _lot_ of [Crystal Quest](https://en.wikipedia.org/wiki/Crystal_Quest) on that machine. I followed that with an [LC 475](https://en.wikipedia.org/wiki/Macintosh_Quadra_605) (also known as the Quadra 605, it bore the "pizza box" form factor). I took the LC 475 with me to graduate school. I explored this cool new thing called the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web) on it using a "browser" called [Mosaic](https://en.wikipedia.org/wiki/NCSA_Mosaic). After graduate school, I bought my first laptop, a [PowerBook G3 Wallstreet](https://en.wikipedia.org/wiki/PowerBook_G3), marketed at the time as "the fastest laptop in the world."
 
-I began my post-college professional life with the PowerBook G3. It was a great machine for its day. But my professional world was a Windows world; specifically, a Microsoft Office world. While I had MSOffice on my PowerBook, at the time there was definitely a lot lost in translation when a Mac user and a PC user passed a Word doc back and forth. My having a Mac started to become more of a liability than an asset in my professional life.
+I began my post-college professional life with the PowerBook G3. It was a great machine for its day. But my professional world was a Windows world; specifically, a Microsoft Office world. While I had MS Office on my PowerBook, at the time there was definitely a lot lost in translation when a Mac user and a PC user passed a Word doc back and forth. There was no "cloud" at the time. My having a Mac started to become more of a liability than an asset in my professional life.
 
 <div class="gallery">
 <h3> My Mac years</h3>
@@ -64,13 +64,29 @@ But then, a friend of mine who worked for none other than IBM offered to lend me
 
 I owned a string of "PCs" after that. One thing I definitely appreciated about them is that their hardware is much more hackable than Macs. After I switched to PCs, many of my machines were custom builds (often made from spare parts I brought home from the office as the Windows machines there were upgraded). It wasn't so easy to scavenge Mac parts to cobble together a "new" machine, but using PC architecture, I could build home theater machines, servers for files and media, and my own personal "Frankenstein" machine that was stuffed with as many hard drives as its ports would support. PC parts are fast and cheap. The OS they typically ran on is bloated and clunky compared to a Mac but I began to see the utility of that trade-off.
 
-I particularly enjoyed building [home servers](https://en.wikipedia.org/wiki/Home_server) out of spare PC parts. I still do. My first builds used [Windows Home Server](https://en.wikipedia.org/wiki/Windows_Home_Server). I think I built one for every member of my family. WHS was a solid home server OS until MS introduced [Windows Home Server 2011](https://en.wikipedia.org/wiki/Windows_Home_Server_2011) and [removed support for its Drive Extender functionality](https://arstechnica.com/information-technology/2010/11/has-microsoft-just-ruined-windows-home-server/), the primary reason most users used WHS.
+{%image "./src/assets/images/windows-homeserver.png", "Windowsd Home Server login screen", "Windows Home Server","image-align-right", "(min-width: 30em) 50vw, 100vw"%}
+
+I particularly enjoyed building [home servers](https://en.wikipedia.org/wiki/Home_server) out of spare PC parts. I still do. My first builds used [Windows Home Server](https://en.wikipedia.org/wiki/Windows_Home_Server). I think I built one for every member of my family. WHS was a solid home server OS until MS introduced [Windows Home Server 2011](https://en.wikipedia.org/wiki/Windows_Home_Server_2011) and [removed support for its Drive Extender functionality](https://arstechnica.com/information-technology/2010/11/has-microsoft-just-ruined-windows-home-server/), the primary reason most users used WHS. Many home server enthusiasts abandoned WHS after this, including me.
 
 ### FOSS, the gateway drug
 
 In the early 2000s, I also started relying more heavily on [free and open-source software (FOSS)](https://en.wikipedia.org/wiki/Free_and_open-source_software). I'd been using [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent) for a while to find "cracked" versions of Windows software. But that became a hassle, "crack codes" didn't always crack the code and you often had to download two or three versions of software before you found one that worked. Not to mention the less-than-legal aspect of it all.
 
 Then I'd discovered open-source titles that did a decent enough job replacing their proprietary analogs. FOSS titles such as [OpenOffice](https://www.openoffice.org/) and [LibreOffice](https://www.libreoffice.org/) do an excellent job of replacing Microsoft Office. [GIMP](https://www.gimp.org/) and [Inkscape](https://inkscape.org/) are excellent replacements for PhotoShop and Illustrator, respectively. Document sharing had become much easier than it had been after I got out of grad school. So I'd been gradually replacing my proprietary software titles with FOSS ones, even on my Windows OS.
+
+<div class="gallery">
+<h3> Free and Open Source Software Titles</h3>
+{%image "./src/assets/images/vlc-media-player.png", "VLC Media Player logo", "VLC Media Player", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
+
+{%image "./src/assets/images/vscode.webp", "VS Code logo", "VS Code", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
+
+{%image "./src/assets/images/libreoffice.jpg", "LibreOffice logo", "LibreOffice", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
+
+{%image "./src/assets/images/GIMP.jpg", "GIMP logo", "GIMP", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
+
+{%image "./src/assets/images/inkscape.webp", "Inkscape logo", "Inkscape", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
+
+</div>
 
 I'd always been Linux-curious. I didn't know what a "distro" was at the time but I knew Linux was free. In 2009, I came across a blog post about this Linux "version" called [Ubuntu](https://ubuntu.com/). This was around [Hardy Heron](https://old-releases.ubuntu.com/releases/hardy/). At the time, I was also playing around with the free version of [VMware](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)'s virtualization software (I use [VirtualBox](https://www.virtualbox.org/) today), so I spun up a virtual machine with this new Ubuntu.
 
