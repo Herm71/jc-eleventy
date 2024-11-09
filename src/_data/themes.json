@@ -3,8 +3,8 @@
 		"id": "default",
 		"name": "Light Theme",
 		"colors": {
-			"background": "#fef6e4",
-			"backgroundOffset": "#fef6e4",
+			"background": "#fff",
+			"backgroundOffset": "#fff",
 			"primary": "#f582ae",
 			"secondary": "#8bd3dd",
 			"tertiary": "#f3d2c1",
