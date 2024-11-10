@@ -1,12 +1,9 @@
 ---
 layout: layouts/post.njk
 title: "My journey to Linux"
-subtitle: "It's all Steve Jobs' fault"
-date: 2024-10-29
-tags: [Linux]
+date: 2024-10-23
+tags: [linux, open-source]
 author: Jason Chafin
-robots: noindex
-draft: true
 ---
 [I grew up in Southern California](/about/bio) in the 70s and 80s. When I was in elementary school, [Steve Jobs donated an Apple IIe to every elementary, junior and high school in California.](https://hackeducation.com/2015/02/25/kids-cant-wait-apple#:~:text=We%20realized%20that%20a%20whole,to%20every%20school%20in%20America.) My schools were recipients. In junior high, I took "computer literacy" as an elective. I learned what a "mouse" was in that class. Around that same time, Steve Wozniak staged the epic [Us Festival](https://www.cultofmac.com/news/apple-history-us-festival) right in my home town.
 
@@ -27,7 +24,7 @@ Our family's first computer was an [_Apple IIe_](https://en.wikipedia.org/wiki/A
 Most of my primary and secondary school years were spent behind an Apple II-series computer. [Mavis Beacon](https://en.wikipedia.org/wiki/Mavis_Beacon_Teaches_Typing) taught me to type on the _IIe_ in junior high. I learned [BASIC](https://en.wikipedia.org/wiki/Applesoft_BASIC) by typing programs from a big spiral-bound book. In high school, I was a fan of [Infocom's](https://en.wikipedia.org/wiki/Mavis_Beacon_Teaches_Typing) text based adventure games like the [Zork Trilogy](https://en.wikipedia.org/wiki/Zork) and [Hitchhiker's Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(computer_game)) (which also helped me develop my typing chops). The first "office suite" I ever used was [AppleWorks](https://en.wikipedia.org/wiki/AppleWorks), with which I wrote all of my high school papers. I brought the _IIe_ to college with me and used AppleWorks all through undergrad in the early 90s.
 
 {% sidebar "Infocommies", "sidebar"%}
-<p>I learned how to <a href="https://atariprojects.org/2019/06/28/make-floppy-disks-double-sided-5-10-mins/">notch a floppy disk to make it double-sided and writable</a>. In high school I had a nerdy group of friends who called ourselves the <em>Infocommies</em>. We'd gather at each other's houses after school and trade games, often the latest Infocom title, by copying our notched floppies.</p>
+<p>As a kid I learned how to <a href="https://atariprojects.org/2019/06/28/make-floppy-disks-double-sided-5-10-mins/">notch a floppy disk to make it double-sided and writable</a>. In high school I had a nerdy group of friends who called ourselves the <em>Infocommies</em>. We'd gather at each other's houses after school and trade games, often the latest Infocom title, by copying our notched floppies.</p>
 {% endsidebar %}
 
 <div class="gallery">
@@ -64,7 +61,7 @@ But then, a friend of mine who worked for none other than IBM offered to lend me
 
 I owned a string of "PCs" after that. One thing I definitely appreciated about them is that their hardware is much more hackable than Macs. After I switched to PCs, many of my machines were custom builds (often made from spare parts I brought home from the office as the Windows machines there were upgraded). It wasn't so easy to scavenge Mac parts to cobble together a "new" machine, but using PC architecture, I could build home theater machines, servers for files and media, and my own personal "Frankenstein" machine that was stuffed with as many hard drives as its ports would support. PC parts are fast and cheap. The OS they typically ran on is bloated and clunky compared to a Mac but I began to see the utility of that trade-off.
 
-{%image "./src/assets/images/windows-homeserver.png", "Windowsd Home Server login screen", "Windows Home Server","image-align-right", "(min-width: 30em) 50vw, 100vw"%}
+{%image "./src/assets/images/windows-homeserver.png", "Windows Home Server login screen", "Windows Home Server","image-align-right", "(min-width: 30em) 50vw, 100vw"%}
 
 I particularly enjoyed building [home servers](https://en.wikipedia.org/wiki/Home_server) out of spare PC parts. I still do. My first builds used [Windows Home Server](https://en.wikipedia.org/wiki/Windows_Home_Server). I think I built one for every member of my family. WHS was a solid home server OS until MS introduced [Windows Home Server 2011](https://en.wikipedia.org/wiki/Windows_Home_Server_2011) and [removed support for its Drive Extender functionality](https://arstechnica.com/information-technology/2010/11/has-microsoft-just-ruined-windows-home-server/), the primary reason most users used WHS. Many home server enthusiasts abandoned WHS after this, including me.
 
@@ -74,23 +71,11 @@ In the early 2000s, I also started relying more heavily on [free and open-source
 
 Then I'd discovered open-source titles that did a decent enough job replacing their proprietary analogs. FOSS titles such as [OpenOffice](https://www.openoffice.org/) and [LibreOffice](https://www.libreoffice.org/) do an excellent job of replacing Microsoft Office. [GIMP](https://www.gimp.org/) and [Inkscape](https://inkscape.org/) are excellent replacements for PhotoShop and Illustrator, respectively. Document sharing had become much easier than it had been after I got out of grad school. So I'd been gradually replacing my proprietary software titles with FOSS ones, even on my Windows OS.
 
-<div class="gallery">
-<h3> Free and Open Source Software Titles</h3>
-{%image "./src/assets/images/vlc-media-player.png", "VLC Media Player logo", "VLC Media Player", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
-
-{%image "./src/assets/images/vscode.webp", "VS Code logo", "VS Code", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
-
-{%image "./src/assets/images/libreoffice.jpg", "LibreOffice logo", "LibreOffice", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
-
-{%image "./src/assets/images/GIMP.jpg", "GIMP logo", "GIMP", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
-
-{%image "./src/assets/images/inkscape.webp", "Inkscape logo", "Inkscape", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
-
-</div>
-
 I'd always been Linux-curious. I didn't know what a "distro" was at the time but I knew Linux was free. In 2009, I came across a blog post about this Linux "version" called [Ubuntu](https://ubuntu.com/). This was around [Hardy Heron](https://old-releases.ubuntu.com/releases/hardy/). At the time, I was also playing around with the free version of [VMware](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)'s virtualization software (I use [VirtualBox](https://www.virtualbox.org/) today), so I spun up a virtual machine with this new Ubuntu.
 
 It was fun! There _was_ a bit of a learning curve. But Ubuntu's (2009) UI was similar enough to _both_ Mac and Windows that I was able to find my way around. I liked that many of the FOSS titles I'd been using on Windows were defaults in Ubunbu. Soon enough, I learned what a [Linux distro](https://en.wikipedia.org/wiki/List_of_Linux_distributions) was. And that some [_distros_](https://linuxmint.com/) are based on [_other distros_](https://ubuntu.com/). I created virtual machines for many of them.
+
+{%image "./src/assets/images/open-media-vault.jpg", "Open Media Vault login screen", "Open Media Vault","image-align-left", "(min-width: 30em) 50vw, 100vw"%}
 
 Around that time, I also came across the [Debian Linux](https://www.debian.org/) based home server OS, [Open Media Vault (OMV)](https://www.openmediavault.org/). As mentioned above, [the Borg was beginning to assimilate](https://www.youtube.com/watch?v=k4OQJIw-PxQ) Windows Home Server into [something unrecognizable](https://en.wikipedia.org/wiki/Windows_Home_Server_2011) and I was looking for a replacement. So I built a new server out of some parts I had in the bone pile and installed OMV on it. This was my **first official Linux machine**.
 
@@ -126,7 +111,11 @@ In 2017, I was hired in my current positon as a [web developer at UC Santa Cruz]
 
 The University provides me with a new machine every 2-3 years, so when my next opportunity came around, I went a bit more compact with the [Lemur Pro](https://system76.com/laptops/lemp13/configure), my current machine.
 
-I love this little guy! While smaller than the Oryx, it has [NVMe](https://en.wikipedia.org/wiki/NVM_Express) solid-state drives (SSDs) and DDR5 RAM, this thing packs a punch! It's fast and quiet. My one quibble" with it is the battery. I'm on my second one. The reason is [battery bulge](https://www.youtube.com/watch?v=tZGvyjdry3U). And the reason, I suspect, for the battery bulge is that I keep my Lemur "docked" most of the time -- sitting on my desk, clam shell closed, connected to two external monitors and an external keyboard and mouse. The power supply is nearly always plugged in. Ok. Lesson learned. However, the beauty of open-source _hardware_ as well as software is that I was able to buy a replacement battery and fix it myself.
+I love this little guy! While smaller than the Oryx, it has [NVMe](https://en.wikipedia.org/wiki/NVM_Express) solid-state drives (SSDs) and DDR5 RAM, this thing packs a punch! It's fast and quiet.
+
+My one quibble with it is the battery. I'm on my second one. The reason is [battery bulge](https://www.youtube.com/watch?v=tZGvyjdry3U). And the reason, I suspect, for the battery bulge is that I keep my Lemur "docked" most of the time -- sitting on my desk, clam shell closed, connected to two external monitors and an external keyboard and mouse. The power supply is nearly always plugged in. Ok. Lesson learned. However, the beauty of open-source _hardware_ as well as software is that I was able to buy a replacement battery and fix it myself.
+
+{%image "./src/assets/images/workstation.jpg", "Current workstation", "Where the magic happens", "image-align-wide", "(min-width: 30em) 50vw, 100vw"%}
 
 If the University's replacement schedule holds true, I've still got a year or two left with the Lemur. But I'm already perusing System76's website for the next one. Considering the battery bulge issues with my laptop, I might opt for something compact like the [Meerkat](https://system76.com/desktops/meerkat/). Who knows?
 
