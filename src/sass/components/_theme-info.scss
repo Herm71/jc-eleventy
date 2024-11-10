@@ -7,10 +7,10 @@
 
 	border: none;
 	order:2;
-	@media (min-width: 480px) {
-		order: 2px;	
-		margin-left: 0;
-	}
+	// @media (min-width: 480px) {
+	// 	order: 2px;	
+	// 	margin-left: 0;
+	// }
 	&:hover {
 		background: none;
 		color: var(--color-button-text);
