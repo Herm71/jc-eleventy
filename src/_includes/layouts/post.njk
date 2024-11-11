@@ -17,6 +17,7 @@ templateClass: tmpl-post
 	      {%- endif -%}
 	    {% endfor %}
 	</p>
+	{% include "components/comments.njk"%}
 </div>
 <ul class="article-next-previous">
   {%- set nextPost = collections.post | getNextCollectionItem(page) %}

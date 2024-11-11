@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: "Create Anchor Links for Single Page Navigation"
+title: "WordPress Block starter plugin"
 # subtitle: "This is a test blog post"
 date: 2024-11-10
 tags: [wordpress, web development]
