@@ -13,7 +13,7 @@ tags: demo
 **class:** `.image-align-wide`
 
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis.
-{%image "./src/assets/images/lucy-shelf.jpg", "Lucy on her shelf", "Lucy on her shelf", "image-align-wide", "(min-width: 1024px) 50vw, 100vw"%}
+{%image "./src/assets/images/antelope-valley-wildflowers.jpg", "photo of Antelope Valley, CA", "Antelope Valley wildflowers", "image-align-wide", "(min-width: 1024px) 50vw, 100vw"%}
 
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis. Cras sagittis lorem a dolor blandit posuere. Aliquam nec pharetra tortor, nec pretium mi. Quisque mattis ligula vel libero ullamcorper interdum.
 
@@ -23,7 +23,7 @@ Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputat
 
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis. Cras sagittis lorem a dolor blandit posuere. Aliquam nec pharetra tortor, nec pretium mi. Quisque mattis ligula vel libero ullamcorper interdum.
 
-{%image "./src/assets/images/lucy-box.jpg", "Lucy in a box", "Lucy in a box", "image-align-center", "(min-width: 30em) 50vw, 100vw"%}
+{%image "./src/assets/images/joshua-tree-sunset.jpg", "Sunset in Joshua Tree", "Joshua Tree Sunset", "image-align-center", "(min-width: 30em) 50vw, 100vw"%}
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis. Cras sagittis lorem a dolor blandit posuere. Aliquam nec pharetra tortor, nec pretium mi. Quisque mattis ligula vel libero ullamcorper interdum.
 
 ### Aligned Left
