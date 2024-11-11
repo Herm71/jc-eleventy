@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.21](https://github.com/Herm71/jc-eleventy/compare/v1.0.20...v1.0.21) (2024-11-11)
+
+
+### Features
+
+* :tada: Add post comments ([#46](https://github.com/Herm71/jc-eleventy/issues/46)) ([01d07e2](https://github.com/Herm71/jc-eleventy/commit/01d07e209985f2afd66b81ecdb02b0095d39abe1)), closes [#37](https://github.com/Herm71/jc-eleventy/issues/37) [#37](https://github.com/Herm71/jc-eleventy/issues/37)
+
+
+### Bug Fixes
+
+* Change light theme background color. ([f2b9058](https://github.com/Herm71/jc-eleventy/commit/f2b905859b7e614fb041a71d86e7f0ab902fc79f))
+
 ### [1.0.20](https://github.com/Herm71/jc-eleventy/compare/v1.0.19...v1.0.20) (2024-11-08)
 
 
