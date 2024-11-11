@@ -6,8 +6,10 @@ header {
 	display:flex;
 	flex-wrap:wrap;
 	align-items:center;
-
 	margin:1rem auto;
+	@media (min-width: 480px) {
+		margin: 1rem auto;
+	}
 		
 	.site-name, .nav {
 		font-size: var(--fontSize-medium); 

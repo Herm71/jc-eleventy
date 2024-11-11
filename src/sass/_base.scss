@@ -42,12 +42,24 @@ body {
 	margin: 0 auto;
 	padding: 0 calc(var(--spacingUnit) * 2);
 	max-width: 100%;
-
-	@media screen and (min-width: 768px){
-		max-width: var(--contentSize);
+	@media (min-width: 480px) {
+		padding: 0;
 	}
 }
 
+.breadcrumb, article {
+	@media screen and (min-width: 768px){
+		max-width: var(--contentSize);
+	}
+
+}
+
+.header-wrap, .footer-wrap {
+	@media screen and (min-width: 768px){
+		max-width: var(--wideSize);
+	}
+
+}
 
 p:last-child {
 	margin-bottom: 0;
