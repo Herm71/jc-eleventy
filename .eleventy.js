@@ -23,7 +23,8 @@ module.exports = function (eleventyConfig) {
 
   // Custom Plugins
   eleventyConfig.addPlugin(require("./config/eleventy.config.images.js"));
-  // eleventyConfig.addPlugin(require("./config/eleventy.config.drafts.js"));
+  // eleventyConfig.addPlugin(require("./config/eleventy.config.masonry.js"));
+  // eleventyConfig.addPlugin(require("./config/eleventy.config.masonryImage.js"));
 
   // allow for non-indexed and included in collection drafts
   eleventyConfig.addGlobalData(
