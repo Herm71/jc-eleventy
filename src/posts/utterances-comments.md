@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: "Add comments to any website with Utterances"
 subtitle: "Comments as GitHub issues"
-date: 2024-11-22
+date: 2024-11-12
 tags: [web development, github ]
 author: Jason Chafin
 ---
