@@ -15,11 +15,11 @@ async function galleryImageShortcode(src, alt) {
     }
 
     const options = {
-        formats: ['jpeg'],
-        widths: [GALLERY_IMAGE_WIDTH, lightboxImageWidth],
-        urlPath: "/gen/",
-        outputDir: './_site/gen/'
-    }
+      formats: ["jpeg"],
+      widths: [GALLERY_IMAGE_WIDTH, lightboxImageWidth],
+      urlPath: "/img/",
+      outputDir: "./public/img/",
+    };
 
     const genMetadata = await Image(src, options);
 
@@ -34,7 +34,5 @@ async function galleryImageShortcode(src, alt) {
 }
 
 module.exports = function(eleventyConfig) {
-    ...
     eleventyConfig.addLiquidShortcode('galleryImage', galleryImageShortcode)
-    ...
 }

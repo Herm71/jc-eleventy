@@ -1,4 +1,3 @@
-// .eleventy.js
 function galleryShortcode(content, name) {
     return `
         <div>
@@ -21,7 +20,5 @@ function galleryShortcode(content, name) {
 }
 
 module.exports = function(eleventyConfig) {
-    ...
     eleventyConfig.addPairedLiquidShortcode('gallery', galleryShortcode)
-    ...
 }

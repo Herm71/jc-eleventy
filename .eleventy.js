@@ -12,6 +12,11 @@ module.exports = function (eleventyConfig) {
     "./src/assets/hidden": "/",
     "./src/assets/favicons": "/favicons",
     "./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism.css",
+    "./node_modules/photoswipe/dist/photoswipe.css": "/css/photoswipe.css",
+    "./node_modules/photoswipe/dist/photoswipe-lightbox.esm.min.js":
+      "/js/photoswipe-lightbox.esm.min.js",
+    "./node_modules/photoswipe/dist/photoswipe.esm.min.js":
+      "/js/photoswipe.esm.min.js",
   });
   // Watch Folders
   // Run Eleventy when these files change:
@@ -23,8 +28,8 @@ module.exports = function (eleventyConfig) {
 
   // Custom Plugins
   eleventyConfig.addPlugin(require("./config/eleventy.config.images.js"));
-  // eleventyConfig.addPlugin(require("./config/eleventy.config.masonry.js"));
-  // eleventyConfig.addPlugin(require("./config/eleventy.config.masonryImage.js"));
+  eleventyConfig.addPlugin(require("./config/eleventy.config.masonry.js"));
+  eleventyConfig.addPlugin(require("./config/eleventy.config.masonryImage.js"));
 
   // allow for non-indexed and included in collection drafts
   eleventyConfig.addGlobalData(
