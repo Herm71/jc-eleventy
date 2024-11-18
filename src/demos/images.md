@@ -10,7 +10,15 @@ tags: demo
 
 ### Aligned Wide
 
-**class:** `.image-align-wide`
+**Class:** `.image-align-wide`
+
+**Shortcode:**
+
+```liquid
+{% raw %}
+{% image "./src/assets/images/image.jpg", "alt text", "caption", "image-align-wide", "(min-width: 30em) 50vw, 100vw" %}
+{% endraw %}
+```
 
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis.
 {%image "./src/assets/images/antelope-valley-wildflowers.jpg", "photo of Antelope Valley, CA", "Antelope Valley wildflowers", "image-align-wide", "(min-width: 1024px) 50vw, 100vw"%}
@@ -19,7 +27,15 @@ Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputat
 
 ### Aligned Center
 
-**class:** `.image-align-center`
+**Class:** `.image-align-center`
+
+**Shortcode:**
+
+```liquid
+{% raw %}
+{% image "./src/assets/images/image.jpg", "alt text", "caption", "image-align-center", "(min-width: 30em) 50vw, 100vw" %}
+{% endraw %}
+```
 
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis. Cras sagittis lorem a dolor blandit posuere. Aliquam nec pharetra tortor, nec pretium mi. Quisque mattis ligula vel libero ullamcorper interdum.
 
@@ -28,48 +44,56 @@ Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputat
 
 ### Aligned Left
 
-**class:** `.image-align-left`
+**Class:** `.image-align-left`
 
-{%image "./src/assets/images/lucy-shelf.jpg", "Lucy on her shelf", "Lucy on her shelf", "image-align-left", "(min-width: 30em) 50vw, 100vw"%}
+**Shortcode:**
+
+```liquid
+{% raw %}
+{% image "./src/assets/images/image.jpg", "alt text", "caption", "image-align-left", "(min-width: 30em) 50vw, 100vw" %}
+{% endraw %}
+```
+
+{% image "./src/assets/images/lucy-shelf.jpg", "Lucy on her shelf", "Lucy on her shelf", "image-align-left", "(min-width: 30em) 50vw, 100vw" %}
 
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis. Cras sagittis lorem a dolor blandit posuere. Aliquam nec pharetra tortor, nec pretium mi. Quisque mattis ligula vel libero ullamcorper interdum. Etiam tristique dictum mollis. Nulla semper elementum eros ut semper. Maecenas vehicula suscipit lacus, et cursus ex sodales sed. Integer aliquam luctus erat, nec hendrerit nulla maximus lobortis. Quisque suscipit porttitor posuere. Vestibulum non felis pharetra, dictum elit et, accumsan elit. In lorem eros, lobortis in semper non, tincidunt in leo. Nam dictum tincidunt porttitor.
 
 ### Aligned Right
 
-**class:** `.image-align-right`
+**Class:** `.image-align-right`
 
-{%image "./src/assets/images/lucy-shelf.jpg", "Lucy on her shelf", "Lucy on her shelf", "image-align-right", "(min-width: 30em) 50vw, 100vw"%}
+**Shortcode:**
+
+```liquid
+{% raw %}
+{%image "./src/assets/images/image.jpg", "alt text", "caption", "image-align-right", "(min-width: 30em) 50vw, 100vw"%}
+{% endraw %}
+```
+
+{%image "./src/assets/images/lucy-shelf.jpg", "photo of a cat", "Lucy on her shelf", "image-align-right", "(min-width: 30em) 50vw, 100vw"%}
 
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis. Cras sagittis lorem a dolor blandit posuere. Aliquam nec pharetra tortor, nec pretium mi. Quisque mattis ligula vel libero ullamcorper interdum. Etiam tristique dictum mollis. Nulla semper elementum eros ut semper. Maecenas vehicula suscipit lacus, et cursus ex sodales sed. Integer aliquam luctus erat, nec hendrerit nulla maximus lobortis. Quisque suscipit porttitor posuere. Vestibulum non felis pharetra, dictum elit et, accumsan elit. In lorem eros, lobortis in semper non, tincidunt in leo. Nam dictum tincidunt porttitor.
 
 ### Gallery
 
-**classes:** `<div class="gallery">` and `<figure class="gallery-item">`
+**Shortcodes:**
+
+```liquid
+{% raw %}
+{% gallery "test" %}
+{% galleryImage "./src/assets/images/landscape-image.jpg", "alt text", "caption" %}
+{% galleryImage "./src/assets/images/portrait-image.jpg", "alt text", "caption" %}
+{% endgallery %}
+{% endraw %}
+```
 
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis.
-<div class="gallery">
-<h3>Lucy</h3>
-{%image "./src/assets/images/lucy-shelf.jpg", "Lucy on her shelf", "Lucy on her shelf", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
-
-{%image "./src/assets/images/lucy-shelf.jpg", "Lucy on her shelf", "Lucy on her shelf", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
-
-{%image "./src/assets/images/lucy-shelf.jpg", "Lucy on her shelf", "Lucy on her shelf", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
-
-{%image "./src/assets/images/lucy-shelf.jpg", "Lucy on her shelf", "Lucy on her shelf", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
-
-{%image "./src/assets/images/lucy-shelf.jpg", "Lucy on her shelf", "Lucy on her shelf", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
-
-</div>
-Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis. Cras sagittis lorem a dolor blandit posuere. Aliquam nec pharetra tortor, nec pretium mi. Quisque mattis ligula vel libero ullamcorper interdum. Etiam tristique dictum mollis. Nulla semper elementum eros ut semper. Maecenas vehicula suscipit lacus, et cursus ex sodales sed. Integer aliquam luctus erat, nec hendrerit nulla maximus lobortis. Quisque suscipit porttitor posuere. Vestibulum non felis pharetra, dictum elit et, accumsan elit. In lorem eros, lobortis in semper non, tincidunt in leo. Nam dictum tincidunt porttitor.
-
-<div class="gallery">
-<h3>My Mac years</h3>
-{%image "./src/assets/images/mac-color-classic-1994.jpg", "Mac Color Classic", "Mac Color Classic", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
-
-{%image "./src/assets/images/performa-476.jpg", "Mac LC 475/Quadra 605", "Mac LC 475/Quadra 605", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
-
-{%image "./src/assets/images/apple-powerbook-g3-wallstreet.webp", "Powerbook G3 Wallstreet", "Powerbook G3 Wallstreet", "gallery-item", "(min-width: 30em) 50vw, 100vw"%}
-
-</div>
-
-Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis. Cras sagittis lorem a dolor blandit posuere. Aliquam nec pharetra tortor, nec pretium mi. Quisque mattis ligula vel libero ullamcorper interdum. Etiam tristique dictum mollis. Nulla semper elementum eros ut semper. Maecenas vehicula suscipit lacus, et cursus ex sodales sed. Integer aliquam luctus erat, nec hendrerit nulla maximus lobortis. Quisque suscipit porttitor posuere. Vestibulum non felis pharetra, dictum elit et, accumsan elit. In lorem eros, lobortis in semper non, tincidunt in leo. Nam dictum tincidunt porttitor.
+{% gallery "test" %}
+{% galleryImage "./src/assets/images/lucy-shelf.jpg", "Cat on ledge", "Lucy on her shelf" %}
+{% galleryImage "./src/assets/images/lucy-shelf.jpg", "Cat on ledge", "Lucy on her shelf" %}
+{% galleryImage "./src/assets/images/joshua-tree-sunset.jpg", "Joshua tree in the desert", "Joshua Tree Sunset" %}
+{% galleryImage "./src/assets/images/lucy-shelf.jpg", "Cat on ledge", "Lucy on her shelf" %}
+{% galleryImage "./src/assets/images/lucy-shelf.jpg", "Cat on ledge", "Lucy on her shelf" %}
+{% galleryImage "./src/assets/images/joshua-tree-sunset.jpg", "Joshua tree in the desert", "Joshua Tree Sunset" %}
+{% endgallery %}
+Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis. Cras sagittis lorem a dolor blandit posuere. Aliquam nec pharetra tortor, nec pretium mi. Quisque mattis ligula

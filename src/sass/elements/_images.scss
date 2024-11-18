@@ -7,7 +7,7 @@ img {
 
 figure {
 	display: block;
-	margin: 0 auto calc( var(--spacingUnit) * 2 );
+	margin: 0 auto calc( var(--spacingUnit) / 2 );
 	text-align:center;
 	figcaption {
 		text-align:center;
@@ -43,14 +43,20 @@ figure {
 .image-align-left {
 	@media (min-width: 480px) {
   	float: left;
-		margin: 0 1em 1em -10%;
+		margin: 0 1em 1em 0;
 	}
+	@media (min-width: 950px) {
+			margin: 0 1em 1em -10%;
+		}
 	
 }
 
 .image-align-right {
 	@media (min-width: 480px) {
   	float: right;
+		margin: 0 0 1em 1em;
+	}
+	@media (min-width: 950px) {
 		margin: 0 -10% 1em 1em;
 	}
 }
@@ -58,20 +64,46 @@ figure {
 /* Gallery layout */
 
 .gallery {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	gap: calc(var(--spacingUnit) / 2 );
+	// display: flex;
+	// flex-wrap: wrap;
+	// align-items: center;
+	// gap: calc(var(--spacingUnit) / 2 );
+	// justify-content: space-between;
 	border: 2pt solid var(--color-secondary);
 	padding: 1rem;
-	margin: 0 -10% 1em -10%;
-	justify-content: space-between;
+	margin: 0 0 1em 0%;
+	column-count:1;
+	column-gap: 8px;
+	@media (min-width: 480px) {
+		column-count:2;
+	}
+	@media (min-width: 950px) {
+		margin: 0 -10% 1em -10%;
+		column-count:4;
+	}
 
 	h3 {
 		flex-basis: 100%;
 	}
+ a {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    // margin-bottom: 8px;
+    break-inside: avoid;
+    text-decoration: none;
+		border-bottom:none;
+	&:hover, &:focus {
+		background:none;
+	}
+}
 
-	.gallery-item {
+ img {
+    max-width: 100%;
+    display: block;
+    grid-row: 1 / -1;
+    grid-column: 1;
+}
+	.gallery-item-static {
 		flex: 100%;
 		max-width:100%;
 		@media screen and (min-width: 480px) {
@@ -94,4 +126,3 @@ figure {
 	
 }
 
-/* Masonry Gallery */
