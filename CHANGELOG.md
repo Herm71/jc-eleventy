@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.23](https://github.com/Herm71/jc-eleventy/compare/v1.0.22...v1.0.23) (2024-11-18)
+
+
+### Features
+
+* 🎉 Add Gallery shortcode with Photoswipe Lightbox ([#52](https://github.com/Herm71/jc-eleventy/issues/52)) ([e9a9e79](https://github.com/Herm71/jc-eleventy/commit/e9a9e7958ec968646b05f3288507846ab8d291ca)), closes [#51](https://github.com/Herm71/jc-eleventy/issues/51)
+
 ### [1.0.22](https://github.com/Herm71/jc-eleventy/compare/v1.0.21...v1.0.22) (2024-11-12)
 
 
