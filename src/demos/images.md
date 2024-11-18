@@ -38,7 +38,7 @@ Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputat
 
 **class:** `.image-align-right`
 
-{%image "./src/assets/images/lucy-shelf.jpg", "Lucy on her shelf", "Lucy on her shelf", "image-align-right", "(min-width: 30em) 50vw, 100vw"%}
+{%image "./src/assets/images/lucy-shelf.jpg", "photo of a cat", "Lucy on her shelf", "image-align-right", "(min-width: 30em) 50vw, 100vw"%}
 
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis. Cras sagittis lorem a dolor blandit posuere. Aliquam nec pharetra tortor, nec pretium mi. Quisque mattis ligula vel libero ullamcorper interdum. Etiam tristique dictum mollis. Nulla semper elementum eros ut semper. Maecenas vehicula suscipit lacus, et cursus ex sodales sed. Integer aliquam luctus erat, nec hendrerit nulla maximus lobortis. Quisque suscipit porttitor posuere. Vestibulum non felis pharetra, dictum elit et, accumsan elit. In lorem eros, lobortis in semper non, tincidunt in leo. Nam dictum tincidunt porttitor.
 
@@ -48,11 +48,11 @@ Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputat
 
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis.
 {% gallery "test" %}
-{% galleryImage "./src/assets/images/lucy-shelf.jpg", "Tiberto Skveras", "caption" %}
-{% galleryImage "./src/assets/images/lucy-shelf.jpg", "Tibetan Flags" %}
-{% galleryImage "./src/assets/images/joshua-tree-sunset.jpg", "Tibetan Flags" %}
-{% galleryImage "./src/assets/images/lucy-shelf.jpg", "Tiberto Skveras" %}
-{% galleryImage "./src/assets/images/lucy-shelf.jpg", "Tibetan Flags" %}
-{% galleryImage "./src/assets/images/joshua-tree-sunset.jpg", "Tibetan Flags" %}
+{% galleryImage "./src/assets/images/lucy-shelf.jpg", "Cat on ledge", "Lucy on her shelf" %}
+{% galleryImage "./src/assets/images/lucy-shelf.jpg", "Cat on ledge", "Lucy on her shelf" %}
+{% galleryImage "./src/assets/images/joshua-tree-sunset.jpg", "Joshua tree in the desert", "Joshua Tree Sunset" %}
+{% galleryImage "./src/assets/images/lucy-shelf.jpg", "Cat on ledge", "Lucy on her shelf" %}
+{% galleryImage "./src/assets/images/lucy-shelf.jpg", "Cat on ledge", "Lucy on her shelf" %}
+{% galleryImage "./src/assets/images/joshua-tree-sunset.jpg", "Joshua tree in the desert", "Joshua Tree Sunset" %}
 {% endgallery %}
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis. Cras sagittis lorem a dolor blandit posuere. Aliquam nec pharetra tortor, nec pretium mi. Quisque mattis ligula
