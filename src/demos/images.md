@@ -47,9 +47,8 @@ Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputat
 **classes:** `<div class="gallery">` and `<figure class="gallery-item">`
 
 Integer vehicula at felis quis luctus. Aenean mattis malesuada ex, eget vulputate lectus interdum ut. Integer ultrices lectus vitae tellus dignissim mollis.
-<h3>Gallery</h3>
 {% gallery "test" %}
-{% galleryImage "./src/assets/images/lucy-shelf.jpg", "Tiberto Skveras" %}
+{% galleryImage "./src/assets/images/lucy-shelf.jpg", "Tiberto Skveras", "caption" %}
 {% galleryImage "./src/assets/images/lucy-shelf.jpg", "Tibetan Flags" %}
 {% galleryImage "./src/assets/images/joshua-tree-sunset.jpg", "Tibetan Flags" %}
 {% galleryImage "./src/assets/images/lucy-shelf.jpg", "Tiberto Skveras" %}
