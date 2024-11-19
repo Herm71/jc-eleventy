@@ -36,11 +36,13 @@ I visited the park on my July 2022 visit. I took fewer photos than I probably sh
 <figure><a href="/img/uK5GpZMvcU-945.jpeg" data-pswp-width="945" data-pswp-height="581" target="_blank">            <img src="/img/uK5GpZMvcU-400.jpeg" alt="image of Joshua Tree grid map">     <figcaption>Joshua Tree Grid</figcaption>     </a></figure>
 {% endsidebar %}
 
-The "Town" of Joshua Tree (it's actually a Census Designated Area) and its environs has many fun things to do. The [Joshua Tree Saloon](https://www.joshuatreesaloon.com/) is the perfect stop for a libation after a hike through the park. There are also lots of art galleries nearby to peruse, including the [World Famous Crochet Museum](https://www.joshuatree.directory/crochet-museum), which appears to have been built from an old [Fotomat kiosk](https://en.wikipedia.org/wiki/Fotomat).
+The "town" of Joshua Tree (it's actually a Census Designated Area) and its environs has many fun things to do. The [Joshua Tree Saloon](https://www.joshuatreesaloon.com/) is the perfect stop for a libation after a hike through the park. There are also lots of art galleries nearby to peruse, including the [World Famous Crochet Museum](https://www.joshuatree.directory/crochet-museum), which appears to have been built from an old [Fotomat kiosk](https://en.wikipedia.org/wiki/Fotomat).
 
 ### Pioneertown
 
 A few miles out of town is [Pioneertown](https://visitpioneertown.com/), a "living breathing movie set" built in 1946 and backed by the likes of [Dale Evans](https://en.wikipedia.org/wiki/Dale_Evans), [Roy Rogers](https://en.wikipedia.org/wiki/Roy_Rogers) and his singing group, the [Sons of the Pioneers](https://en.wikipedia.org/wiki/Sons_of_the_Pioneers), who wrote and recorded a promotional tune for the endeavor called "[Out in Pioneertown](https://www.youtube.com/watch?v=FpteOBEc24U)."
+
+I visited [Pappy and Harriet's](https://pappyandharriets.com/) in Pioneertown in the Summer of 2022. Pappy and Harriet's is a "magical desert roadhouse" featuring live music, [Santa Maria style BBQ](https://en.wikipedia.org/wiki/Santa_Maria%E2%80%93style_barbecue) (rivaling anything coming out of Texas) and plenty of booze. The only image I got from that visit is of their unique adobe wall, which has bottles beautifully embedded into it. Reason enough to return.
 
 {% gallery "joshua-tree-town" %}
 {% galleryImage "./src/assets/images/jt-town/dentistry-boot-repair.jpg", "image of old building", "Joshua Tree Dentistry and Boot Repair" %}
