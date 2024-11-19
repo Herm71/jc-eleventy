@@ -36,7 +36,7 @@ I visited the park on my July 2022 visit. I took fewer photos than I probably sh
 <figure><a href="/img/uK5GpZMvcU-945.jpeg" data-pswp-width="945" data-pswp-height="581" target="_blank">            <img src="/img/uK5GpZMvcU-400.jpeg" alt="image of Joshua Tree grid map">     <figcaption>Joshua Tree Grid</figcaption>     </a></figure>
 {% endsidebar %}
 
-The **Town of Joshua Tree** and its environs has many fun things to do. The [Joshua Tree Saloon](https://www.joshuatreesaloon.com/) is the perfect stop for a libation after a hike through the park. There are also lots of art galleries nearby to peruse, including the [World Famous Crochet Museum](https://www.joshuatree.directory/crochet-museum), which appears to have been built from an old [Fotomat kiosk](https://en.wikipedia.org/wiki/Fotomat).
+The "Town" of Joshua Tree (it's actually a Census Designated Area) and its environs has many fun things to do. The [Joshua Tree Saloon](https://www.joshuatreesaloon.com/) is the perfect stop for a libation after a hike through the park. There are also lots of art galleries nearby to peruse, including the [World Famous Crochet Museum](https://www.joshuatree.directory/crochet-museum), which appears to have been built from an old [Fotomat kiosk](https://en.wikipedia.org/wiki/Fotomat).
 
 ### Pioneertown
 
