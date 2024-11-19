@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: "Joshua Tree and the Mojave Desert"
 subtitle: "Recent travels to the Mojave"
 date: 2024-11-18
-tags: [travel]
+tags: [travel, joshua tree]
 author: Jason Chafin
 robots: noindex
 draft: false
