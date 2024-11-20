@@ -36,11 +36,13 @@ I visited the park on my July 2022 visit. I took fewer photos than I probably sh
 <figure><a href="/img/uK5GpZMvcU-945.jpeg" data-pswp-width="945" data-pswp-height="581" target="_blank">            <img src="/img/uK5GpZMvcU-400.jpeg" alt="image of Joshua Tree grid map">     <figcaption>Joshua Tree Grid</figcaption>     </a></figure>
 {% endsidebar %}
 
-The "town" of Joshua Tree (it's actually a Census Designated Area) and its environs has many fun things to do. The [Joshua Tree Saloon](https://www.joshuatreesaloon.com/) is the perfect stop for a libation after a hike through the park. There are also lots of art galleries nearby to peruse, including the [World Famous Crochet Museum](https://www.joshuatree.directory/crochet-museum), which appears to have been built from an old [Fotomat kiosk](https://en.wikipedia.org/wiki/Fotomat).
+{% image "./src/assets/images/jt-town/roadrunner.jpg", "Roadrunner image", "Meep meep", "image-align-left", "(min-width: 30em) 50vw, 100vw" %}
+
+The "town" of Joshua Tree (it's actually a [Census Designated Place](https://www.census.gov/programs-surveys/bas/information/cdp.html)) and its environs have many fun things to do. The [Joshua Tree Saloon](https://www.joshuatreesaloon.com/) is the perfect stop for a libation after a hike through the park. There are also lots of art galleries nearby to peruse, including the [World Famous Crochet Museum](https://www.joshuatree.directory/crochet-museum), which appears to have been built from an old [Fotomat kiosk](https://en.wikipedia.org/wiki/Fotomat).
 
 ### Pioneertown
 
-A few miles out of town is [Pioneertown](https://visitpioneertown.com/), a "living breathing movie set" built in 1946 and backed by the likes of [Dale Evans](https://en.wikipedia.org/wiki/Dale_Evans), [Roy Rogers](https://en.wikipedia.org/wiki/Roy_Rogers) and his singing group, the [Sons of the Pioneers](https://en.wikipedia.org/wiki/Sons_of_the_Pioneers), who wrote and recorded a promotional tune for the endeavor called "[Out in Pioneertown](https://www.youtube.com/watch?v=FpteOBEc24U)."
+A few miles outside Joshua Tree is [Pioneertown](https://visitpioneertown.com/), a "living breathing movie set" built in 1946 and backed by the likes of [Dale Evans](https://en.wikipedia.org/wiki/Dale_Evans), [Roy Rogers](https://en.wikipedia.org/wiki/Roy_Rogers) and his singing group, the [Sons of the Pioneers](https://en.wikipedia.org/wiki/Sons_of_the_Pioneers), who wrote and recorded a promotional tune for the endeavor called "[Out in Pioneertown](https://www.youtube.com/watch?v=FpteOBEc24U)."
 
 I visited [Pappy and Harriet's](https://pappyandharriets.com/) in Pioneertown in the Summer of 2022. Pappy and Harriet's is a "magical desert roadhouse" featuring live music, [Santa Maria style BBQ](https://en.wikipedia.org/wiki/Santa_Maria%E2%80%93style_barbecue) (rivaling anything coming out of Texas) and plenty of booze. The only image I got from that visit is of their unique adobe wall, which has bottles beautifully embedded into it. Reason enough to return.
 
@@ -55,12 +57,11 @@ I visited [Pappy and Harriet's](https://pappyandharriets.com/) in Pioneertown in
 {% galleryImage "./src/assets/images/jt-town/wait-here.jpg", "image of art chair", "Have a seat" %}
 {% galleryImage "./src/assets/images/jt-town/pappy-harriet-wall.jpg", "image of bottles in a wall", "The wall at Pappy and Harriet's" %}
 {% galleryImage "./src/assets/images/jt-town/san-bernardino-mountains.jpg", "image of San Bernardino Mountains with snow", "Looking west at the San Bernardino Mountains" %}
-{% galleryImage "./src/assets/images/jt-town/roadrunner.jpg", "image of a roadrunner", "Meep meep" %}
 {% endgallery %}
 
 ## Transmission
 
-Several miles outside town is the [Mojave Moon Ranch](https://www.themojavemoon.com/), a private space that hosts a majestic 28ft tall concrete sculpture called [Transmission](https://www.themojavemoon.com/tranmission), by multiplidisciplanary artist [Daniel Popper](https://danielpopper.com/). While the property is private (it's available for booking, AirBnB, etc.), they have been kind enough to provide, a [public viewing location](https://maps.app.goo.gl/XxDK6Bej2ZcdV2ZQ7) so cheapskates like me can enjoy its majesticity.
+A few miles outside town is the [Mojave Moon Ranch](https://www.themojavemoon.com/), a private space that hosts a majestic 28ft tall concrete sculpture called [Transmission](https://www.themojavemoon.com/tranmission), by multiplidisciplanary artist [Daniel Popper](https://danielpopper.com/). While the sculpture is on private property, they have been kind enough to provide a [public viewing location](https://maps.app.goo.gl/XxDK6Bej2ZcdV2ZQ7) so cheapskates like me can enjoy its majesticity.
 
 {% image "./src/assets/images/transmission/transmission.jpg", "Transmission sculpture", "Love, peace and unity", "image-align-wide", "(min-width: 30em) 50vw, 100vw" %}
 
@@ -73,11 +74,11 @@ Several miles outside town is the [Mojave Moon Ranch](https://www.themojavemoon.
 
 {% image "./src/assets/images/hicksville/plan-b.jpg", "Hicksville Plan B image", "Select 11 for Plan B", "image-align-right", "(min-width: 30em) 50vw, 100vw" %}
 
-If you decide to visit this area and you're looking for accommodations, do yourself a favor and check out [Hicksville Trailor Palace](https://www.hicksvillepalace.com/). I stayed there both times on my recent visits. This place is awesome. Out in the middle of nowhere, Hicksville is an oasis of kitsch, in the best possible way. The property features ten trailers (and a [zombie safe bunker](https://www.hicksvillepalace.com/projectz)), a pool, an arcade, shuffleboard, an archery/bb-gun range, a put-put golf course, and a vending machine where you can select items like the vodka tonic package, the S'mores package or the [Plan B morning-after pill](https://www.plannedparenthood.org/learn/morning-after-pill-emergency-contraception/whats-plan-b-morning-after-pill) package.
+If you decide to visit this area and you're looking for accommodations, do yourself a favor and check out [Hicksville Trailor Palace](https://www.hicksvillepalace.com/). I stayed there both times on my recent visits. This place is awesome. Out in the middle of nowhere, Hicksville is an oasis of kitsch, in the best possible way. The property features ten trailers (and a [zombie safe bunker](https://www.hicksvillepalace.com/projectz)), a pool, an arcade, shuffleboard, an archery/bb-gun range, a putt-putt golf course, and a vending machine where you can select items like the vodka tonic package, the S'mores package or the [Plan B morning-after pill](https://www.plannedparenthood.org/learn/morning-after-pill-emergency-contraception/whats-plan-b-morning-after-pill) package.
 
-Also, Hicksville's jukebox is epic. It has every song you've ever heard by every band you clould ever think of.(Additionally, the jukebox is the only amplified speaker allowed, as [personal speakers or boom boxes are not permitted](https://www.hicksvillepalace.com/faqs).)
+Also, Hicksville's jukebox is epic. It has every song you've ever heard by every band you clould ever think of. (Additionally, the jukebox is the only amplified speaker allowed, as [personal speakers or boom boxes are not permitted](https://www.hicksvillepalace.com/faqs).)
 
-All trailers on the property have themes. For instance, there's [The Lux](https://www.hicksvillepalace.com/the-lux-trailer), which pays homage to legendary punk rock psychobilly band [The Cramps](https://en.wikipedia.org/wiki/The_Cramps). And [The Pee-wee](https://www.hicksvillepalace.com/the-peewee-trailer), the actual "Conastoga wagon" featured in the Pee-wee Herman film [Big Top Pee-wee](https://www.imdb.com/title/tt0094744/). There's also [The New World](https://www.hicksvillepalace.com/the-new-world-trailer), a mid-century modern 50's style trailer where [Johnny Depp and Amanda Heard had their knockdown-dragout](https://www.youtube.com/watch?v=YXD884AjZyQ&pp=ygUPI3dpdG5lc3N0cmFpbGVy).
+All trailers on the property have themes. For instance, there's [The Lux](https://www.hicksvillepalace.com/the-lux-trailer), which pays homage to legendary punk rock psychobilly band [The Cramps](https://en.wikipedia.org/wiki/The_Cramps). And [The Pee-Wee](https://www.hicksvillepalace.com/the-peewee-trailer), the actual "Conastoga wagon" featured in the Pee-Wee Herman film [Big Top Pee-Wee](https://www.imdb.com/title/tt0094744/). There's also [The New World](https://www.hicksvillepalace.com/the-new-world-trailer), a mid-century modern 50s-style trailer where [Johnny Depp and Amanda Heard had their knockdown-dragout](https://www.youtube.com/watch?v=YXD884AjZyQ&pp=ygUPI3dpdG5lc3N0cmFpbGVy).
 
 So far, I've stayed in The Fifi and The Pee-Wee. If you stay in all of them they put your name on their special wall.
 
@@ -87,28 +88,30 @@ So far, I've stayed in The Fifi and The Pee-Wee. If you stay in all of them they
 {% galleryImage "./src/assets/images/hicksville/pioneer.jpg", "image of The Pioneer", "The Pioneer" %}
 {% galleryImage "./src/assets/images/hicksville/integratrailer.jpg", "image of The Integratrailer", "The Integratrailer" %}
 {% galleryImage "./src/assets/images/hicksville/fifi-day.jpg", "image of The Fifi", "The Fifi" %}
+{% galleryImage "./src/assets/images/hicksville/lux.jpg", "image of The Lux", "The Lux" %}
 {% galleryImage "./src/assets/images/hicksville/pony.jpg", "image of The Pony", "The Pony" %}
-{% galleryImage "./src/assets/images/hicksville/peewee.jpg", "image of The Peewee", "The Pee-wee" %}
+{% galleryImage "./src/assets/images/hicksville/peewee.jpg", "image of The Pee-Wee", "The Pee-Wee" %}
 {% galleryImage "./src/assets/images/hicksville/sweet.jpg", "image of The Sweet", "The Sweet" %}
 {% galleryImage "./src/assets/images/hicksville/skipper.jpg", "image of The Skipper", "The Skipper" %}
 {% galleryImage "./src/assets/images/hicksville/sideshow.jpg", "image of The Sideshow", "The Sideshow" %}
 {% galleryImage "./src/assets/images/hicksville/new-world.jpg", "image of The New World", "The New World" %}
-{% galleryImage "./src/assets/images/hicksville/dining-area.jpg", "image of the Hicksville dining area", "Hicksville Dining" %}
-{% galleryImage "./src/assets/images/hicksville/dont-feed-fears.jpg", "image of the Hicksville ball pit", "But they're hungry" %}
-{% galleryImage "./src/assets/images/hicksville/ball-pit.jpg", "image of a sign", "Ball pit. Please keep your pants on" %}
+{% galleryImage "./src/assets/images/hicksville/dining-area.jpg", "image of the Hicksville dining area", "Hicksville dining area" %}
+{% galleryImage "./src/assets/images/hicksville/dont-feed-fears.jpg", "image of a funny sign", "But they're hungry" %}
+{% galleryImage "./src/assets/images/hicksville/ball-pit.jpg", "image of a sign", "Ball pit. Please keep your pants on." %}
 {% galleryImage "./src/assets/images/hicksville/outhouse.jpg", "image of an outhouse", "The outhouse" %}
 {% galleryImage "./src/assets/images/hicksville/golden-throne.jpg", "image of the inside of an outhouse", "The Golden Throne" %}
 {% galleryImage "./src/assets/images/hicksville/pharmacy-hut.jpg", "image of a lifeguard station", "Lifeguard station 'Pharmacy hut'" %}
 {% galleryImage "./src/assets/images/hicksville/pharmacy-hut-interior.jpg", "image of a lifeguard station", "Dr. Quinn's Pharmacy hut" %}
 {% galleryImage "./src/assets/images/hicksville/pool.jpg", "image of Hicksville pool", "Pool and deck" %}
-{% galleryImage "./src/assets/images/hicksville/peewee-teepee.jpg", "image of a Teepee", "The Teepee" %}
+{% galleryImage "./src/assets/images/hicksville/peewee-teepee.jpg", "image of a Tepee", "The Tepee and The Pee-Wee" %}
+{% galleryImage "./src/assets/images/hicksville/vending-machine.jpg", "image of the Hicksville vending machine", "PBR? Bloody Marry? Pop-Tart? Hicksville's vending machine has it." %}
 {% galleryImage "./src/assets/images/hicksville/who-cut-one.jpg", "image of a funny sign", "Him that smelt it dealt it" %}
 {% galleryImage "./src/assets/images/hicksville/teepee-suffleboard.jpg", "image of Hicksville sunset", "Shuffleboard sunset" %}
 {% endgallery %}
 
 ### Spotlight: The Fifi
 
-The first time I stayed a Hicksville, I stayed in [The Fifi](https://www.hicksvillepalace.com/the-fifi-trailer).
+The first time I stayed at Hicksville, I stayed in [The Fifi](https://www.hicksvillepalace.com/the-fifi-trailer).
 
 This trailor was designed as an homage to New Orleans custom wig shop, [Fifi Mahony's Custom Wigs](https://fifisbywater.square.site/). I haven't been to Fifi's New Orleans shop but staying in The Fifi almost made me think I was there. The Fifi features wigs you can try on, a sweet in-trailer bar and a mini fridge, all decked out in the finest 70s shag.
 
@@ -122,9 +125,9 @@ This trailor was designed as an homage to New Orleans custom wig shop, [Fifi Mah
 
 {% endgallery %}
 
-## Noah Purifoy Museum
+## Noah Purifoy Outdoor Desert Museum
 
-A short drive from Hicksville Trailor Palace is the [Noah Purifoy](https://www.noahpurifoy.com/) Outdoor Desert Museum. Noah Purifoy was an artist and a founding member of the [Watts Towers Art Center](https://www.wattstowers.org/) in Los Angeles. In the late 1980s, Purifoy moved to the Mojave Desert and spent the last 15 years of his life creating ten acres of large-scale sculptures constructed entirely of junked materials. These images are from my visit in March 2023.
+A short drive from Hicksville Trailor Palace is the [Noah Purifoy Outdoor Desert Museum](https://maps.app.goo.gl/gjqwuaYnqPLd2BAm7). [Noah Purifoy](https://www.noahpurifoy.com/) was an artist and a founding member of the [Watts Towers Art Center](https://www.wattstowers.org/) in Los Angeles. In the late 1980s, Purifoy moved to the Mojave Desert and spent the last 15 years of his life creating ten acres of large-scale sculptures constructed entirely of junked materials. These images are from my visit in March 2023.
 
 {% gallery "purifoy-museum" %}
 {% galleryImage "./src/assets/images/purifoy/noah-purifoy-sign.jpg", "Purifoy sign", "Open Daily" %}
