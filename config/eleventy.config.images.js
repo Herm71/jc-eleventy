@@ -3,8 +3,8 @@ const svgContents = require("eleventy-plugin-svg-contents");
 
 async function imageShortcode(src, alt, caption, classes, sizes) {
   let metadata = await Image(src, {
-    widths: ["auto"],
-    formats: ["jpeg"],
+    widths: [1440],
+    formats: ["jpg"],
     outputDir: "./public/img/",
   });
 
